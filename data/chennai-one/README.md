@@ -45,6 +45,44 @@ The roster is one day's, so the registration is not used as `block_id`: on the
 published run times 9.6% of a bus's consecutive trips would overlap, which
 `block_id` does not allow.
 
+## Fares
+
+Fares come from the Chennai One app's own fare search, which prices a stop pair in
+every class at once (a search only quotes; nothing is booked). Harvested 19–20 October
+2026. Files are in [`fares/`](fares); stop ids are the `stop_id`s of the matching feed.
+
+**MTC — [`fares/mtc_fare_stages.csv`](fares/mtc_fare_stages.csv).** For each working,
+every stop's fare stage counted from the working's first stop and the fare from the
+first stop in each class (509 of 3,713 workings so far — the rest are still being
+harvested and will be added). Every class is a fixed function of the Ordinary fare —
+true of every quote harvested:
+
+| class (`service_tier`) | fare |
+|---|---|
+| Ordinary (`ORDINARY`), Small Bus Ordinary (`NON_AC`) | ₹(4 + stage): ₹5, 6, 7 … |
+| Express (`EXPRESS`), Small Bus Express (`SPECIAL`) | ⌊1.5 × Ordinary⌋: ₹7, 9, 10, 12 … |
+| Deluxe (`EXECUTIVE`) | 2 × Ordinary + 1: ₹11, 13, 15 … |
+| AC (`AC`) | by Ordinary fare: ₹5–6 → 15, 7–9 → 20, 10–12 → 30, 13–16 → 40, 17–18 → 50, 19–20 → 60, 21+ → 60–70 |
+
+Stages are MTC's own, set per route; they do not convert to kilometres. And a
+journey that does not start at the first stop **cannot** be priced from this table:
+of 120 mid-route pairs checked, only 57 cost the stage difference, the rest ₹1–6
+more. Those measured pairs are in
+[`fares/mtc_fare_pairs_midroute.csv`](fares/mtc_fare_pairs_midroute.csv); for any other
+pair, apply the class rules above to a quoted Ordinary fare.
+
+**CMRL — [`fares/cmrl_fares.csv`](fares/cmrl_fares.csv).** Every station pair on the same
+line, both directions (1,122). `ordinary_adult` is the ticket fare — ₹10/20/30/40/50 by
+CMRL's distance slabs (0–2, 2–5, 5–12, 12–21, 21+ km); `ordinary_app_price` is what the
+app charges, 20% less for a QR ticket. Journeys that change between the Blue and Green
+lines are not priced by this search and are absent.
+
+**Suburban and MRTS — [`fares/suburban_fares.csv`](fares/suburban_fares.csv).** Every
+station pair a route serves, both directions (3,906): Second and First Class, adult and
+child. 854 pairs, mostly to and from Royapuram / Chennai Fort and on the Arakkonam and
+Kanchipuram branches, return no fare in the app on any route that serves them and are
+absent rather than guessed.
+
 ## Source and method
 
 Collected from the **Chennai One** app, the CUMTA-backed multimodal app that
