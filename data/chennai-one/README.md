@@ -53,21 +53,20 @@ every class at once (a search only quotes; nothing is booked). Harvested 19–20
 
 **MTC — [`fares/mtc_fare_stages.csv`](fares/mtc_fare_stages.csv).** For each working,
 every stop's fare stage counted from the working's first stop and the fare from the
-first stop in each class (509 of 3,713 workings so far — the rest are still being
-harvested and will be added). Every class is a fixed function of the Ordinary fare —
-true of every quote harvested:
+first stop in each class — all 3,713 workings, 78,857 stops. Every class is a fixed
+function of the Ordinary fare — true of all 75,257 quotes harvested:
 
 | class (`service_tier`) | fare |
 |---|---|
 | Ordinary (`ORDINARY`), Small Bus Ordinary (`NON_AC`) | ₹(4 + stage): ₹5, 6, 7 … |
 | Express (`EXPRESS`), Small Bus Express (`SPECIAL`) | ⌊1.5 × Ordinary⌋: ₹7, 9, 10, 12 … |
 | Deluxe (`EXECUTIVE`) | 2 × Ordinary + 1: ₹11, 13, 15 … |
-| AC (`AC`) | by Ordinary fare: ₹5–6 → 15, 7–9 → 20, 10–12 → 30, 13–16 → 40, 17–18 → 50, 19–20 → 60, 21+ → 60–70 |
+| AC (`AC`) | by Ordinary fare: ₹5–6 → 15, 7–9 → 20, 10–12 → 30, 13–16 → 40, 17–18 → 50, 19–20 → 60, 21 → 60–70, 22 → 70, 23 → 70–80, 24 → 80 |
 
 Stages are MTC's own, set per route; they do not convert to kilometres. And a
 journey that does not start at the first stop **cannot** be priced from this table:
 of 120 mid-route pairs checked, only 57 cost the stage difference, the rest ₹1–6
-more. Those measured pairs are in
+more. The 192 measured mid-route pairs are in
 [`fares/mtc_fare_pairs_midroute.csv`](fares/mtc_fare_pairs_midroute.csv); for any other
 pair, apply the class rules above to a quoted Ordinary fare.
 
