@@ -10,7 +10,7 @@ not merged into them.
 
 | Feed | Routes | Trips/day | Stops | Shape points | ZIP |
 |------|-------:|----------:|------:|-------------:|-----|
-| [`mtc/`](mtc) — MTC buses | 970 | 48,132 | 3,393 | 1,001,893 | [`chennai-one-mtc-gtfs.zip`](../chennai-one-mtc-gtfs.zip) |
+| [`mtc/`](mtc) — MTC buses | 970 | 48,132 | 3,393 | 889,835 | [`chennai-one-mtc-gtfs.zip`](../chennai-one-mtc-gtfs.zip) |
 | [`cmrl/`](cmrl) — CMRL Metro | 3 | 749 | 41 | 2,453 | [`chennai-one-cmrl-gtfs.zip`](../chennai-one-cmrl-gtfs.zip) |
 | [`suburban/`](suburban) — Southern Railway suburban + MRTS | 573 | 576 | 105 | 130,561 | [`chennai-one-suburban-gtfs.zip`](../chennai-one-suburban-gtfs.zip) |
 
@@ -98,6 +98,14 @@ operator's own, not interpolated.
   single OSRM call against the OSM road network and keeping the returned
   polyline. Routing stop-pair by stop-pair and re-stitching is what produces the
   looping geometry seen in other Chennai feeds.
+- **Bus shapes follow the bus's own road.** Routing stop to stop takes the shortest
+  roads, and at junctions OSRM attached some stops to the side road beside the bus's
+  road, dragging the line through interior streets (121A and 170CET at the Madhavaram
+  Milk Colony gate, reported from the ground). Stops are therefore routed from their
+  position on the operator's own path (the app's route `waypoints`), with that path's
+  heading as an OSRM bearing, via points along it; legs that still loop (a stop on the
+  far carriageway) are re-laid on the operator path. Median shape length against the
+  operator path went from +18% to +3%; about 9,200 km of detours removed in all.
 - **Rail shapes** are produced by Dijkstra routing over OSM rail geometry, with
   separate graphs per mode so Metro cannot leak onto suburban track.
 - **Shape geometry is simplified** with Douglas-Peucker at 1 m, below the
