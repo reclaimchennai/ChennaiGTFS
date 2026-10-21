@@ -24,7 +24,7 @@ Against the limitations this repo already documents:
 | Gap noted in the root README | In these feeds |
 |---|---|
 | "No suburban rail — this is the biggest gap" | 573 routes with exact times and track-matched geometry |
-| "MTC shapes: straight-line per route" | 1,001,893 points map-matched to the road network |
+| "MTC shapes: straight-line per route" | 889,835 points map-matched to the road network |
 | "CMRL schedules: frequency bands, not exact departure times" | 749 trips with per-station arrival and departure times |
 | "CMRL shapes: straight-line, track geometry unavailable" | 2,453 points snapped to the metro alignment |
 

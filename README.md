@@ -149,17 +149,18 @@ Hyderabad and Bengaluru publish **official GTFS**. Chennai's civic tech communit
 | MTC Buses | 728 routes | ⚠️ Straight-line | ✅ Timetable | Collected via MTC app |
 | CMRL Blue Line | 26 stations | ⚠️ Straight-line | ✅ Headway-based | Frequency-only data |
 | CMRL Green Line | 18 stations | ⚠️ Straight-line | ✅ Headway-based | Frequency-only data |
-| Chennai One — MTC | 1,026 services | ✅ Road-matched | ✅ Timetable | 50,497 trips/day, board type per trip |
-| Chennai One — CMRL | 41 stations | ✅ Track-matched | ✅ Exact times | 822 trips/day |
-| Chennai One — Suburban | 599 routes | ✅ Track-matched | ✅ Exact times | 612 trips/day, MRTS + main line |
+| Chennai One — MTC | 970 services | ✅ Road-matched | ✅ Timetable | 48,132 trips/day, board type per trip, per-stop fares |
+| Chennai One — CMRL | 41 stations | ✅ Track-matched | ✅ Exact times | 749 trips/day, station-pair fares |
+| Chennai One — Suburban | 573 routes | ✅ Track-matched | ✅ Exact times | 576 trips/day, MRTS + main line, station-pair fares |
 
 ### Known gaps
 
-1. ~~**No suburban rail**~~ — now covered by [`data/chennai-one/suburban/`](data/chennai-one/suburban/): 599 routes, 612 trips/day across MRTS and the main line.
-2. ~~**No exact CMRL departure times**~~ — [`data/chennai-one/cmrl/`](data/chennai-one/cmrl/) carries per-station arrival and departure times for 1,114 trips.
+1. ~~**No suburban rail**~~ — now covered by [`data/chennai-one/suburban/`](data/chennai-one/suburban/): 573 routes, 576 trips/day across MRTS and the main line.
+2. ~~**No exact CMRL departure times**~~ — [`data/chennai-one/cmrl/`](data/chennai-one/cmrl/) carries per-station arrival and departure times for 749 trips.
 3. ~~**Straight-line shapes**~~ — road- and track-matched geometry in `data/chennai-one/`; the primary feeds are still straight-line.
-4. **No real-time** — GTFS is static (schedule only). GTFS-RT requires operator cooperation.
-5. **Two unmerged collections** — the primary feeds and `data/chennai-one/` describe the same network with different ids. Reconciling them into one set is open work.
+4. ~~**No fares**~~ — MTC's published stage fares in every class, per-stop fares for every MTC working, and CMRL and suburban station-pair fares in [`data/chennai-one/fares/`](data/chennai-one/fares/) (CSV tables; no `fare_*.txt` yet).
+5. **No real-time** — GTFS is static (schedule only). GTFS-RT requires operator cooperation.
+6. **Two unmerged collections** — the primary feeds and `data/chennai-one/` describe the same network with different ids. Reconciling them into one set is open work.
 
 ---
 
