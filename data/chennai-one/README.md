@@ -47,28 +47,40 @@ published run times 9.6% of a bus's consecutive trips would overlap, which
 
 ## Fares
 
-Fares come from the Chennai One app's own fare search, which prices a stop pair in
-every class at once (a search only quotes; nothing is booked). Harvested 19–20 October
-2026. Files are in [`fares/`](fares); stop ids are the `stop_id`s of the matching feed.
+**MTC's own fare table — [`fares/mtc_official_stage_fares.csv`](fares/mtc_official_stage_fares.csv)**
+(and `.json`). MTC publishes stage-wise fares for one adult in every service class at
+[mtcbus.tn.gov.in/Home/fares](https://mtcbus.tn.gov.in/Home/fares), in force since
+29 January 2018 (G.O. (Ms.) No. 48, 28 January 2018); read 21 October 2026. A stage is
+about 2 km, and a ₹1 cess is collected per passenger in every class.
 
-**MTC — [`fares/mtc_fare_stages.csv`](fares/mtc_fare_stages.csv).** For each working,
-every stop's fare stage counted from the working's first stop and the fare from the
-first stop in each class — all 3,713 workings, 78,857 stops. Every class is a fixed
-function of the Ordinary fare — true of all 75,257 quotes harvested:
-
-| class (`service_tier`) | fare |
+| class | stage 1 → 30 |
 |---|---|
-| Ordinary (`ORDINARY`), Small Bus Ordinary (`NON_AC`) | ₹(4 + stage): ₹5, 6, 7 … |
-| Express (`EXPRESS`), Small Bus Express (`SPECIAL`) | ⌊1.5 × Ordinary⌋: ₹7, 9, 10, 12 … |
-| Deluxe (`EXECUTIVE`) | 2 × Ordinary + 1: ₹11, 13, 15 … |
-| AC (`AC`) | by Ordinary fare: ₹5–6 → 15, 7–9 → 20, 10–12 → 30, 13–16 → 40, 17–18 → 50, 19–20 → 60, 21 → 60–70, 22 → 70, 23 → 70–80, 24 → 80 |
+| Ordinary, Pink | ₹5, rising ₹1 a stage to ₹15 at stage 11, then ₹1 every two stages to ₹24 |
+| Express, Small | ₹7 → ₹35 (about 1.5 × Ordinary) |
+| Deluxe, Night, E/V Deluxe, Chennai Ula Vintage | ₹11 → ₹49 (2 × Ordinary + 1) |
+| E/V A/C, Chennai Ula A/C | ₹15, 15, 20, 20, 20, 30 … in steps of ₹10 to ₹80 |
+| Premium | ₹50, 75, 100, 125, 150 for stages 1–5 |
 
-Stages are MTC's own, set per route; they do not convert to kilometres. And a
-journey that does not start at the first stop **cannot** be priced from this table:
-of 120 mid-route pairs checked, only 57 cost the stage difference, the rest ₹1–6
-more. The 192 measured mid-route pairs are in
-[`fares/mtc_fare_pairs_midroute.csv`](fares/mtc_fare_pairs_midroute.csv); for any other
-pair, apply the class rules above to a quoted Ordinary fare.
+Chennai Ula also sells a one-day hop-on pass, ₹50 (Vintage) and ₹100 (A/C).
+
+**Fares per stop — [`fares/mtc_fare_stages.csv`](fares/mtc_fare_stages.csv).** For each
+of the 3,713 workings, every stop's fare from the working's first stop in four classes
+(`ORDINARY`, `EXPRESS`, `EXECUTIVE` = Deluxe, `AC`), as quoted by the Chennai One app's
+fare search (harvested 19–20 October 2026; a search only quotes, nothing is booked), and
+the stop's official fare stage from the first stop, `fare_stage_min`–`fare_stage_max`,
+found by matching all four quoted fares against MTC's table. Above stage 11 an
+Ordinary fare covers two stages, so a stop gets one exact stage where the classes tell
+them apart (61,726 of 78,857 stops) and a two-stage range otherwise. The app's quotes
+agree with MTC's table in every class at every stage, except at the top Ordinary fare
+(₹24), where the app quotes Express ₹36 against the table's ₹35 (10 stops; their
+stage is left blank). Stages are set per route by MTC and do not convert exactly to
+kilometres.
+
+**Mid-route quotes — [`fares/mtc_fare_pairs_midroute.csv`](fares/mtc_fare_pairs_midroute.csv).**
+192 quotes for journeys that do not start at a working's first stop. Do not use them
+as fares: of the 138 that can be checked, 130 equal the fare from the working's
+*first* stop to the alighting stop, as if the rider had boarded at the start. The
+fare for such a journey is MTC's table at the number of stages travelled.
 
 **CMRL — [`fares/cmrl_fares.csv`](fares/cmrl_fares.csv).** Every station pair on the same
 line, both directions (1,122). `ordinary_adult` is the ticket fare — ₹10/20/30/40/50 by
