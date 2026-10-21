@@ -1,1123 +1,1723 @@
-from_stop_id,from_name,to_stop_id,to_name,ordinary_app_price,ordinary_adult
-S00017,AG-DMS,S00026,Airport Metro,32,40
-S00017,AG-DMS,S00023,Alandur Metro,24,30
-S00017,AG-DMS,S00013,Chennai Central Metro,24,30
-S00017,AG-DMS,S00014,Government Estate,16,20
-S00017,AG-DMS,S00022,Guindy,24,30
-S00017,AG-DMS,S00012,High Court,24,30
-S00017,AG-DMS,S00006,Kaladipet,32,40
-S00017,AG-DMS,S00015,LIC,16,20
-S00017,AG-DMS,S00021,Little Mount,16,20
-S00017,AG-DMS,S00011,Mannadi,24,30
-S00017,AG-DMS,S00025,Meenambakkam,24,30
-S00017,AG-DMS,S00019,Nandanam,8,10
-S00017,AG-DMS,S00024,Nanganallur Road,24,30
-S00017,AG-DMS,S00004,New Washermenpet,32,40
-S00017,AG-DMS,S00020,Saidapet,16,20
-S00017,AG-DMS,S00018,Teynampet,8,10
-S00017,AG-DMS,S00008,Thiruvotriyur,32,40
-S00017,AG-DMS,S00007,Thiruvotriyur Theradi,32,40
-S00017,AG-DMS,S00002,Thiyagaraya College,24,30
-S00017,AG-DMS,S00016,Thousand Lights,8,10
-S00017,AG-DMS,S00005,Tollgate Metro,32,40
-S00017,AG-DMS,S00003,Tondiarpet,24,30
-S00017,AG-DMS,S00001,Washermenpet,24,30
-S00017,AG-DMS,S00009,Wimco Nagar,32,40
-S00017,AG-DMS,S00010,Wimco Nagar Depot,32,40
-S00026,Airport Metro,S00017,AG-DMS,32,40
-S00026,Airport Metro,S00023,Alandur Metro,16,20
-S00026,Airport Metro,S00041,Anna Nagar East,32,40
-S00026,Airport Metro,S00040,Anna Nagar Tower,32,40
-S00026,Airport Metro,S00029,Arumbakkam,24,30
-S00026,Airport Metro,S00031,Ashok Nagar,24,30
-S00026,Airport Metro,S00028,CMBT Metro,32,40
-S00026,Airport Metro,S00013,Chennai Central Metro,32,40
-S00026,Airport Metro,S00038,Egmore Metro,32,40
-S00026,Airport Metro,S00032,Ekkattuthangal,24,30
-S00026,Airport Metro,S00014,Government Estate,32,40
-S00026,Airport Metro,S00022,Guindy,24,30
-S00026,Airport Metro,S00012,High Court,32,40
-S00026,Airport Metro,S00006,Kaladipet,40,50
-S00026,Airport Metro,S00036,Kilpauk,40,50
-S00026,Airport Metro,S00027,Koyambedu,32,40
-S00026,Airport Metro,S00015,LIC,32,40
-S00026,Airport Metro,S00021,Little Mount,24,30
-S00026,Airport Metro,S00011,Mannadi,32,40
-S00026,Airport Metro,S00025,Meenambakkam,8,10
-S00026,Airport Metro,S00019,Nandanam,24,30
-S00026,Airport Metro,S00024,Nanganallur Road,16,20
-S00026,Airport Metro,S00037,Nehru Park,32,40
-S00026,Airport Metro,S00004,New Washermenpet,40,50
-S00026,Airport Metro,S00035,Pachaiyappa's College,32,40
-S00026,Airport Metro,S00020,Saidapet,24,30
-S00026,Airport Metro,S00034,Shenoy Nagar,32,40
-S00026,Airport Metro,S00033,St.Thomas Mount,24,30
-S00026,Airport Metro,S00018,Teynampet,24,30
-S00026,Airport Metro,S00039,Thirumangalam,32,40
-S00026,Airport Metro,S00008,Thiruvotriyur,40,50
-S00026,Airport Metro,S00007,Thiruvotriyur Theradi,40,50
-S00026,Airport Metro,S00002,Thiyagaraya College,40,50
-S00026,Airport Metro,S00016,Thousand Lights,32,40
-S00026,Airport Metro,S00005,Tollgate Metro,40,50
-S00026,Airport Metro,S00003,Tondiarpet,40,50
-S00026,Airport Metro,S00030,Vadapalani,24,30
-S00026,Airport Metro,S00001,Washermenpet,40,50
-S00026,Airport Metro,S00009,Wimco Nagar,40,50
-S00026,Airport Metro,S00010,Wimco Nagar Depot,40,50
-S00023,Alandur Metro,S00017,AG-DMS,24,30
-S00023,Alandur Metro,S00026,Airport Metro,16,20
-S00023,Alandur Metro,S00041,Anna Nagar East,32,40
-S00023,Alandur Metro,S00040,Anna Nagar Tower,24,30
-S00023,Alandur Metro,S00029,Arumbakkam,24,30
-S00023,Alandur Metro,S00031,Ashok Nagar,16,20
-S00023,Alandur Metro,S00028,CMBT Metro,24,30
-S00023,Alandur Metro,S00013,Chennai Central Metro,32,40
-S00023,Alandur Metro,S00038,Egmore Metro,32,40
-S00023,Alandur Metro,S00032,Ekkattuthangal,8,10
-S00023,Alandur Metro,S00014,Government Estate,24,30
-S00023,Alandur Metro,S00022,Guindy,8,10
-S00023,Alandur Metro,S00012,High Court,32,40
-S00023,Alandur Metro,S00006,Kaladipet,40,50
-S00023,Alandur Metro,S00036,Kilpauk,32,40
-S00023,Alandur Metro,S00027,Koyambedu,24,30
-S00023,Alandur Metro,S00015,LIC,24,30
-S00023,Alandur Metro,S00021,Little Mount,16,20
-S00023,Alandur Metro,S00011,Mannadi,32,40
-S00023,Alandur Metro,S00025,Meenambakkam,16,20
-S00023,Alandur Metro,S00019,Nandanam,24,30
-S00023,Alandur Metro,S00024,Nanganallur Road,8,10
-S00023,Alandur Metro,S00037,Nehru Park,32,40
-S00023,Alandur Metro,S00004,New Washermenpet,32,40
-S00023,Alandur Metro,S00035,Pachaiyappa's College,32,40
-S00023,Alandur Metro,S00020,Saidapet,16,20
-S00023,Alandur Metro,S00034,Shenoy Nagar,32,40
-S00023,Alandur Metro,S00033,St.Thomas Mount,8,10
-S00023,Alandur Metro,S00018,Teynampet,24,30
-S00023,Alandur Metro,S00039,Thirumangalam,24,30
-S00023,Alandur Metro,S00008,Thiruvotriyur,40,50
-S00023,Alandur Metro,S00007,Thiruvotriyur Theradi,40,50
-S00023,Alandur Metro,S00002,Thiyagaraya College,32,40
-S00023,Alandur Metro,S00016,Thousand Lights,24,30
-S00023,Alandur Metro,S00005,Tollgate Metro,40,50
-S00023,Alandur Metro,S00003,Tondiarpet,32,40
-S00023,Alandur Metro,S00030,Vadapalani,24,30
-S00023,Alandur Metro,S00001,Washermenpet,32,40
-S00023,Alandur Metro,S00009,Wimco Nagar,40,50
-S00023,Alandur Metro,S00010,Wimco Nagar Depot,40,50
-S00041,Anna Nagar East,S00026,Airport Metro,32,40
-S00041,Anna Nagar East,S00023,Alandur Metro,32,40
-S00041,Anna Nagar East,S00040,Anna Nagar Tower,8,10
-S00041,Anna Nagar East,S00029,Arumbakkam,24,30
-S00041,Anna Nagar East,S00031,Ashok Nagar,24,30
-S00041,Anna Nagar East,S00028,CMBT Metro,16,20
-S00041,Anna Nagar East,S00013,Chennai Central Metro,24,30
-S00041,Anna Nagar East,S00038,Egmore Metro,24,30
-S00041,Anna Nagar East,S00032,Ekkattuthangal,24,30
-S00041,Anna Nagar East,S00036,Kilpauk,16,20
-S00041,Anna Nagar East,S00027,Koyambedu,16,20
-S00041,Anna Nagar East,S00025,Meenambakkam,32,40
-S00041,Anna Nagar East,S00024,Nanganallur Road,32,40
-S00041,Anna Nagar East,S00037,Nehru Park,16,20
-S00041,Anna Nagar East,S00035,Pachaiyappa's College,16,20
-S00041,Anna Nagar East,S00034,Shenoy Nagar,8,10
-S00041,Anna Nagar East,S00033,St.Thomas Mount,32,40
-S00041,Anna Nagar East,S00039,Thirumangalam,8,10
-S00041,Anna Nagar East,S00030,Vadapalani,24,30
-S00040,Anna Nagar Tower,S00026,Airport Metro,32,40
-S00040,Anna Nagar Tower,S00023,Alandur Metro,24,30
-S00040,Anna Nagar Tower,S00041,Anna Nagar East,8,10
-S00040,Anna Nagar Tower,S00029,Arumbakkam,24,30
-S00040,Anna Nagar Tower,S00031,Ashok Nagar,24,30
-S00040,Anna Nagar Tower,S00028,CMBT Metro,16,20
-S00040,Anna Nagar Tower,S00013,Chennai Central Metro,24,30
-S00040,Anna Nagar Tower,S00038,Egmore Metro,24,30
-S00040,Anna Nagar Tower,S00032,Ekkattuthangal,24,30
-S00040,Anna Nagar Tower,S00036,Kilpauk,16,20
-S00040,Anna Nagar Tower,S00027,Koyambedu,16,20
-S00040,Anna Nagar Tower,S00025,Meenambakkam,32,40
-S00040,Anna Nagar Tower,S00024,Nanganallur Road,32,40
-S00040,Anna Nagar Tower,S00037,Nehru Park,24,30
-S00040,Anna Nagar Tower,S00035,Pachaiyappa's College,16,20
-S00040,Anna Nagar Tower,S00034,Shenoy Nagar,16,20
-S00040,Anna Nagar Tower,S00033,St.Thomas Mount,32,40
-S00040,Anna Nagar Tower,S00039,Thirumangalam,8,10
-S00040,Anna Nagar Tower,S00030,Vadapalani,24,30
-S00029,Arumbakkam,S00026,Airport Metro,24,30
-S00029,Arumbakkam,S00023,Alandur Metro,24,30
-S00029,Arumbakkam,S00041,Anna Nagar East,24,30
-S00029,Arumbakkam,S00040,Anna Nagar Tower,24,30
-S00029,Arumbakkam,S00031,Ashok Nagar,16,20
-S00029,Arumbakkam,S00028,CMBT Metro,8,10
-S00029,Arumbakkam,S00013,Chennai Central Metro,32,40
-S00029,Arumbakkam,S00038,Egmore Metro,24,30
-S00029,Arumbakkam,S00032,Ekkattuthangal,24,30
-S00029,Arumbakkam,S00036,Kilpauk,24,30
-S00029,Arumbakkam,S00027,Koyambedu,16,20
-S00029,Arumbakkam,S00025,Meenambakkam,24,30
-S00029,Arumbakkam,S00024,Nanganallur Road,24,30
-S00029,Arumbakkam,S00037,Nehru Park,24,30
-S00029,Arumbakkam,S00035,Pachaiyappa's College,24,30
-S00029,Arumbakkam,S00034,Shenoy Nagar,24,30
-S00029,Arumbakkam,S00033,St.Thomas Mount,24,30
-S00029,Arumbakkam,S00039,Thirumangalam,16,20
-S00029,Arumbakkam,S00030,Vadapalani,8,10
-S00031,Ashok Nagar,S00026,Airport Metro,24,30
-S00031,Ashok Nagar,S00023,Alandur Metro,16,20
-S00031,Ashok Nagar,S00041,Anna Nagar East,24,30
-S00031,Ashok Nagar,S00040,Anna Nagar Tower,24,30
-S00031,Ashok Nagar,S00029,Arumbakkam,16,20
-S00031,Ashok Nagar,S00028,CMBT Metro,16,20
-S00031,Ashok Nagar,S00013,Chennai Central Metro,32,40
-S00031,Ashok Nagar,S00038,Egmore Metro,32,40
-S00031,Ashok Nagar,S00032,Ekkattuthangal,16,20
-S00031,Ashok Nagar,S00036,Kilpauk,32,40
-S00031,Ashok Nagar,S00027,Koyambedu,24,30
-S00031,Ashok Nagar,S00025,Meenambakkam,24,30
-S00031,Ashok Nagar,S00024,Nanganallur Road,16,20
-S00031,Ashok Nagar,S00037,Nehru Park,32,40
-S00031,Ashok Nagar,S00035,Pachaiyappa's College,24,30
-S00031,Ashok Nagar,S00034,Shenoy Nagar,24,30
-S00031,Ashok Nagar,S00033,St.Thomas Mount,16,20
-S00031,Ashok Nagar,S00039,Thirumangalam,24,30
-S00031,Ashok Nagar,S00030,Vadapalani,8,10
-S00028,CMBT Metro,S00026,Airport Metro,32,40
-S00028,CMBT Metro,S00023,Alandur Metro,24,30
-S00028,CMBT Metro,S00041,Anna Nagar East,16,20
-S00028,CMBT Metro,S00040,Anna Nagar Tower,16,20
-S00028,CMBT Metro,S00029,Arumbakkam,8,10
-S00028,CMBT Metro,S00031,Ashok Nagar,16,20
-S00028,CMBT Metro,S00013,Chennai Central Metro,24,30
-S00028,CMBT Metro,S00038,Egmore Metro,24,30
-S00028,CMBT Metro,S00032,Ekkattuthangal,24,30
-S00028,CMBT Metro,S00036,Kilpauk,24,30
-S00028,CMBT Metro,S00027,Koyambedu,8,10
-S00028,CMBT Metro,S00025,Meenambakkam,24,30
-S00028,CMBT Metro,S00024,Nanganallur Road,24,30
-S00028,CMBT Metro,S00037,Nehru Park,24,30
-S00028,CMBT Metro,S00035,Pachaiyappa's College,24,30
-S00028,CMBT Metro,S00034,Shenoy Nagar,24,30
-S00028,CMBT Metro,S00033,St.Thomas Mount,24,30
-S00028,CMBT Metro,S00039,Thirumangalam,16,20
-S00028,CMBT Metro,S00030,Vadapalani,16,20
-S00013,Chennai Central Metro,S00017,AG-DMS,24,30
-S00013,Chennai Central Metro,S00026,Airport Metro,32,40
-S00013,Chennai Central Metro,S00023,Alandur Metro,32,40
-S00013,Chennai Central Metro,S00041,Anna Nagar East,24,30
-S00013,Chennai Central Metro,S00040,Anna Nagar Tower,24,30
-S00013,Chennai Central Metro,S00029,Arumbakkam,32,40
-S00013,Chennai Central Metro,S00031,Ashok Nagar,32,40
-S00013,Chennai Central Metro,S00028,CMBT Metro,24,30
-S00013,Chennai Central Metro,S00038,Egmore Metro,8,10
-S00013,Chennai Central Metro,S00032,Ekkattuthangal,32,40
-S00013,Chennai Central Metro,S00014,Government Estate,8,10
-S00013,Chennai Central Metro,S00022,Guindy,24,30
-S00013,Chennai Central Metro,S00012,High Court,8,10
-S00013,Chennai Central Metro,S00006,Kaladipet,24,30
-S00013,Chennai Central Metro,S00036,Kilpauk,16,20
-S00013,Chennai Central Metro,S00027,Koyambedu,24,30
-S00013,Chennai Central Metro,S00015,LIC,16,20
-S00013,Chennai Central Metro,S00021,Little Mount,24,30
-S00013,Chennai Central Metro,S00011,Mannadi,16,20
-S00013,Chennai Central Metro,S00025,Meenambakkam,32,40
-S00013,Chennai Central Metro,S00019,Nandanam,24,30
-S00013,Chennai Central Metro,S00024,Nanganallur Road,32,40
-S00013,Chennai Central Metro,S00037,Nehru Park,16,20
-S00013,Chennai Central Metro,S00004,New Washermenpet,24,30
-S00013,Chennai Central Metro,S00035,Pachaiyappa's College,16,20
-S00013,Chennai Central Metro,S00020,Saidapet,24,30
-S00013,Chennai Central Metro,S00034,Shenoy Nagar,24,30
-S00013,Chennai Central Metro,S00033,St.Thomas Mount,32,40
-S00013,Chennai Central Metro,S00018,Teynampet,24,30
-S00013,Chennai Central Metro,S00039,Thirumangalam,24,30
-S00013,Chennai Central Metro,S00008,Thiruvotriyur,24,30
-S00013,Chennai Central Metro,S00007,Thiruvotriyur Theradi,24,30
-S00013,Chennai Central Metro,S00002,Thiyagaraya College,24,30
-S00013,Chennai Central Metro,S00016,Thousand Lights,16,20
-S00013,Chennai Central Metro,S00005,Tollgate Metro,24,30
-S00013,Chennai Central Metro,S00003,Tondiarpet,24,30
-S00013,Chennai Central Metro,S00030,Vadapalani,32,40
-S00013,Chennai Central Metro,S00001,Washermenpet,16,20
-S00013,Chennai Central Metro,S00009,Wimco Nagar,32,40
-S00013,Chennai Central Metro,S00010,Wimco Nagar Depot,32,40
-S00038,Egmore Metro,S00026,Airport Metro,32,40
-S00038,Egmore Metro,S00023,Alandur Metro,32,40
-S00038,Egmore Metro,S00041,Anna Nagar East,24,30
-S00038,Egmore Metro,S00040,Anna Nagar Tower,24,30
-S00038,Egmore Metro,S00029,Arumbakkam,24,30
-S00038,Egmore Metro,S00031,Ashok Nagar,32,40
-S00038,Egmore Metro,S00028,CMBT Metro,24,30
-S00038,Egmore Metro,S00013,Chennai Central Metro,8,10
-S00038,Egmore Metro,S00032,Ekkattuthangal,32,40
-S00038,Egmore Metro,S00036,Kilpauk,8,10
-S00038,Egmore Metro,S00027,Koyambedu,24,30
-S00038,Egmore Metro,S00025,Meenambakkam,32,40
-S00038,Egmore Metro,S00024,Nanganallur Road,32,40
-S00038,Egmore Metro,S00037,Nehru Park,8,10
-S00038,Egmore Metro,S00035,Pachaiyappa's College,16,20
-S00038,Egmore Metro,S00034,Shenoy Nagar,16,20
-S00038,Egmore Metro,S00033,St.Thomas Mount,32,40
-S00038,Egmore Metro,S00039,Thirumangalam,24,30
-S00038,Egmore Metro,S00030,Vadapalani,32,40
-S00032,Ekkattuthangal,S00026,Airport Metro,24,30
-S00032,Ekkattuthangal,S00023,Alandur Metro,8,10
-S00032,Ekkattuthangal,S00041,Anna Nagar East,24,30
-S00032,Ekkattuthangal,S00040,Anna Nagar Tower,24,30
-S00032,Ekkattuthangal,S00029,Arumbakkam,24,30
-S00032,Ekkattuthangal,S00031,Ashok Nagar,16,20
-S00032,Ekkattuthangal,S00028,CMBT Metro,24,30
-S00032,Ekkattuthangal,S00013,Chennai Central Metro,32,40
-S00032,Ekkattuthangal,S00038,Egmore Metro,32,40
-S00032,Ekkattuthangal,S00036,Kilpauk,32,40
-S00032,Ekkattuthangal,S00027,Koyambedu,24,30
-S00032,Ekkattuthangal,S00025,Meenambakkam,16,20
-S00032,Ekkattuthangal,S00024,Nanganallur Road,16,20
-S00032,Ekkattuthangal,S00037,Nehru Park,32,40
-S00032,Ekkattuthangal,S00035,Pachaiyappa's College,32,40
-S00032,Ekkattuthangal,S00034,Shenoy Nagar,32,40
-S00032,Ekkattuthangal,S00033,St.Thomas Mount,16,20
-S00032,Ekkattuthangal,S00039,Thirumangalam,24,30
-S00032,Ekkattuthangal,S00030,Vadapalani,16,20
-S00014,Government Estate,S00017,AG-DMS,16,20
-S00014,Government Estate,S00026,Airport Metro,32,40
-S00014,Government Estate,S00023,Alandur Metro,24,30
-S00014,Government Estate,S00013,Chennai Central Metro,8,10
-S00014,Government Estate,S00022,Guindy,24,30
-S00014,Government Estate,S00012,High Court,16,20
-S00014,Government Estate,S00006,Kaladipet,24,30
-S00014,Government Estate,S00015,LIC,8,10
-S00014,Government Estate,S00021,Little Mount,24,30
-S00014,Government Estate,S00011,Mannadi,16,20
-S00014,Government Estate,S00025,Meenambakkam,32,40
-S00014,Government Estate,S00019,Nandanam,24,30
-S00014,Government Estate,S00024,Nanganallur Road,32,40
-S00014,Government Estate,S00004,New Washermenpet,24,30
-S00014,Government Estate,S00020,Saidapet,24,30
-S00014,Government Estate,S00018,Teynampet,16,20
-S00014,Government Estate,S00008,Thiruvotriyur,32,40
-S00014,Government Estate,S00007,Thiruvotriyur Theradi,32,40
-S00014,Government Estate,S00002,Thiyagaraya College,24,30
-S00014,Government Estate,S00016,Thousand Lights,8,10
-S00014,Government Estate,S00005,Tollgate Metro,24,30
-S00014,Government Estate,S00003,Tondiarpet,24,30
-S00014,Government Estate,S00001,Washermenpet,24,30
-S00014,Government Estate,S00009,Wimco Nagar,32,40
-S00014,Government Estate,S00010,Wimco Nagar Depot,32,40
-S00022,Guindy,S00017,AG-DMS,24,30
-S00022,Guindy,S00026,Airport Metro,24,30
-S00022,Guindy,S00023,Alandur Metro,8,10
-S00022,Guindy,S00013,Chennai Central Metro,24,30
-S00022,Guindy,S00014,Government Estate,24,30
-S00022,Guindy,S00012,High Court,32,40
-S00022,Guindy,S00006,Kaladipet,32,40
-S00022,Guindy,S00015,LIC,24,30
-S00022,Guindy,S00021,Little Mount,8,10
-S00022,Guindy,S00011,Mannadi,32,40
-S00022,Guindy,S00025,Meenambakkam,16,20
-S00022,Guindy,S00019,Nandanam,16,20
-S00022,Guindy,S00024,Nanganallur Road,16,20
-S00022,Guindy,S00004,New Washermenpet,32,40
-S00022,Guindy,S00020,Saidapet,16,20
-S00022,Guindy,S00018,Teynampet,16,20
-S00022,Guindy,S00008,Thiruvotriyur,40,50
-S00022,Guindy,S00007,Thiruvotriyur Theradi,40,50
-S00022,Guindy,S00002,Thiyagaraya College,32,40
-S00022,Guindy,S00016,Thousand Lights,24,30
-S00022,Guindy,S00005,Tollgate Metro,32,40
-S00022,Guindy,S00003,Tondiarpet,32,40
-S00022,Guindy,S00001,Washermenpet,32,40
-S00022,Guindy,S00009,Wimco Nagar,40,50
-S00022,Guindy,S00010,Wimco Nagar Depot,40,50
-S00012,High Court,S00017,AG-DMS,24,30
-S00012,High Court,S00026,Airport Metro,32,40
-S00012,High Court,S00023,Alandur Metro,32,40
-S00012,High Court,S00013,Chennai Central Metro,8,10
-S00012,High Court,S00014,Government Estate,16,20
-S00012,High Court,S00022,Guindy,32,40
-S00012,High Court,S00006,Kaladipet,24,30
-S00012,High Court,S00015,LIC,16,20
-S00012,High Court,S00021,Little Mount,24,30
-S00012,High Court,S00011,Mannadi,8,10
-S00012,High Court,S00025,Meenambakkam,32,40
-S00012,High Court,S00019,Nandanam,24,30
-S00012,High Court,S00024,Nanganallur Road,32,40
-S00012,High Court,S00004,New Washermenpet,24,30
-S00012,High Court,S00020,Saidapet,24,30
-S00012,High Court,S00018,Teynampet,24,30
-S00012,High Court,S00008,Thiruvotriyur,24,30
-S00012,High Court,S00007,Thiruvotriyur Theradi,24,30
-S00012,High Court,S00002,Thiyagaraya College,16,20
-S00012,High Court,S00016,Thousand Lights,24,30
-S00012,High Court,S00005,Tollgate Metro,24,30
-S00012,High Court,S00003,Tondiarpet,16,20
-S00012,High Court,S00001,Washermenpet,16,20
-S00012,High Court,S00009,Wimco Nagar,24,30
-S00012,High Court,S00010,Wimco Nagar Depot,24,30
-S00045,Iyappanthangal Metro,S00048,Karayanchavadi Metro,16,20
-S00045,Iyappanthangal Metro,S00046,Kattupakkam Metro,8,10
-S00045,Iyappanthangal Metro,S00047,Kumananchavadi Metro,8,10
-S00045,Iyappanthangal Metro,S00050,Poonamallee Bus Stand Metro,16,20
-S00045,Iyappanthangal Metro,S00051,Poonamallee Bypass Metro,24,30
-S00045,Iyappanthangal Metro,S00049,Poonamallee Government Hospital Metro,16,20
-S00045,Iyappanthangal Metro,S00043,Porur Bypass Metro,8,10
-S00045,Iyappanthangal Metro,S00042,Porur Junction Metro,16,20
-S00045,Iyappanthangal Metro,S00044,Thelliyaragaram Metro,8,10
-S00045,Iyappanthangal Metro,S00030,Vadapalani,24,30
-S00006,Kaladipet,S00017,AG-DMS,32,40
-S00006,Kaladipet,S00026,Airport Metro,40,50
-S00006,Kaladipet,S00023,Alandur Metro,40,50
-S00006,Kaladipet,S00013,Chennai Central Metro,24,30
-S00006,Kaladipet,S00014,Government Estate,24,30
-S00006,Kaladipet,S00022,Guindy,32,40
-S00006,Kaladipet,S00012,High Court,24,30
-S00006,Kaladipet,S00015,LIC,24,30
-S00006,Kaladipet,S00021,Little Mount,32,40
-S00006,Kaladipet,S00011,Mannadi,24,30
-S00006,Kaladipet,S00025,Meenambakkam,40,50
-S00006,Kaladipet,S00019,Nandanam,32,40
-S00006,Kaladipet,S00024,Nanganallur Road,40,50
-S00006,Kaladipet,S00004,New Washermenpet,8,10
-S00006,Kaladipet,S00020,Saidapet,32,40
-S00006,Kaladipet,S00018,Teynampet,32,40
-S00006,Kaladipet,S00008,Thiruvotriyur,16,20
-S00006,Kaladipet,S00007,Thiruvotriyur Theradi,8,10
-S00006,Kaladipet,S00002,Thiyagaraya College,16,20
-S00006,Kaladipet,S00016,Thousand Lights,32,40
-S00006,Kaladipet,S00005,Tollgate Metro,8,10
-S00006,Kaladipet,S00003,Tondiarpet,16,20
-S00006,Kaladipet,S00001,Washermenpet,16,20
-S00006,Kaladipet,S00009,Wimco Nagar,16,20
-S00006,Kaladipet,S00010,Wimco Nagar Depot,16,20
-S00048,Karayanchavadi Metro,S00045,Iyappanthangal Metro,16,20
-S00048,Karayanchavadi Metro,S00046,Kattupakkam Metro,8,10
-S00048,Karayanchavadi Metro,S00047,Kumananchavadi Metro,8,10
-S00048,Karayanchavadi Metro,S00050,Poonamallee Bus Stand Metro,8,10
-S00048,Karayanchavadi Metro,S00051,Poonamallee Bypass Metro,16,20
-S00048,Karayanchavadi Metro,S00049,Poonamallee Government Hospital Metro,8,10
-S00048,Karayanchavadi Metro,S00043,Porur Bypass Metro,16,20
-S00048,Karayanchavadi Metro,S00042,Porur Junction Metro,24,30
-S00048,Karayanchavadi Metro,S00044,Thelliyaragaram Metro,16,20
-S00048,Karayanchavadi Metro,S00030,Vadapalani,24,30
-S00046,Kattupakkam Metro,S00045,Iyappanthangal Metro,8,10
-S00046,Kattupakkam Metro,S00048,Karayanchavadi Metro,8,10
-S00046,Kattupakkam Metro,S00047,Kumananchavadi Metro,8,10
-S00046,Kattupakkam Metro,S00050,Poonamallee Bus Stand Metro,16,20
-S00046,Kattupakkam Metro,S00051,Poonamallee Bypass Metro,16,20
-S00046,Kattupakkam Metro,S00049,Poonamallee Government Hospital Metro,16,20
-S00046,Kattupakkam Metro,S00043,Porur Bypass Metro,16,20
-S00046,Kattupakkam Metro,S00042,Porur Junction Metro,16,20
-S00046,Kattupakkam Metro,S00044,Thelliyaragaram Metro,8,10
-S00046,Kattupakkam Metro,S00030,Vadapalani,24,30
-S00036,Kilpauk,S00026,Airport Metro,40,50
-S00036,Kilpauk,S00023,Alandur Metro,32,40
-S00036,Kilpauk,S00041,Anna Nagar East,16,20
-S00036,Kilpauk,S00040,Anna Nagar Tower,16,20
-S00036,Kilpauk,S00029,Arumbakkam,24,30
-S00036,Kilpauk,S00031,Ashok Nagar,32,40
-S00036,Kilpauk,S00028,CMBT Metro,24,30
-S00036,Kilpauk,S00013,Chennai Central Metro,16,20
-S00036,Kilpauk,S00038,Egmore Metro,8,10
-S00036,Kilpauk,S00032,Ekkattuthangal,32,40
-S00036,Kilpauk,S00027,Koyambedu,24,30
-S00036,Kilpauk,S00025,Meenambakkam,32,40
-S00036,Kilpauk,S00024,Nanganallur Road,32,40
-S00036,Kilpauk,S00037,Nehru Park,8,10
-S00036,Kilpauk,S00035,Pachaiyappa's College,8,10
-S00036,Kilpauk,S00034,Shenoy Nagar,16,20
-S00036,Kilpauk,S00033,St.Thomas Mount,32,40
-S00036,Kilpauk,S00039,Thirumangalam,24,30
-S00036,Kilpauk,S00030,Vadapalani,24,30
-S00027,Koyambedu,S00026,Airport Metro,32,40
-S00027,Koyambedu,S00023,Alandur Metro,24,30
-S00027,Koyambedu,S00041,Anna Nagar East,16,20
-S00027,Koyambedu,S00040,Anna Nagar Tower,16,20
-S00027,Koyambedu,S00029,Arumbakkam,16,20
-S00027,Koyambedu,S00031,Ashok Nagar,24,30
-S00027,Koyambedu,S00028,CMBT Metro,8,10
-S00027,Koyambedu,S00013,Chennai Central Metro,24,30
-S00027,Koyambedu,S00038,Egmore Metro,24,30
-S00027,Koyambedu,S00032,Ekkattuthangal,24,30
-S00027,Koyambedu,S00036,Kilpauk,24,30
-S00027,Koyambedu,S00025,Meenambakkam,32,40
-S00027,Koyambedu,S00024,Nanganallur Road,24,30
-S00027,Koyambedu,S00037,Nehru Park,24,30
-S00027,Koyambedu,S00035,Pachaiyappa's College,24,30
-S00027,Koyambedu,S00034,Shenoy Nagar,16,20
-S00027,Koyambedu,S00033,St.Thomas Mount,24,30
-S00027,Koyambedu,S00039,Thirumangalam,8,10
-S00027,Koyambedu,S00030,Vadapalani,16,20
-S00047,Kumananchavadi Metro,S00045,Iyappanthangal Metro,8,10
-S00047,Kumananchavadi Metro,S00048,Karayanchavadi Metro,8,10
-S00047,Kumananchavadi Metro,S00046,Kattupakkam Metro,8,10
-S00047,Kumananchavadi Metro,S00050,Poonamallee Bus Stand Metro,16,20
-S00047,Kumananchavadi Metro,S00051,Poonamallee Bypass Metro,16,20
-S00047,Kumananchavadi Metro,S00049,Poonamallee Government Hospital Metro,8,10
-S00047,Kumananchavadi Metro,S00043,Porur Bypass Metro,16,20
-S00047,Kumananchavadi Metro,S00042,Porur Junction Metro,16,20
-S00047,Kumananchavadi Metro,S00044,Thelliyaragaram Metro,16,20
-S00047,Kumananchavadi Metro,S00030,Vadapalani,24,30
-S00015,LIC,S00017,AG-DMS,16,20
-S00015,LIC,S00026,Airport Metro,32,40
-S00015,LIC,S00023,Alandur Metro,24,30
-S00015,LIC,S00013,Chennai Central Metro,16,20
-S00015,LIC,S00014,Government Estate,8,10
-S00015,LIC,S00022,Guindy,24,30
-S00015,LIC,S00012,High Court,16,20
-S00015,LIC,S00006,Kaladipet,24,30
-S00015,LIC,S00021,Little Mount,24,30
-S00015,LIC,S00011,Mannadi,24,30
-S00015,LIC,S00025,Meenambakkam,32,40
-S00015,LIC,S00019,Nandanam,16,20
-S00015,LIC,S00024,Nanganallur Road,24,30
-S00015,LIC,S00004,New Washermenpet,24,30
-S00015,LIC,S00020,Saidapet,24,30
-S00015,LIC,S00018,Teynampet,16,20
-S00015,LIC,S00008,Thiruvotriyur,32,40
-S00015,LIC,S00007,Thiruvotriyur Theradi,32,40
-S00015,LIC,S00002,Thiyagaraya College,24,30
-S00015,LIC,S00016,Thousand Lights,8,10
-S00015,LIC,S00005,Tollgate Metro,24,30
-S00015,LIC,S00003,Tondiarpet,24,30
-S00015,LIC,S00001,Washermenpet,24,30
-S00015,LIC,S00009,Wimco Nagar,32,40
-S00015,LIC,S00010,Wimco Nagar Depot,32,40
-S00021,Little Mount,S00017,AG-DMS,16,20
-S00021,Little Mount,S00026,Airport Metro,24,30
-S00021,Little Mount,S00023,Alandur Metro,16,20
-S00021,Little Mount,S00013,Chennai Central Metro,24,30
-S00021,Little Mount,S00014,Government Estate,24,30
-S00021,Little Mount,S00022,Guindy,8,10
-S00021,Little Mount,S00012,High Court,24,30
-S00021,Little Mount,S00006,Kaladipet,32,40
-S00021,Little Mount,S00015,LIC,24,30
-S00021,Little Mount,S00011,Mannadi,32,40
-S00021,Little Mount,S00025,Meenambakkam,24,30
-S00021,Little Mount,S00019,Nandanam,16,20
-S00021,Little Mount,S00024,Nanganallur Road,16,20
-S00021,Little Mount,S00004,New Washermenpet,32,40
-S00021,Little Mount,S00020,Saidapet,8,10
-S00021,Little Mount,S00018,Teynampet,16,20
-S00021,Little Mount,S00008,Thiruvotriyur,40,50
-S00021,Little Mount,S00007,Thiruvotriyur Theradi,32,40
-S00021,Little Mount,S00002,Thiyagaraya College,32,40
-S00021,Little Mount,S00016,Thousand Lights,24,30
-S00021,Little Mount,S00005,Tollgate Metro,32,40
-S00021,Little Mount,S00003,Tondiarpet,32,40
-S00021,Little Mount,S00001,Washermenpet,32,40
-S00021,Little Mount,S00009,Wimco Nagar,40,50
-S00021,Little Mount,S00010,Wimco Nagar Depot,40,50
-S00011,Mannadi,S00017,AG-DMS,24,30
-S00011,Mannadi,S00026,Airport Metro,32,40
-S00011,Mannadi,S00023,Alandur Metro,32,40
-S00011,Mannadi,S00013,Chennai Central Metro,16,20
-S00011,Mannadi,S00014,Government Estate,16,20
-S00011,Mannadi,S00022,Guindy,32,40
-S00011,Mannadi,S00012,High Court,8,10
-S00011,Mannadi,S00006,Kaladipet,24,30
-S00011,Mannadi,S00015,LIC,24,30
-S00011,Mannadi,S00021,Little Mount,32,40
-S00011,Mannadi,S00025,Meenambakkam,32,40
-S00011,Mannadi,S00019,Nandanam,24,30
-S00011,Mannadi,S00024,Nanganallur Road,32,40
-S00011,Mannadi,S00004,New Washermenpet,16,20
-S00011,Mannadi,S00020,Saidapet,24,30
-S00011,Mannadi,S00018,Teynampet,24,30
-S00011,Mannadi,S00008,Thiruvotriyur,24,30
-S00011,Mannadi,S00007,Thiruvotriyur Theradi,24,30
-S00011,Mannadi,S00002,Thiyagaraya College,16,20
-S00011,Mannadi,S00016,Thousand Lights,24,30
-S00011,Mannadi,S00005,Tollgate Metro,24,30
-S00011,Mannadi,S00003,Tondiarpet,16,20
-S00011,Mannadi,S00001,Washermenpet,8,10
-S00011,Mannadi,S00009,Wimco Nagar,24,30
-S00011,Mannadi,S00010,Wimco Nagar Depot,24,30
-S00025,Meenambakkam,S00017,AG-DMS,24,30
-S00025,Meenambakkam,S00026,Airport Metro,8,10
-S00025,Meenambakkam,S00023,Alandur Metro,16,20
-S00025,Meenambakkam,S00041,Anna Nagar East,32,40
-S00025,Meenambakkam,S00040,Anna Nagar Tower,32,40
-S00025,Meenambakkam,S00029,Arumbakkam,24,30
-S00025,Meenambakkam,S00031,Ashok Nagar,24,30
-S00025,Meenambakkam,S00028,CMBT Metro,24,30
-S00025,Meenambakkam,S00013,Chennai Central Metro,32,40
-S00025,Meenambakkam,S00038,Egmore Metro,32,40
-S00025,Meenambakkam,S00032,Ekkattuthangal,16,20
-S00025,Meenambakkam,S00014,Government Estate,32,40
-S00025,Meenambakkam,S00022,Guindy,16,20
-S00025,Meenambakkam,S00012,High Court,32,40
-S00025,Meenambakkam,S00006,Kaladipet,40,50
-S00025,Meenambakkam,S00036,Kilpauk,32,40
-S00025,Meenambakkam,S00027,Koyambedu,32,40
-S00025,Meenambakkam,S00015,LIC,32,40
-S00025,Meenambakkam,S00021,Little Mount,24,30
-S00025,Meenambakkam,S00011,Mannadi,32,40
-S00025,Meenambakkam,S00019,Nandanam,24,30
-S00025,Meenambakkam,S00024,Nanganallur Road,16,20
-S00025,Meenambakkam,S00037,Nehru Park,32,40
-S00025,Meenambakkam,S00004,New Washermenpet,40,50
-S00025,Meenambakkam,S00035,Pachaiyappa's College,32,40
-S00025,Meenambakkam,S00020,Saidapet,24,30
-S00025,Meenambakkam,S00034,Shenoy Nagar,32,40
-S00025,Meenambakkam,S00033,St.Thomas Mount,16,20
-S00025,Meenambakkam,S00018,Teynampet,24,30
-S00025,Meenambakkam,S00039,Thirumangalam,32,40
-S00025,Meenambakkam,S00008,Thiruvotriyur,40,50
-S00025,Meenambakkam,S00007,Thiruvotriyur Theradi,40,50
-S00025,Meenambakkam,S00002,Thiyagaraya College,40,50
-S00025,Meenambakkam,S00016,Thousand Lights,32,40
-S00025,Meenambakkam,S00005,Tollgate Metro,40,50
-S00025,Meenambakkam,S00003,Tondiarpet,40,50
-S00025,Meenambakkam,S00030,Vadapalani,24,30
-S00025,Meenambakkam,S00001,Washermenpet,32,40
-S00025,Meenambakkam,S00009,Wimco Nagar,40,50
-S00025,Meenambakkam,S00010,Wimco Nagar Depot,40,50
-S00019,Nandanam,S00017,AG-DMS,8,10
-S00019,Nandanam,S00026,Airport Metro,24,30
-S00019,Nandanam,S00023,Alandur Metro,24,30
-S00019,Nandanam,S00013,Chennai Central Metro,24,30
-S00019,Nandanam,S00014,Government Estate,24,30
-S00019,Nandanam,S00022,Guindy,16,20
-S00019,Nandanam,S00012,High Court,24,30
-S00019,Nandanam,S00006,Kaladipet,32,40
-S00019,Nandanam,S00015,LIC,16,20
-S00019,Nandanam,S00021,Little Mount,16,20
-S00019,Nandanam,S00011,Mannadi,24,30
-S00019,Nandanam,S00025,Meenambakkam,24,30
-S00019,Nandanam,S00024,Nanganallur Road,24,30
-S00019,Nandanam,S00004,New Washermenpet,32,40
-S00019,Nandanam,S00020,Saidapet,8,10
-S00019,Nandanam,S00018,Teynampet,8,10
-S00019,Nandanam,S00008,Thiruvotriyur,32,40
-S00019,Nandanam,S00007,Thiruvotriyur Theradi,32,40
-S00019,Nandanam,S00002,Thiyagaraya College,32,40
-S00019,Nandanam,S00016,Thousand Lights,16,20
-S00019,Nandanam,S00005,Tollgate Metro,32,40
-S00019,Nandanam,S00003,Tondiarpet,32,40
-S00019,Nandanam,S00001,Washermenpet,24,30
-S00019,Nandanam,S00009,Wimco Nagar,32,40
-S00019,Nandanam,S00010,Wimco Nagar Depot,32,40
-S00024,Nanganallur Road,S00017,AG-DMS,24,30
-S00024,Nanganallur Road,S00026,Airport Metro,16,20
-S00024,Nanganallur Road,S00023,Alandur Metro,8,10
-S00024,Nanganallur Road,S00041,Anna Nagar East,32,40
-S00024,Nanganallur Road,S00040,Anna Nagar Tower,32,40
-S00024,Nanganallur Road,S00029,Arumbakkam,24,30
-S00024,Nanganallur Road,S00031,Ashok Nagar,16,20
-S00024,Nanganallur Road,S00028,CMBT Metro,24,30
-S00024,Nanganallur Road,S00013,Chennai Central Metro,32,40
-S00024,Nanganallur Road,S00038,Egmore Metro,32,40
-S00024,Nanganallur Road,S00032,Ekkattuthangal,16,20
-S00024,Nanganallur Road,S00014,Government Estate,32,40
-S00024,Nanganallur Road,S00022,Guindy,16,20
-S00024,Nanganallur Road,S00012,High Court,32,40
-S00024,Nanganallur Road,S00006,Kaladipet,40,50
-S00024,Nanganallur Road,S00036,Kilpauk,32,40
-S00024,Nanganallur Road,S00027,Koyambedu,24,30
-S00024,Nanganallur Road,S00015,LIC,24,30
-S00024,Nanganallur Road,S00021,Little Mount,16,20
-S00024,Nanganallur Road,S00011,Mannadi,32,40
-S00024,Nanganallur Road,S00025,Meenambakkam,16,20
-S00024,Nanganallur Road,S00019,Nandanam,24,30
-S00024,Nanganallur Road,S00037,Nehru Park,32,40
-S00024,Nanganallur Road,S00004,New Washermenpet,40,50
-S00024,Nanganallur Road,S00035,Pachaiyappa's College,32,40
-S00024,Nanganallur Road,S00020,Saidapet,16,20
-S00024,Nanganallur Road,S00034,Shenoy Nagar,32,40
-S00024,Nanganallur Road,S00033,St.Thomas Mount,16,20
-S00024,Nanganallur Road,S00018,Teynampet,24,30
-S00024,Nanganallur Road,S00039,Thirumangalam,32,40
-S00024,Nanganallur Road,S00008,Thiruvotriyur,40,50
-S00024,Nanganallur Road,S00007,Thiruvotriyur Theradi,40,50
-S00024,Nanganallur Road,S00002,Thiyagaraya College,32,40
-S00024,Nanganallur Road,S00016,Thousand Lights,24,30
-S00024,Nanganallur Road,S00005,Tollgate Metro,40,50
-S00024,Nanganallur Road,S00003,Tondiarpet,32,40
-S00024,Nanganallur Road,S00030,Vadapalani,24,30
-S00024,Nanganallur Road,S00001,Washermenpet,32,40
-S00024,Nanganallur Road,S00009,Wimco Nagar,40,50
-S00024,Nanganallur Road,S00010,Wimco Nagar Depot,40,50
-S00037,Nehru Park,S00026,Airport Metro,32,40
-S00037,Nehru Park,S00023,Alandur Metro,32,40
-S00037,Nehru Park,S00041,Anna Nagar East,16,20
-S00037,Nehru Park,S00040,Anna Nagar Tower,24,30
-S00037,Nehru Park,S00029,Arumbakkam,24,30
-S00037,Nehru Park,S00031,Ashok Nagar,32,40
-S00037,Nehru Park,S00028,CMBT Metro,24,30
-S00037,Nehru Park,S00013,Chennai Central Metro,16,20
-S00037,Nehru Park,S00038,Egmore Metro,8,10
-S00037,Nehru Park,S00032,Ekkattuthangal,32,40
-S00037,Nehru Park,S00036,Kilpauk,8,10
-S00037,Nehru Park,S00027,Koyambedu,24,30
-S00037,Nehru Park,S00025,Meenambakkam,32,40
-S00037,Nehru Park,S00024,Nanganallur Road,32,40
-S00037,Nehru Park,S00035,Pachaiyappa's College,8,10
-S00037,Nehru Park,S00034,Shenoy Nagar,16,20
-S00037,Nehru Park,S00033,St.Thomas Mount,32,40
-S00037,Nehru Park,S00039,Thirumangalam,24,30
-S00037,Nehru Park,S00030,Vadapalani,24,30
-S00004,New Washermenpet,S00017,AG-DMS,32,40
-S00004,New Washermenpet,S00026,Airport Metro,40,50
-S00004,New Washermenpet,S00023,Alandur Metro,32,40
-S00004,New Washermenpet,S00013,Chennai Central Metro,24,30
-S00004,New Washermenpet,S00014,Government Estate,24,30
-S00004,New Washermenpet,S00022,Guindy,32,40
-S00004,New Washermenpet,S00012,High Court,24,30
-S00004,New Washermenpet,S00006,Kaladipet,8,10
-S00004,New Washermenpet,S00015,LIC,24,30
-S00004,New Washermenpet,S00021,Little Mount,32,40
-S00004,New Washermenpet,S00011,Mannadi,16,20
-S00004,New Washermenpet,S00025,Meenambakkam,40,50
-S00004,New Washermenpet,S00019,Nandanam,32,40
-S00004,New Washermenpet,S00024,Nanganallur Road,40,50
-S00004,New Washermenpet,S00020,Saidapet,32,40
-S00004,New Washermenpet,S00018,Teynampet,32,40
-S00004,New Washermenpet,S00008,Thiruvotriyur,16,20
-S00004,New Washermenpet,S00007,Thiruvotriyur Theradi,16,20
-S00004,New Washermenpet,S00002,Thiyagaraya College,8,10
-S00004,New Washermenpet,S00016,Thousand Lights,24,30
-S00004,New Washermenpet,S00005,Tollgate Metro,8,10
-S00004,New Washermenpet,S00003,Tondiarpet,8,10
-S00004,New Washermenpet,S00001,Washermenpet,16,20
-S00004,New Washermenpet,S00009,Wimco Nagar,24,30
-S00004,New Washermenpet,S00010,Wimco Nagar Depot,24,30
-S00035,Pachaiyappa's College,S00026,Airport Metro,32,40
-S00035,Pachaiyappa's College,S00023,Alandur Metro,32,40
-S00035,Pachaiyappa's College,S00041,Anna Nagar East,16,20
-S00035,Pachaiyappa's College,S00040,Anna Nagar Tower,16,20
-S00035,Pachaiyappa's College,S00029,Arumbakkam,24,30
-S00035,Pachaiyappa's College,S00031,Ashok Nagar,24,30
-S00035,Pachaiyappa's College,S00028,CMBT Metro,24,30
-S00035,Pachaiyappa's College,S00013,Chennai Central Metro,16,20
-S00035,Pachaiyappa's College,S00038,Egmore Metro,16,20
-S00035,Pachaiyappa's College,S00032,Ekkattuthangal,32,40
-S00035,Pachaiyappa's College,S00036,Kilpauk,8,10
-S00035,Pachaiyappa's College,S00027,Koyambedu,24,30
-S00035,Pachaiyappa's College,S00025,Meenambakkam,32,40
-S00035,Pachaiyappa's College,S00024,Nanganallur Road,32,40
-S00035,Pachaiyappa's College,S00037,Nehru Park,8,10
-S00035,Pachaiyappa's College,S00034,Shenoy Nagar,8,10
-S00035,Pachaiyappa's College,S00033,St.Thomas Mount,32,40
-S00035,Pachaiyappa's College,S00039,Thirumangalam,16,20
-S00035,Pachaiyappa's College,S00030,Vadapalani,24,30
-S00050,Poonamallee Bus Stand Metro,S00045,Iyappanthangal Metro,16,20
-S00050,Poonamallee Bus Stand Metro,S00048,Karayanchavadi Metro,8,10
-S00050,Poonamallee Bus Stand Metro,S00046,Kattupakkam Metro,16,20
-S00050,Poonamallee Bus Stand Metro,S00047,Kumananchavadi Metro,16,20
-S00050,Poonamallee Bus Stand Metro,S00051,Poonamallee Bypass Metro,8,10
-S00050,Poonamallee Bus Stand Metro,S00049,Poonamallee Government Hospital Metro,8,10
-S00050,Poonamallee Bus Stand Metro,S00043,Porur Bypass Metro,24,30
-S00050,Poonamallee Bus Stand Metro,S00042,Porur Junction Metro,24,30
-S00050,Poonamallee Bus Stand Metro,S00044,Thelliyaragaram Metro,24,30
-S00050,Poonamallee Bus Stand Metro,S00030,Vadapalani,32,40
-S00051,Poonamallee Bypass Metro,S00045,Iyappanthangal Metro,24,30
-S00051,Poonamallee Bypass Metro,S00048,Karayanchavadi Metro,16,20
-S00051,Poonamallee Bypass Metro,S00046,Kattupakkam Metro,16,20
-S00051,Poonamallee Bypass Metro,S00047,Kumananchavadi Metro,16,20
-S00051,Poonamallee Bypass Metro,S00050,Poonamallee Bus Stand Metro,8,10
-S00051,Poonamallee Bypass Metro,S00049,Poonamallee Government Hospital Metro,16,20
-S00051,Poonamallee Bypass Metro,S00043,Porur Bypass Metro,24,30
-S00051,Poonamallee Bypass Metro,S00042,Porur Junction Metro,24,30
-S00051,Poonamallee Bypass Metro,S00044,Thelliyaragaram Metro,24,30
-S00051,Poonamallee Bypass Metro,S00030,Vadapalani,32,40
-S00049,Poonamallee Government Hospital Metro,S00045,Iyappanthangal Metro,16,20
-S00049,Poonamallee Government Hospital Metro,S00048,Karayanchavadi Metro,8,10
-S00049,Poonamallee Government Hospital Metro,S00046,Kattupakkam Metro,16,20
-S00049,Poonamallee Government Hospital Metro,S00047,Kumananchavadi Metro,8,10
-S00049,Poonamallee Government Hospital Metro,S00050,Poonamallee Bus Stand Metro,8,10
-S00049,Poonamallee Government Hospital Metro,S00051,Poonamallee Bypass Metro,16,20
-S00049,Poonamallee Government Hospital Metro,S00043,Porur Bypass Metro,24,30
-S00049,Poonamallee Government Hospital Metro,S00042,Porur Junction Metro,24,30
-S00049,Poonamallee Government Hospital Metro,S00044,Thelliyaragaram Metro,16,20
-S00049,Poonamallee Government Hospital Metro,S00030,Vadapalani,32,40
-S00043,Porur Bypass Metro,S00045,Iyappanthangal Metro,8,10
-S00043,Porur Bypass Metro,S00048,Karayanchavadi Metro,16,20
-S00043,Porur Bypass Metro,S00046,Kattupakkam Metro,16,20
-S00043,Porur Bypass Metro,S00047,Kumananchavadi Metro,16,20
-S00043,Porur Bypass Metro,S00050,Poonamallee Bus Stand Metro,24,30
-S00043,Porur Bypass Metro,S00051,Poonamallee Bypass Metro,24,30
-S00043,Porur Bypass Metro,S00049,Poonamallee Government Hospital Metro,24,30
-S00043,Porur Bypass Metro,S00042,Porur Junction Metro,8,10
-S00043,Porur Bypass Metro,S00044,Thelliyaragaram Metro,8,10
-S00043,Porur Bypass Metro,S00030,Vadapalani,24,30
-S00042,Porur Junction Metro,S00045,Iyappanthangal Metro,16,20
-S00042,Porur Junction Metro,S00048,Karayanchavadi Metro,24,30
-S00042,Porur Junction Metro,S00046,Kattupakkam Metro,16,20
-S00042,Porur Junction Metro,S00047,Kumananchavadi Metro,16,20
-S00042,Porur Junction Metro,S00050,Poonamallee Bus Stand Metro,24,30
-S00042,Porur Junction Metro,S00051,Poonamallee Bypass Metro,24,30
-S00042,Porur Junction Metro,S00049,Poonamallee Government Hospital Metro,24,30
-S00042,Porur Junction Metro,S00043,Porur Bypass Metro,8,10
-S00042,Porur Junction Metro,S00044,Thelliyaragaram Metro,8,10
-S00042,Porur Junction Metro,S00030,Vadapalani,24,30
-S00020,Saidapet,S00017,AG-DMS,16,20
-S00020,Saidapet,S00026,Airport Metro,24,30
-S00020,Saidapet,S00023,Alandur Metro,16,20
-S00020,Saidapet,S00013,Chennai Central Metro,24,30
-S00020,Saidapet,S00014,Government Estate,24,30
-S00020,Saidapet,S00022,Guindy,16,20
-S00020,Saidapet,S00012,High Court,24,30
-S00020,Saidapet,S00006,Kaladipet,32,40
-S00020,Saidapet,S00015,LIC,24,30
-S00020,Saidapet,S00021,Little Mount,8,10
-S00020,Saidapet,S00011,Mannadi,24,30
-S00020,Saidapet,S00025,Meenambakkam,24,30
-S00020,Saidapet,S00019,Nandanam,8,10
-S00020,Saidapet,S00024,Nanganallur Road,16,20
-S00020,Saidapet,S00004,New Washermenpet,32,40
-S00020,Saidapet,S00018,Teynampet,16,20
-S00020,Saidapet,S00008,Thiruvotriyur,32,40
-S00020,Saidapet,S00007,Thiruvotriyur Theradi,32,40
-S00020,Saidapet,S00002,Thiyagaraya College,32,40
-S00020,Saidapet,S00016,Thousand Lights,24,30
-S00020,Saidapet,S00005,Tollgate Metro,32,40
-S00020,Saidapet,S00003,Tondiarpet,32,40
-S00020,Saidapet,S00001,Washermenpet,32,40
-S00020,Saidapet,S00009,Wimco Nagar,40,50
-S00020,Saidapet,S00010,Wimco Nagar Depot,40,50
-S00034,Shenoy Nagar,S00026,Airport Metro,32,40
-S00034,Shenoy Nagar,S00023,Alandur Metro,32,40
-S00034,Shenoy Nagar,S00041,Anna Nagar East,8,10
-S00034,Shenoy Nagar,S00040,Anna Nagar Tower,16,20
-S00034,Shenoy Nagar,S00029,Arumbakkam,24,30
-S00034,Shenoy Nagar,S00031,Ashok Nagar,24,30
-S00034,Shenoy Nagar,S00028,CMBT Metro,24,30
-S00034,Shenoy Nagar,S00013,Chennai Central Metro,24,30
-S00034,Shenoy Nagar,S00038,Egmore Metro,16,20
-S00034,Shenoy Nagar,S00032,Ekkattuthangal,32,40
-S00034,Shenoy Nagar,S00036,Kilpauk,16,20
-S00034,Shenoy Nagar,S00027,Koyambedu,16,20
-S00034,Shenoy Nagar,S00025,Meenambakkam,32,40
-S00034,Shenoy Nagar,S00024,Nanganallur Road,32,40
-S00034,Shenoy Nagar,S00037,Nehru Park,16,20
-S00034,Shenoy Nagar,S00035,Pachaiyappa's College,8,10
-S00034,Shenoy Nagar,S00033,St.Thomas Mount,32,40
-S00034,Shenoy Nagar,S00039,Thirumangalam,16,20
-S00034,Shenoy Nagar,S00030,Vadapalani,24,30
-S00033,St.Thomas Mount,S00026,Airport Metro,24,30
-S00033,St.Thomas Mount,S00023,Alandur Metro,8,10
-S00033,St.Thomas Mount,S00041,Anna Nagar East,32,40
-S00033,St.Thomas Mount,S00040,Anna Nagar Tower,32,40
-S00033,St.Thomas Mount,S00029,Arumbakkam,24,30
-S00033,St.Thomas Mount,S00031,Ashok Nagar,16,20
-S00033,St.Thomas Mount,S00028,CMBT Metro,24,30
-S00033,St.Thomas Mount,S00013,Chennai Central Metro,32,40
-S00033,St.Thomas Mount,S00038,Egmore Metro,32,40
-S00033,St.Thomas Mount,S00032,Ekkattuthangal,16,20
-S00033,St.Thomas Mount,S00036,Kilpauk,32,40
-S00033,St.Thomas Mount,S00027,Koyambedu,24,30
-S00033,St.Thomas Mount,S00025,Meenambakkam,16,20
-S00033,St.Thomas Mount,S00024,Nanganallur Road,16,20
-S00033,St.Thomas Mount,S00037,Nehru Park,32,40
-S00033,St.Thomas Mount,S00035,Pachaiyappa's College,32,40
-S00033,St.Thomas Mount,S00034,Shenoy Nagar,32,40
-S00033,St.Thomas Mount,S00033,St.Thomas Mount,8,10
-S00033,St.Thomas Mount,S00039,Thirumangalam,32,40
-S00033,St.Thomas Mount,S00030,Vadapalani,24,30
-S00018,Teynampet,S00017,AG-DMS,8,10
-S00018,Teynampet,S00026,Airport Metro,24,30
-S00018,Teynampet,S00023,Alandur Metro,24,30
-S00018,Teynampet,S00013,Chennai Central Metro,24,30
-S00018,Teynampet,S00014,Government Estate,16,20
-S00018,Teynampet,S00022,Guindy,16,20
-S00018,Teynampet,S00012,High Court,24,30
-S00018,Teynampet,S00006,Kaladipet,32,40
-S00018,Teynampet,S00015,LIC,16,20
-S00018,Teynampet,S00021,Little Mount,16,20
-S00018,Teynampet,S00011,Mannadi,24,30
-S00018,Teynampet,S00025,Meenambakkam,24,30
-S00018,Teynampet,S00019,Nandanam,8,10
-S00018,Teynampet,S00024,Nanganallur Road,24,30
-S00018,Teynampet,S00004,New Washermenpet,32,40
-S00018,Teynampet,S00020,Saidapet,16,20
-S00018,Teynampet,S00008,Thiruvotriyur,32,40
-S00018,Teynampet,S00007,Thiruvotriyur Theradi,32,40
-S00018,Teynampet,S00002,Thiyagaraya College,24,30
-S00018,Teynampet,S00016,Thousand Lights,16,20
-S00018,Teynampet,S00005,Tollgate Metro,32,40
-S00018,Teynampet,S00003,Tondiarpet,32,40
-S00018,Teynampet,S00001,Washermenpet,24,30
-S00018,Teynampet,S00009,Wimco Nagar,32,40
-S00018,Teynampet,S00010,Wimco Nagar Depot,32,40
-S00044,Thelliyaragaram Metro,S00045,Iyappanthangal Metro,8,10
-S00044,Thelliyaragaram Metro,S00048,Karayanchavadi Metro,16,20
-S00044,Thelliyaragaram Metro,S00046,Kattupakkam Metro,8,10
-S00044,Thelliyaragaram Metro,S00047,Kumananchavadi Metro,16,20
-S00044,Thelliyaragaram Metro,S00050,Poonamallee Bus Stand Metro,24,30
-S00044,Thelliyaragaram Metro,S00051,Poonamallee Bypass Metro,24,30
-S00044,Thelliyaragaram Metro,S00049,Poonamallee Government Hospital Metro,16,20
-S00044,Thelliyaragaram Metro,S00043,Porur Bypass Metro,8,10
-S00044,Thelliyaragaram Metro,S00042,Porur Junction Metro,8,10
-S00044,Thelliyaragaram Metro,S00030,Vadapalani,24,30
-S00039,Thirumangalam,S00026,Airport Metro,32,40
-S00039,Thirumangalam,S00023,Alandur Metro,24,30
-S00039,Thirumangalam,S00041,Anna Nagar East,8,10
-S00039,Thirumangalam,S00040,Anna Nagar Tower,8,10
-S00039,Thirumangalam,S00029,Arumbakkam,16,20
-S00039,Thirumangalam,S00031,Ashok Nagar,24,30
-S00039,Thirumangalam,S00028,CMBT Metro,16,20
-S00039,Thirumangalam,S00013,Chennai Central Metro,24,30
-S00039,Thirumangalam,S00038,Egmore Metro,24,30
-S00039,Thirumangalam,S00032,Ekkattuthangal,24,30
-S00039,Thirumangalam,S00036,Kilpauk,24,30
-S00039,Thirumangalam,S00027,Koyambedu,8,10
-S00039,Thirumangalam,S00025,Meenambakkam,32,40
-S00039,Thirumangalam,S00024,Nanganallur Road,32,40
-S00039,Thirumangalam,S00037,Nehru Park,24,30
-S00039,Thirumangalam,S00035,Pachaiyappa's College,16,20
-S00039,Thirumangalam,S00034,Shenoy Nagar,16,20
-S00039,Thirumangalam,S00033,St.Thomas Mount,32,40
-S00039,Thirumangalam,S00030,Vadapalani,24,30
-S00008,Thiruvotriyur,S00017,AG-DMS,32,40
-S00008,Thiruvotriyur,S00026,Airport Metro,40,50
-S00008,Thiruvotriyur,S00023,Alandur Metro,40,50
-S00008,Thiruvotriyur,S00013,Chennai Central Metro,24,30
-S00008,Thiruvotriyur,S00014,Government Estate,32,40
-S00008,Thiruvotriyur,S00022,Guindy,40,50
-S00008,Thiruvotriyur,S00012,High Court,24,30
-S00008,Thiruvotriyur,S00006,Kaladipet,16,20
-S00008,Thiruvotriyur,S00015,LIC,32,40
-S00008,Thiruvotriyur,S00021,Little Mount,40,50
-S00008,Thiruvotriyur,S00011,Mannadi,24,30
-S00008,Thiruvotriyur,S00025,Meenambakkam,40,50
-S00008,Thiruvotriyur,S00019,Nandanam,32,40
-S00008,Thiruvotriyur,S00024,Nanganallur Road,40,50
-S00008,Thiruvotriyur,S00004,New Washermenpet,16,20
-S00008,Thiruvotriyur,S00020,Saidapet,32,40
-S00008,Thiruvotriyur,S00018,Teynampet,32,40
-S00008,Thiruvotriyur,S00007,Thiruvotriyur Theradi,8,10
-S00008,Thiruvotriyur,S00002,Thiyagaraya College,24,30
-S00008,Thiruvotriyur,S00016,Thousand Lights,32,40
-S00008,Thiruvotriyur,S00005,Tollgate Metro,16,20
-S00008,Thiruvotriyur,S00003,Tondiarpet,24,30
-S00008,Thiruvotriyur,S00001,Washermenpet,24,30
-S00008,Thiruvotriyur,S00009,Wimco Nagar,8,10
-S00008,Thiruvotriyur,S00010,Wimco Nagar Depot,8,10
-S00007,Thiruvotriyur Theradi,S00017,AG-DMS,32,40
-S00007,Thiruvotriyur Theradi,S00026,Airport Metro,40,50
-S00007,Thiruvotriyur Theradi,S00023,Alandur Metro,40,50
-S00007,Thiruvotriyur Theradi,S00013,Chennai Central Metro,24,30
-S00007,Thiruvotriyur Theradi,S00014,Government Estate,32,40
-S00007,Thiruvotriyur Theradi,S00022,Guindy,40,50
-S00007,Thiruvotriyur Theradi,S00012,High Court,24,30
-S00007,Thiruvotriyur Theradi,S00006,Kaladipet,8,10
-S00007,Thiruvotriyur Theradi,S00015,LIC,32,40
-S00007,Thiruvotriyur Theradi,S00021,Little Mount,32,40
-S00007,Thiruvotriyur Theradi,S00011,Mannadi,24,30
-S00007,Thiruvotriyur Theradi,S00025,Meenambakkam,40,50
-S00007,Thiruvotriyur Theradi,S00019,Nandanam,32,40
-S00007,Thiruvotriyur Theradi,S00024,Nanganallur Road,40,50
-S00007,Thiruvotriyur Theradi,S00004,New Washermenpet,16,20
-S00007,Thiruvotriyur Theradi,S00020,Saidapet,32,40
-S00007,Thiruvotriyur Theradi,S00018,Teynampet,32,40
-S00007,Thiruvotriyur Theradi,S00008,Thiruvotriyur,8,10
-S00007,Thiruvotriyur Theradi,S00002,Thiyagaraya College,16,20
-S00007,Thiruvotriyur Theradi,S00016,Thousand Lights,32,40
-S00007,Thiruvotriyur Theradi,S00005,Tollgate Metro,8,10
-S00007,Thiruvotriyur Theradi,S00003,Tondiarpet,16,20
-S00007,Thiruvotriyur Theradi,S00001,Washermenpet,24,30
-S00007,Thiruvotriyur Theradi,S00009,Wimco Nagar,16,20
-S00007,Thiruvotriyur Theradi,S00010,Wimco Nagar Depot,16,20
-S00002,Thiyagaraya College,S00017,AG-DMS,24,30
-S00002,Thiyagaraya College,S00026,Airport Metro,40,50
-S00002,Thiyagaraya College,S00023,Alandur Metro,32,40
-S00002,Thiyagaraya College,S00013,Chennai Central Metro,24,30
-S00002,Thiyagaraya College,S00014,Government Estate,24,30
-S00002,Thiyagaraya College,S00022,Guindy,32,40
-S00002,Thiyagaraya College,S00012,High Court,16,20
-S00002,Thiyagaraya College,S00006,Kaladipet,16,20
-S00002,Thiyagaraya College,S00015,LIC,24,30
-S00002,Thiyagaraya College,S00021,Little Mount,32,40
-S00002,Thiyagaraya College,S00011,Mannadi,16,20
-S00002,Thiyagaraya College,S00025,Meenambakkam,40,50
-S00002,Thiyagaraya College,S00019,Nandanam,32,40
-S00002,Thiyagaraya College,S00024,Nanganallur Road,32,40
-S00002,Thiyagaraya College,S00004,New Washermenpet,8,10
-S00002,Thiyagaraya College,S00020,Saidapet,32,40
-S00002,Thiyagaraya College,S00018,Teynampet,24,30
-S00002,Thiyagaraya College,S00008,Thiruvotriyur,24,30
-S00002,Thiyagaraya College,S00007,Thiruvotriyur Theradi,16,20
-S00002,Thiyagaraya College,S00016,Thousand Lights,24,30
-S00002,Thiyagaraya College,S00005,Tollgate Metro,16,20
-S00002,Thiyagaraya College,S00003,Tondiarpet,8,10
-S00002,Thiyagaraya College,S00001,Washermenpet,8,10
-S00002,Thiyagaraya College,S00009,Wimco Nagar,24,30
-S00002,Thiyagaraya College,S00010,Wimco Nagar Depot,24,30
-S00016,Thousand Lights,S00017,AG-DMS,8,10
-S00016,Thousand Lights,S00026,Airport Metro,32,40
-S00016,Thousand Lights,S00023,Alandur Metro,24,30
-S00016,Thousand Lights,S00013,Chennai Central Metro,16,20
-S00016,Thousand Lights,S00014,Government Estate,8,10
-S00016,Thousand Lights,S00022,Guindy,24,30
-S00016,Thousand Lights,S00012,High Court,24,30
-S00016,Thousand Lights,S00006,Kaladipet,32,40
-S00016,Thousand Lights,S00015,LIC,8,10
-S00016,Thousand Lights,S00021,Little Mount,24,30
-S00016,Thousand Lights,S00011,Mannadi,24,30
-S00016,Thousand Lights,S00025,Meenambakkam,32,40
-S00016,Thousand Lights,S00019,Nandanam,16,20
-S00016,Thousand Lights,S00024,Nanganallur Road,24,30
-S00016,Thousand Lights,S00004,New Washermenpet,24,30
-S00016,Thousand Lights,S00020,Saidapet,24,30
-S00016,Thousand Lights,S00018,Teynampet,16,20
-S00016,Thousand Lights,S00008,Thiruvotriyur,32,40
-S00016,Thousand Lights,S00007,Thiruvotriyur Theradi,32,40
-S00016,Thousand Lights,S00002,Thiyagaraya College,24,30
-S00016,Thousand Lights,S00005,Tollgate Metro,32,40
-S00016,Thousand Lights,S00003,Tondiarpet,24,30
-S00016,Thousand Lights,S00001,Washermenpet,24,30
-S00016,Thousand Lights,S00009,Wimco Nagar,32,40
-S00016,Thousand Lights,S00010,Wimco Nagar Depot,32,40
-S00005,Tollgate Metro,S00017,AG-DMS,32,40
-S00005,Tollgate Metro,S00026,Airport Metro,40,50
-S00005,Tollgate Metro,S00023,Alandur Metro,40,50
-S00005,Tollgate Metro,S00013,Chennai Central Metro,24,30
-S00005,Tollgate Metro,S00014,Government Estate,24,30
-S00005,Tollgate Metro,S00022,Guindy,32,40
-S00005,Tollgate Metro,S00012,High Court,24,30
-S00005,Tollgate Metro,S00006,Kaladipet,8,10
-S00005,Tollgate Metro,S00015,LIC,24,30
-S00005,Tollgate Metro,S00021,Little Mount,32,40
-S00005,Tollgate Metro,S00011,Mannadi,24,30
-S00005,Tollgate Metro,S00025,Meenambakkam,40,50
-S00005,Tollgate Metro,S00019,Nandanam,32,40
-S00005,Tollgate Metro,S00024,Nanganallur Road,40,50
-S00005,Tollgate Metro,S00004,New Washermenpet,8,10
-S00005,Tollgate Metro,S00020,Saidapet,32,40
-S00005,Tollgate Metro,S00018,Teynampet,32,40
-S00005,Tollgate Metro,S00008,Thiruvotriyur,16,20
-S00005,Tollgate Metro,S00007,Thiruvotriyur Theradi,8,10
-S00005,Tollgate Metro,S00002,Thiyagaraya College,16,20
-S00005,Tollgate Metro,S00016,Thousand Lights,32,40
-S00005,Tollgate Metro,S00003,Tondiarpet,16,20
-S00005,Tollgate Metro,S00001,Washermenpet,16,20
-S00005,Tollgate Metro,S00009,Wimco Nagar,16,20
-S00005,Tollgate Metro,S00010,Wimco Nagar Depot,16,20
-S00003,Tondiarpet,S00017,AG-DMS,24,30
-S00003,Tondiarpet,S00026,Airport Metro,40,50
-S00003,Tondiarpet,S00023,Alandur Metro,32,40
-S00003,Tondiarpet,S00013,Chennai Central Metro,24,30
-S00003,Tondiarpet,S00014,Government Estate,24,30
-S00003,Tondiarpet,S00022,Guindy,32,40
-S00003,Tondiarpet,S00012,High Court,16,20
-S00003,Tondiarpet,S00006,Kaladipet,16,20
-S00003,Tondiarpet,S00015,LIC,24,30
-S00003,Tondiarpet,S00021,Little Mount,32,40
-S00003,Tondiarpet,S00011,Mannadi,16,20
-S00003,Tondiarpet,S00025,Meenambakkam,40,50
-S00003,Tondiarpet,S00019,Nandanam,32,40
-S00003,Tondiarpet,S00024,Nanganallur Road,32,40
-S00003,Tondiarpet,S00004,New Washermenpet,8,10
-S00003,Tondiarpet,S00020,Saidapet,32,40
-S00003,Tondiarpet,S00018,Teynampet,32,40
-S00003,Tondiarpet,S00008,Thiruvotriyur,24,30
-S00003,Tondiarpet,S00007,Thiruvotriyur Theradi,16,20
-S00003,Tondiarpet,S00002,Thiyagaraya College,8,10
-S00003,Tondiarpet,S00016,Thousand Lights,24,30
-S00003,Tondiarpet,S00005,Tollgate Metro,16,20
-S00003,Tondiarpet,S00001,Washermenpet,8,10
-S00003,Tondiarpet,S00009,Wimco Nagar,24,30
-S00003,Tondiarpet,S00010,Wimco Nagar Depot,24,30
-S00030,Vadapalani,S00026,Airport Metro,24,30
-S00030,Vadapalani,S00023,Alandur Metro,24,30
-S00030,Vadapalani,S00041,Anna Nagar East,24,30
-S00030,Vadapalani,S00040,Anna Nagar Tower,24,30
-S00030,Vadapalani,S00029,Arumbakkam,8,10
-S00030,Vadapalani,S00031,Ashok Nagar,8,10
-S00030,Vadapalani,S00028,CMBT Metro,16,20
-S00030,Vadapalani,S00013,Chennai Central Metro,32,40
-S00030,Vadapalani,S00038,Egmore Metro,32,40
-S00030,Vadapalani,S00032,Ekkattuthangal,16,20
-S00030,Vadapalani,S00045,Iyappanthangal Metro,24,30
-S00030,Vadapalani,S00048,Karayanchavadi Metro,24,30
-S00030,Vadapalani,S00046,Kattupakkam Metro,24,30
-S00030,Vadapalani,S00036,Kilpauk,24,30
-S00030,Vadapalani,S00027,Koyambedu,16,20
-S00030,Vadapalani,S00047,Kumananchavadi Metro,24,30
-S00030,Vadapalani,S00025,Meenambakkam,24,30
-S00030,Vadapalani,S00024,Nanganallur Road,24,30
-S00030,Vadapalani,S00037,Nehru Park,24,30
-S00030,Vadapalani,S00035,Pachaiyappa's College,24,30
-S00030,Vadapalani,S00050,Poonamallee Bus Stand Metro,32,40
-S00030,Vadapalani,S00051,Poonamallee Bypass Metro,32,40
-S00030,Vadapalani,S00049,Poonamallee Government Hospital Metro,32,40
-S00030,Vadapalani,S00043,Porur Bypass Metro,24,30
-S00030,Vadapalani,S00042,Porur Junction Metro,24,30
-S00030,Vadapalani,S00034,Shenoy Nagar,24,30
-S00030,Vadapalani,S00033,St.Thomas Mount,24,30
-S00030,Vadapalani,S00044,Thelliyaragaram Metro,24,30
-S00030,Vadapalani,S00039,Thirumangalam,24,30
-S00001,Washermenpet,S00017,AG-DMS,24,30
-S00001,Washermenpet,S00026,Airport Metro,40,50
-S00001,Washermenpet,S00023,Alandur Metro,32,40
-S00001,Washermenpet,S00013,Chennai Central Metro,16,20
-S00001,Washermenpet,S00014,Government Estate,24,30
-S00001,Washermenpet,S00022,Guindy,32,40
-S00001,Washermenpet,S00012,High Court,16,20
-S00001,Washermenpet,S00006,Kaladipet,16,20
-S00001,Washermenpet,S00015,LIC,24,30
-S00001,Washermenpet,S00021,Little Mount,32,40
-S00001,Washermenpet,S00011,Mannadi,8,10
-S00001,Washermenpet,S00025,Meenambakkam,32,40
-S00001,Washermenpet,S00019,Nandanam,24,30
-S00001,Washermenpet,S00024,Nanganallur Road,32,40
-S00001,Washermenpet,S00004,New Washermenpet,16,20
-S00001,Washermenpet,S00020,Saidapet,32,40
-S00001,Washermenpet,S00018,Teynampet,24,30
-S00001,Washermenpet,S00008,Thiruvotriyur,24,30
-S00001,Washermenpet,S00007,Thiruvotriyur Theradi,24,30
-S00001,Washermenpet,S00002,Thiyagaraya College,8,10
-S00001,Washermenpet,S00016,Thousand Lights,24,30
-S00001,Washermenpet,S00005,Tollgate Metro,16,20
-S00001,Washermenpet,S00003,Tondiarpet,8,10
-S00001,Washermenpet,S00009,Wimco Nagar,24,30
-S00001,Washermenpet,S00010,Wimco Nagar Depot,24,30
-S00009,Wimco Nagar,S00017,AG-DMS,32,40
-S00009,Wimco Nagar,S00026,Airport Metro,40,50
-S00009,Wimco Nagar,S00023,Alandur Metro,40,50
-S00009,Wimco Nagar,S00013,Chennai Central Metro,32,40
-S00009,Wimco Nagar,S00014,Government Estate,32,40
-S00009,Wimco Nagar,S00022,Guindy,40,50
-S00009,Wimco Nagar,S00012,High Court,24,30
-S00009,Wimco Nagar,S00006,Kaladipet,16,20
-S00009,Wimco Nagar,S00015,LIC,32,40
-S00009,Wimco Nagar,S00021,Little Mount,40,50
-S00009,Wimco Nagar,S00011,Mannadi,24,30
-S00009,Wimco Nagar,S00025,Meenambakkam,40,50
-S00009,Wimco Nagar,S00019,Nandanam,32,40
-S00009,Wimco Nagar,S00024,Nanganallur Road,40,50
-S00009,Wimco Nagar,S00004,New Washermenpet,24,30
-S00009,Wimco Nagar,S00020,Saidapet,40,50
-S00009,Wimco Nagar,S00018,Teynampet,32,40
-S00009,Wimco Nagar,S00008,Thiruvotriyur,8,10
-S00009,Wimco Nagar,S00007,Thiruvotriyur Theradi,16,20
-S00009,Wimco Nagar,S00002,Thiyagaraya College,24,30
-S00009,Wimco Nagar,S00016,Thousand Lights,32,40
-S00009,Wimco Nagar,S00005,Tollgate Metro,16,20
-S00009,Wimco Nagar,S00003,Tondiarpet,24,30
-S00009,Wimco Nagar,S00001,Washermenpet,24,30
-S00009,Wimco Nagar,S00010,Wimco Nagar Depot,8,10
-S00010,Wimco Nagar Depot,S00017,AG-DMS,32,40
-S00010,Wimco Nagar Depot,S00026,Airport Metro,40,50
-S00010,Wimco Nagar Depot,S00023,Alandur Metro,40,50
-S00010,Wimco Nagar Depot,S00013,Chennai Central Metro,32,40
-S00010,Wimco Nagar Depot,S00014,Government Estate,32,40
-S00010,Wimco Nagar Depot,S00022,Guindy,40,50
-S00010,Wimco Nagar Depot,S00012,High Court,24,30
-S00010,Wimco Nagar Depot,S00006,Kaladipet,16,20
-S00010,Wimco Nagar Depot,S00015,LIC,32,40
-S00010,Wimco Nagar Depot,S00021,Little Mount,40,50
-S00010,Wimco Nagar Depot,S00011,Mannadi,24,30
-S00010,Wimco Nagar Depot,S00025,Meenambakkam,40,50
-S00010,Wimco Nagar Depot,S00019,Nandanam,32,40
-S00010,Wimco Nagar Depot,S00024,Nanganallur Road,40,50
-S00010,Wimco Nagar Depot,S00004,New Washermenpet,24,30
-S00010,Wimco Nagar Depot,S00020,Saidapet,40,50
-S00010,Wimco Nagar Depot,S00018,Teynampet,32,40
-S00010,Wimco Nagar Depot,S00008,Thiruvotriyur,8,10
-S00010,Wimco Nagar Depot,S00007,Thiruvotriyur Theradi,16,20
-S00010,Wimco Nagar Depot,S00002,Thiyagaraya College,24,30
-S00010,Wimco Nagar Depot,S00016,Thousand Lights,32,40
-S00010,Wimco Nagar Depot,S00005,Tollgate Metro,16,20
-S00010,Wimco Nagar Depot,S00003,Tondiarpet,24,30
-S00010,Wimco Nagar Depot,S00001,Washermenpet,24,30
-S00010,Wimco Nagar Depot,S00009,Wimco Nagar,8,10
-S00010,Wimco Nagar Depot,S00010,Wimco Nagar Depot,8,10
+from_stop_id,from_name,to_stop_id,to_name,ordinary_app_price,ordinary_adult,source
+S00017,AG-DMS,S00026,Airport Metro,32,40,chennai-one
+S00017,AG-DMS,S00023,Alandur Metro,24,30,chennai-one
+S00017,AG-DMS,S00041,Anna Nagar East,32,40,cumta
+S00017,AG-DMS,S00040,Anna Nagar Tower,32,40,cumta
+S00017,AG-DMS,S00029,Arumbakkam,32,40,cumta
+S00017,AG-DMS,S00031,Ashok Nagar,24,30,cumta
+S00017,AG-DMS,S00028,CMBT Metro,32,40,cumta
+S00017,AG-DMS,S00013,Chennai Central Metro,24,30,chennai-one
+S00017,AG-DMS,S00038,Egmore Metro,24,30,cumta
+S00017,AG-DMS,S00032,Ekkattuthangal,24,30,cumta
+S00017,AG-DMS,S00014,Government Estate,16,20,chennai-one
+S00017,AG-DMS,S00022,Guindy,24,30,chennai-one
+S00017,AG-DMS,S00012,High Court,24,30,chennai-one
+S00017,AG-DMS,S00006,Kaladipet,32,40,chennai-one
+S00017,AG-DMS,S00036,Kilpauk,24,30,cumta
+S00017,AG-DMS,S00027,Koyambedu,32,40,cumta
+S00017,AG-DMS,S00015,LIC,16,20,chennai-one
+S00017,AG-DMS,S00021,Little Mount,16,20,chennai-one
+S00017,AG-DMS,S00011,Mannadi,24,30,chennai-one
+S00017,AG-DMS,S00025,Meenambakkam,24,30,chennai-one
+S00017,AG-DMS,S00019,Nandanam,8,10,chennai-one
+S00017,AG-DMS,S00024,Nanganallur Road,24,30,chennai-one
+S00017,AG-DMS,S00037,Nehru Park,24,30,cumta
+S00017,AG-DMS,S00004,New Washermenpet,32,40,chennai-one
+S00017,AG-DMS,S00035,Pachaiyappa's College,24,30,cumta
+S00017,AG-DMS,S00020,Saidapet,16,20,chennai-one
+S00017,AG-DMS,S00034,Shenoy Nagar,24,30,cumta
+S00017,AG-DMS,S00033,St.Thomas Mount,24,30,cumta
+S00017,AG-DMS,S00018,Teynampet,8,10,chennai-one
+S00017,AG-DMS,S00039,Thirumangalam,32,40,cumta
+S00017,AG-DMS,S00008,Thiruvotriyur,32,40,chennai-one
+S00017,AG-DMS,S00007,Thiruvotriyur Theradi,32,40,chennai-one
+S00017,AG-DMS,S00002,Thiyagaraya College,24,30,chennai-one
+S00017,AG-DMS,S00016,Thousand Lights,8,10,chennai-one
+S00017,AG-DMS,S00005,Tollgate Metro,32,40,chennai-one
+S00017,AG-DMS,S00003,Tondiarpet,24,30,chennai-one
+S00017,AG-DMS,S00030,Vadapalani,32,40,cumta
+S00017,AG-DMS,S00001,Washermenpet,24,30,chennai-one
+S00017,AG-DMS,S00009,Wimco Nagar,32,40,chennai-one
+S00017,AG-DMS,S00010,Wimco Nagar Depot,32,40,chennai-one
+S00026,Airport Metro,S00017,AG-DMS,32,40,chennai-one
+S00026,Airport Metro,S00023,Alandur Metro,16,20,chennai-one
+S00026,Airport Metro,S00041,Anna Nagar East,32,40,chennai-one
+S00026,Airport Metro,S00040,Anna Nagar Tower,32,40,chennai-one
+S00026,Airport Metro,S00029,Arumbakkam,24,30,chennai-one
+S00026,Airport Metro,S00031,Ashok Nagar,24,30,chennai-one
+S00026,Airport Metro,S00028,CMBT Metro,32,40,chennai-one
+S00026,Airport Metro,S00013,Chennai Central Metro,32,40,chennai-one
+S00026,Airport Metro,S00038,Egmore Metro,32,40,chennai-one
+S00026,Airport Metro,S00032,Ekkattuthangal,24,30,chennai-one
+S00026,Airport Metro,S00014,Government Estate,32,40,chennai-one
+S00026,Airport Metro,S00022,Guindy,24,30,chennai-one
+S00026,Airport Metro,S00012,High Court,32,40,chennai-one
+S00026,Airport Metro,S00006,Kaladipet,40,50,chennai-one
+S00026,Airport Metro,S00036,Kilpauk,40,50,chennai-one
+S00026,Airport Metro,S00027,Koyambedu,32,40,chennai-one
+S00026,Airport Metro,S00015,LIC,32,40,chennai-one
+S00026,Airport Metro,S00021,Little Mount,24,30,chennai-one
+S00026,Airport Metro,S00011,Mannadi,32,40,chennai-one
+S00026,Airport Metro,S00025,Meenambakkam,8,10,chennai-one
+S00026,Airport Metro,S00019,Nandanam,24,30,chennai-one
+S00026,Airport Metro,S00024,Nanganallur Road,16,20,chennai-one
+S00026,Airport Metro,S00037,Nehru Park,32,40,chennai-one
+S00026,Airport Metro,S00004,New Washermenpet,40,50,chennai-one
+S00026,Airport Metro,S00035,Pachaiyappa's College,32,40,chennai-one
+S00026,Airport Metro,S00020,Saidapet,24,30,chennai-one
+S00026,Airport Metro,S00034,Shenoy Nagar,32,40,chennai-one
+S00026,Airport Metro,S00033,St.Thomas Mount,24,30,chennai-one
+S00026,Airport Metro,S00018,Teynampet,24,30,chennai-one
+S00026,Airport Metro,S00039,Thirumangalam,32,40,chennai-one
+S00026,Airport Metro,S00008,Thiruvotriyur,40,50,chennai-one
+S00026,Airport Metro,S00007,Thiruvotriyur Theradi,40,50,chennai-one
+S00026,Airport Metro,S00002,Thiyagaraya College,40,50,chennai-one
+S00026,Airport Metro,S00016,Thousand Lights,32,40,chennai-one
+S00026,Airport Metro,S00005,Tollgate Metro,40,50,chennai-one
+S00026,Airport Metro,S00003,Tondiarpet,40,50,chennai-one
+S00026,Airport Metro,S00030,Vadapalani,24,30,chennai-one
+S00026,Airport Metro,S00001,Washermenpet,40,50,chennai-one
+S00026,Airport Metro,S00009,Wimco Nagar,40,50,chennai-one
+S00026,Airport Metro,S00010,Wimco Nagar Depot,40,50,chennai-one
+S00023,Alandur Metro,S00017,AG-DMS,24,30,chennai-one
+S00023,Alandur Metro,S00026,Airport Metro,16,20,chennai-one
+S00023,Alandur Metro,S00041,Anna Nagar East,32,40,chennai-one
+S00023,Alandur Metro,S00040,Anna Nagar Tower,24,30,chennai-one
+S00023,Alandur Metro,S00029,Arumbakkam,24,30,chennai-one
+S00023,Alandur Metro,S00031,Ashok Nagar,16,20,chennai-one
+S00023,Alandur Metro,S00028,CMBT Metro,24,30,chennai-one
+S00023,Alandur Metro,S00013,Chennai Central Metro,32,40,chennai-one
+S00023,Alandur Metro,S00038,Egmore Metro,32,40,chennai-one
+S00023,Alandur Metro,S00032,Ekkattuthangal,8,10,chennai-one
+S00023,Alandur Metro,S00014,Government Estate,24,30,chennai-one
+S00023,Alandur Metro,S00022,Guindy,8,10,chennai-one
+S00023,Alandur Metro,S00012,High Court,32,40,chennai-one
+S00023,Alandur Metro,S00006,Kaladipet,40,50,chennai-one
+S00023,Alandur Metro,S00036,Kilpauk,32,40,chennai-one
+S00023,Alandur Metro,S00027,Koyambedu,24,30,chennai-one
+S00023,Alandur Metro,S00015,LIC,24,30,chennai-one
+S00023,Alandur Metro,S00021,Little Mount,16,20,chennai-one
+S00023,Alandur Metro,S00011,Mannadi,32,40,chennai-one
+S00023,Alandur Metro,S00025,Meenambakkam,16,20,chennai-one
+S00023,Alandur Metro,S00019,Nandanam,24,30,chennai-one
+S00023,Alandur Metro,S00024,Nanganallur Road,8,10,chennai-one
+S00023,Alandur Metro,S00037,Nehru Park,32,40,chennai-one
+S00023,Alandur Metro,S00004,New Washermenpet,32,40,chennai-one
+S00023,Alandur Metro,S00035,Pachaiyappa's College,32,40,chennai-one
+S00023,Alandur Metro,S00020,Saidapet,16,20,chennai-one
+S00023,Alandur Metro,S00034,Shenoy Nagar,32,40,chennai-one
+S00023,Alandur Metro,S00033,St.Thomas Mount,8,10,chennai-one
+S00023,Alandur Metro,S00018,Teynampet,24,30,chennai-one
+S00023,Alandur Metro,S00039,Thirumangalam,24,30,chennai-one
+S00023,Alandur Metro,S00008,Thiruvotriyur,40,50,chennai-one
+S00023,Alandur Metro,S00007,Thiruvotriyur Theradi,40,50,chennai-one
+S00023,Alandur Metro,S00002,Thiyagaraya College,32,40,chennai-one
+S00023,Alandur Metro,S00016,Thousand Lights,24,30,chennai-one
+S00023,Alandur Metro,S00005,Tollgate Metro,40,50,chennai-one
+S00023,Alandur Metro,S00003,Tondiarpet,32,40,chennai-one
+S00023,Alandur Metro,S00030,Vadapalani,24,30,chennai-one
+S00023,Alandur Metro,S00001,Washermenpet,32,40,chennai-one
+S00023,Alandur Metro,S00009,Wimco Nagar,40,50,chennai-one
+S00023,Alandur Metro,S00010,Wimco Nagar Depot,40,50,chennai-one
+S00041,Anna Nagar East,S00017,AG-DMS,32,40,cumta
+S00041,Anna Nagar East,S00026,Airport Metro,32,40,chennai-one
+S00041,Anna Nagar East,S00023,Alandur Metro,32,40,chennai-one
+S00041,Anna Nagar East,S00040,Anna Nagar Tower,8,10,chennai-one
+S00041,Anna Nagar East,S00029,Arumbakkam,24,30,chennai-one
+S00041,Anna Nagar East,S00031,Ashok Nagar,24,30,chennai-one
+S00041,Anna Nagar East,S00028,CMBT Metro,16,20,chennai-one
+S00041,Anna Nagar East,S00013,Chennai Central Metro,24,30,chennai-one
+S00041,Anna Nagar East,S00038,Egmore Metro,24,30,chennai-one
+S00041,Anna Nagar East,S00032,Ekkattuthangal,24,30,chennai-one
+S00041,Anna Nagar East,S00014,Government Estate,24,30,cumta
+S00041,Anna Nagar East,S00022,Guindy,32,40,cumta
+S00041,Anna Nagar East,S00012,High Court,24,30,cumta
+S00041,Anna Nagar East,S00006,Kaladipet,32,40,cumta
+S00041,Anna Nagar East,S00036,Kilpauk,16,20,chennai-one
+S00041,Anna Nagar East,S00027,Koyambedu,16,20,chennai-one
+S00041,Anna Nagar East,S00015,LIC,24,30,cumta
+S00041,Anna Nagar East,S00021,Little Mount,32,40,cumta
+S00041,Anna Nagar East,S00011,Mannadi,24,30,cumta
+S00041,Anna Nagar East,S00025,Meenambakkam,32,40,chennai-one
+S00041,Anna Nagar East,S00019,Nandanam,32,40,cumta
+S00041,Anna Nagar East,S00024,Nanganallur Road,32,40,chennai-one
+S00041,Anna Nagar East,S00037,Nehru Park,16,20,chennai-one
+S00041,Anna Nagar East,S00004,New Washermenpet,32,40,cumta
+S00041,Anna Nagar East,S00035,Pachaiyappa's College,16,20,chennai-one
+S00041,Anna Nagar East,S00020,Saidapet,32,40,cumta
+S00041,Anna Nagar East,S00034,Shenoy Nagar,8,10,chennai-one
+S00041,Anna Nagar East,S00033,St.Thomas Mount,32,40,chennai-one
+S00041,Anna Nagar East,S00018,Teynampet,32,40,cumta
+S00041,Anna Nagar East,S00039,Thirumangalam,8,10,chennai-one
+S00041,Anna Nagar East,S00008,Thiruvotriyur,32,40,cumta
+S00041,Anna Nagar East,S00007,Thiruvotriyur Theradi,32,40,cumta
+S00041,Anna Nagar East,S00002,Thiyagaraya College,24,30,cumta
+S00041,Anna Nagar East,S00016,Thousand Lights,24,30,cumta
+S00041,Anna Nagar East,S00005,Tollgate Metro,32,40,cumta
+S00041,Anna Nagar East,S00003,Tondiarpet,32,40,cumta
+S00041,Anna Nagar East,S00030,Vadapalani,24,30,chennai-one
+S00041,Anna Nagar East,S00001,Washermenpet,24,30,cumta
+S00041,Anna Nagar East,S00009,Wimco Nagar,32,40,cumta
+S00040,Anna Nagar Tower,S00017,AG-DMS,32,40,cumta
+S00040,Anna Nagar Tower,S00026,Airport Metro,32,40,chennai-one
+S00040,Anna Nagar Tower,S00023,Alandur Metro,24,30,chennai-one
+S00040,Anna Nagar Tower,S00041,Anna Nagar East,8,10,chennai-one
+S00040,Anna Nagar Tower,S00029,Arumbakkam,24,30,chennai-one
+S00040,Anna Nagar Tower,S00031,Ashok Nagar,24,30,chennai-one
+S00040,Anna Nagar Tower,S00028,CMBT Metro,16,20,chennai-one
+S00040,Anna Nagar Tower,S00013,Chennai Central Metro,24,30,chennai-one
+S00040,Anna Nagar Tower,S00038,Egmore Metro,24,30,chennai-one
+S00040,Anna Nagar Tower,S00032,Ekkattuthangal,24,30,chennai-one
+S00040,Anna Nagar Tower,S00014,Government Estate,24,30,cumta
+S00040,Anna Nagar Tower,S00022,Guindy,32,40,cumta
+S00040,Anna Nagar Tower,S00012,High Court,24,30,cumta
+S00040,Anna Nagar Tower,S00006,Kaladipet,32,40,cumta
+S00040,Anna Nagar Tower,S00036,Kilpauk,16,20,chennai-one
+S00040,Anna Nagar Tower,S00027,Koyambedu,16,20,chennai-one
+S00040,Anna Nagar Tower,S00015,LIC,24,30,cumta
+S00040,Anna Nagar Tower,S00021,Little Mount,32,40,cumta
+S00040,Anna Nagar Tower,S00011,Mannadi,24,30,cumta
+S00040,Anna Nagar Tower,S00025,Meenambakkam,32,40,chennai-one
+S00040,Anna Nagar Tower,S00019,Nandanam,32,40,cumta
+S00040,Anna Nagar Tower,S00024,Nanganallur Road,32,40,chennai-one
+S00040,Anna Nagar Tower,S00037,Nehru Park,24,30,chennai-one
+S00040,Anna Nagar Tower,S00004,New Washermenpet,32,40,cumta
+S00040,Anna Nagar Tower,S00035,Pachaiyappa's College,16,20,chennai-one
+S00040,Anna Nagar Tower,S00020,Saidapet,32,40,cumta
+S00040,Anna Nagar Tower,S00034,Shenoy Nagar,16,20,chennai-one
+S00040,Anna Nagar Tower,S00033,St.Thomas Mount,32,40,chennai-one
+S00040,Anna Nagar Tower,S00018,Teynampet,32,40,cumta
+S00040,Anna Nagar Tower,S00039,Thirumangalam,8,10,chennai-one
+S00040,Anna Nagar Tower,S00008,Thiruvotriyur,32,40,cumta
+S00040,Anna Nagar Tower,S00007,Thiruvotriyur Theradi,32,40,cumta
+S00040,Anna Nagar Tower,S00002,Thiyagaraya College,32,40,cumta
+S00040,Anna Nagar Tower,S00016,Thousand Lights,24,30,cumta
+S00040,Anna Nagar Tower,S00005,Tollgate Metro,32,40,cumta
+S00040,Anna Nagar Tower,S00003,Tondiarpet,32,40,cumta
+S00040,Anna Nagar Tower,S00030,Vadapalani,24,30,chennai-one
+S00040,Anna Nagar Tower,S00001,Washermenpet,32,40,cumta
+S00040,Anna Nagar Tower,S00009,Wimco Nagar,32,40,cumta
+S00029,Arumbakkam,S00017,AG-DMS,32,40,cumta
+S00029,Arumbakkam,S00026,Airport Metro,24,30,chennai-one
+S00029,Arumbakkam,S00023,Alandur Metro,24,30,chennai-one
+S00029,Arumbakkam,S00041,Anna Nagar East,24,30,chennai-one
+S00029,Arumbakkam,S00040,Anna Nagar Tower,24,30,chennai-one
+S00029,Arumbakkam,S00031,Ashok Nagar,16,20,chennai-one
+S00029,Arumbakkam,S00028,CMBT Metro,8,10,chennai-one
+S00029,Arumbakkam,S00013,Chennai Central Metro,32,40,chennai-one
+S00029,Arumbakkam,S00038,Egmore Metro,24,30,chennai-one
+S00029,Arumbakkam,S00032,Ekkattuthangal,24,30,chennai-one
+S00029,Arumbakkam,S00014,Government Estate,32,40,cumta
+S00029,Arumbakkam,S00022,Guindy,24,30,cumta
+S00029,Arumbakkam,S00012,High Court,32,40,cumta
+S00029,Arumbakkam,S00006,Kaladipet,40,50,cumta
+S00029,Arumbakkam,S00036,Kilpauk,24,30,chennai-one
+S00029,Arumbakkam,S00027,Koyambedu,16,20,chennai-one
+S00029,Arumbakkam,S00015,LIC,32,40,cumta
+S00029,Arumbakkam,S00021,Little Mount,24,30,cumta
+S00029,Arumbakkam,S00011,Mannadi,32,40,cumta
+S00029,Arumbakkam,S00025,Meenambakkam,24,30,chennai-one
+S00029,Arumbakkam,S00019,Nandanam,32,40,cumta
+S00029,Arumbakkam,S00024,Nanganallur Road,24,30,chennai-one
+S00029,Arumbakkam,S00037,Nehru Park,24,30,chennai-one
+S00029,Arumbakkam,S00004,New Washermenpet,32,40,cumta
+S00029,Arumbakkam,S00035,Pachaiyappa's College,24,30,chennai-one
+S00029,Arumbakkam,S00020,Saidapet,24,30,cumta
+S00029,Arumbakkam,S00034,Shenoy Nagar,24,30,chennai-one
+S00029,Arumbakkam,S00033,St.Thomas Mount,24,30,chennai-one
+S00029,Arumbakkam,S00018,Teynampet,32,40,cumta
+S00029,Arumbakkam,S00039,Thirumangalam,16,20,chennai-one
+S00029,Arumbakkam,S00008,Thiruvotriyur,40,50,cumta
+S00029,Arumbakkam,S00007,Thiruvotriyur Theradi,40,50,cumta
+S00029,Arumbakkam,S00002,Thiyagaraya College,32,40,cumta
+S00029,Arumbakkam,S00016,Thousand Lights,32,40,cumta
+S00029,Arumbakkam,S00005,Tollgate Metro,40,50,cumta
+S00029,Arumbakkam,S00003,Tondiarpet,32,40,cumta
+S00029,Arumbakkam,S00030,Vadapalani,8,10,chennai-one
+S00029,Arumbakkam,S00001,Washermenpet,32,40,cumta
+S00029,Arumbakkam,S00009,Wimco Nagar,40,50,cumta
+S00031,Ashok Nagar,S00017,AG-DMS,24,30,cumta
+S00031,Ashok Nagar,S00026,Airport Metro,24,30,chennai-one
+S00031,Ashok Nagar,S00023,Alandur Metro,16,20,chennai-one
+S00031,Ashok Nagar,S00041,Anna Nagar East,24,30,chennai-one
+S00031,Ashok Nagar,S00040,Anna Nagar Tower,24,30,chennai-one
+S00031,Ashok Nagar,S00029,Arumbakkam,16,20,chennai-one
+S00031,Ashok Nagar,S00028,CMBT Metro,16,20,chennai-one
+S00031,Ashok Nagar,S00013,Chennai Central Metro,32,40,chennai-one
+S00031,Ashok Nagar,S00038,Egmore Metro,32,40,chennai-one
+S00031,Ashok Nagar,S00032,Ekkattuthangal,16,20,chennai-one
+S00031,Ashok Nagar,S00014,Government Estate,32,40,cumta
+S00031,Ashok Nagar,S00022,Guindy,16,20,cumta
+S00031,Ashok Nagar,S00012,High Court,32,40,cumta
+S00031,Ashok Nagar,S00006,Kaladipet,40,50,cumta
+S00031,Ashok Nagar,S00036,Kilpauk,32,40,chennai-one
+S00031,Ashok Nagar,S00027,Koyambedu,24,30,chennai-one
+S00031,Ashok Nagar,S00015,LIC,32,40,cumta
+S00031,Ashok Nagar,S00021,Little Mount,24,30,cumta
+S00031,Ashok Nagar,S00011,Mannadi,32,40,cumta
+S00031,Ashok Nagar,S00025,Meenambakkam,24,30,chennai-one
+S00031,Ashok Nagar,S00019,Nandanam,24,30,cumta
+S00031,Ashok Nagar,S00024,Nanganallur Road,16,20,chennai-one
+S00031,Ashok Nagar,S00037,Nehru Park,32,40,chennai-one
+S00031,Ashok Nagar,S00004,New Washermenpet,40,50,cumta
+S00031,Ashok Nagar,S00035,Pachaiyappa's College,24,30,chennai-one
+S00031,Ashok Nagar,S00020,Saidapet,24,30,cumta
+S00031,Ashok Nagar,S00034,Shenoy Nagar,24,30,chennai-one
+S00031,Ashok Nagar,S00033,St.Thomas Mount,16,20,chennai-one
+S00031,Ashok Nagar,S00018,Teynampet,24,30,cumta
+S00031,Ashok Nagar,S00039,Thirumangalam,24,30,chennai-one
+S00031,Ashok Nagar,S00008,Thiruvotriyur,40,50,cumta
+S00031,Ashok Nagar,S00007,Thiruvotriyur Theradi,40,50,cumta
+S00031,Ashok Nagar,S00002,Thiyagaraya College,40,50,cumta
+S00031,Ashok Nagar,S00016,Thousand Lights,32,40,cumta
+S00031,Ashok Nagar,S00005,Tollgate Metro,40,50,cumta
+S00031,Ashok Nagar,S00003,Tondiarpet,40,50,cumta
+S00031,Ashok Nagar,S00030,Vadapalani,8,10,chennai-one
+S00031,Ashok Nagar,S00001,Washermenpet,32,40,cumta
+S00031,Ashok Nagar,S00009,Wimco Nagar,40,50,cumta
+S00028,CMBT Metro,S00017,AG-DMS,32,40,cumta
+S00028,CMBT Metro,S00026,Airport Metro,32,40,chennai-one
+S00028,CMBT Metro,S00023,Alandur Metro,24,30,chennai-one
+S00028,CMBT Metro,S00041,Anna Nagar East,16,20,chennai-one
+S00028,CMBT Metro,S00040,Anna Nagar Tower,16,20,chennai-one
+S00028,CMBT Metro,S00029,Arumbakkam,8,10,chennai-one
+S00028,CMBT Metro,S00031,Ashok Nagar,16,20,chennai-one
+S00028,CMBT Metro,S00013,Chennai Central Metro,24,30,chennai-one
+S00028,CMBT Metro,S00038,Egmore Metro,24,30,chennai-one
+S00028,CMBT Metro,S00032,Ekkattuthangal,24,30,chennai-one
+S00028,CMBT Metro,S00014,Government Estate,32,40,cumta
+S00028,CMBT Metro,S00022,Guindy,24,30,cumta
+S00028,CMBT Metro,S00012,High Court,32,40,cumta
+S00028,CMBT Metro,S00006,Kaladipet,40,50,cumta
+S00028,CMBT Metro,S00036,Kilpauk,24,30,chennai-one
+S00028,CMBT Metro,S00027,Koyambedu,8,10,chennai-one
+S00028,CMBT Metro,S00015,LIC,32,40,cumta
+S00028,CMBT Metro,S00021,Little Mount,24,30,cumta
+S00028,CMBT Metro,S00011,Mannadi,32,40,cumta
+S00028,CMBT Metro,S00025,Meenambakkam,24,30,chennai-one
+S00028,CMBT Metro,S00019,Nandanam,32,40,cumta
+S00028,CMBT Metro,S00024,Nanganallur Road,24,30,chennai-one
+S00028,CMBT Metro,S00037,Nehru Park,24,30,chennai-one
+S00028,CMBT Metro,S00004,New Washermenpet,32,40,cumta
+S00028,CMBT Metro,S00035,Pachaiyappa's College,24,30,chennai-one
+S00028,CMBT Metro,S00020,Saidapet,24,30,cumta
+S00028,CMBT Metro,S00034,Shenoy Nagar,24,30,chennai-one
+S00028,CMBT Metro,S00033,St.Thomas Mount,24,30,chennai-one
+S00028,CMBT Metro,S00018,Teynampet,32,40,cumta
+S00028,CMBT Metro,S00039,Thirumangalam,16,20,chennai-one
+S00028,CMBT Metro,S00008,Thiruvotriyur,40,50,cumta
+S00028,CMBT Metro,S00007,Thiruvotriyur Theradi,40,50,cumta
+S00028,CMBT Metro,S00002,Thiyagaraya College,32,40,cumta
+S00028,CMBT Metro,S00016,Thousand Lights,32,40,cumta
+S00028,CMBT Metro,S00005,Tollgate Metro,32,40,cumta
+S00028,CMBT Metro,S00003,Tondiarpet,32,40,cumta
+S00028,CMBT Metro,S00030,Vadapalani,16,20,chennai-one
+S00028,CMBT Metro,S00001,Washermenpet,32,40,cumta
+S00028,CMBT Metro,S00009,Wimco Nagar,40,50,cumta
+S00013,Chennai Central Metro,S00017,AG-DMS,24,30,chennai-one
+S00013,Chennai Central Metro,S00026,Airport Metro,32,40,chennai-one
+S00013,Chennai Central Metro,S00023,Alandur Metro,32,40,chennai-one
+S00013,Chennai Central Metro,S00041,Anna Nagar East,24,30,chennai-one
+S00013,Chennai Central Metro,S00040,Anna Nagar Tower,24,30,chennai-one
+S00013,Chennai Central Metro,S00029,Arumbakkam,32,40,chennai-one
+S00013,Chennai Central Metro,S00031,Ashok Nagar,32,40,chennai-one
+S00013,Chennai Central Metro,S00028,CMBT Metro,24,30,chennai-one
+S00013,Chennai Central Metro,S00038,Egmore Metro,8,10,chennai-one
+S00013,Chennai Central Metro,S00032,Ekkattuthangal,32,40,chennai-one
+S00013,Chennai Central Metro,S00014,Government Estate,8,10,chennai-one
+S00013,Chennai Central Metro,S00022,Guindy,24,30,chennai-one
+S00013,Chennai Central Metro,S00012,High Court,8,10,chennai-one
+S00013,Chennai Central Metro,S00006,Kaladipet,24,30,chennai-one
+S00013,Chennai Central Metro,S00036,Kilpauk,16,20,chennai-one
+S00013,Chennai Central Metro,S00027,Koyambedu,24,30,chennai-one
+S00013,Chennai Central Metro,S00015,LIC,16,20,chennai-one
+S00013,Chennai Central Metro,S00021,Little Mount,24,30,chennai-one
+S00013,Chennai Central Metro,S00011,Mannadi,16,20,chennai-one
+S00013,Chennai Central Metro,S00025,Meenambakkam,32,40,chennai-one
+S00013,Chennai Central Metro,S00019,Nandanam,24,30,chennai-one
+S00013,Chennai Central Metro,S00024,Nanganallur Road,32,40,chennai-one
+S00013,Chennai Central Metro,S00037,Nehru Park,16,20,chennai-one
+S00013,Chennai Central Metro,S00004,New Washermenpet,24,30,chennai-one
+S00013,Chennai Central Metro,S00035,Pachaiyappa's College,16,20,chennai-one
+S00013,Chennai Central Metro,S00020,Saidapet,24,30,chennai-one
+S00013,Chennai Central Metro,S00034,Shenoy Nagar,24,30,chennai-one
+S00013,Chennai Central Metro,S00033,St.Thomas Mount,32,40,chennai-one
+S00013,Chennai Central Metro,S00018,Teynampet,24,30,chennai-one
+S00013,Chennai Central Metro,S00039,Thirumangalam,24,30,chennai-one
+S00013,Chennai Central Metro,S00008,Thiruvotriyur,24,30,chennai-one
+S00013,Chennai Central Metro,S00007,Thiruvotriyur Theradi,24,30,chennai-one
+S00013,Chennai Central Metro,S00002,Thiyagaraya College,24,30,chennai-one
+S00013,Chennai Central Metro,S00016,Thousand Lights,16,20,chennai-one
+S00013,Chennai Central Metro,S00005,Tollgate Metro,24,30,chennai-one
+S00013,Chennai Central Metro,S00003,Tondiarpet,24,30,chennai-one
+S00013,Chennai Central Metro,S00030,Vadapalani,32,40,chennai-one
+S00013,Chennai Central Metro,S00001,Washermenpet,16,20,chennai-one
+S00013,Chennai Central Metro,S00009,Wimco Nagar,32,40,chennai-one
+S00013,Chennai Central Metro,S00010,Wimco Nagar Depot,32,40,chennai-one
+S00038,Egmore Metro,S00017,AG-DMS,24,30,cumta
+S00038,Egmore Metro,S00026,Airport Metro,32,40,chennai-one
+S00038,Egmore Metro,S00023,Alandur Metro,32,40,chennai-one
+S00038,Egmore Metro,S00041,Anna Nagar East,24,30,chennai-one
+S00038,Egmore Metro,S00040,Anna Nagar Tower,24,30,chennai-one
+S00038,Egmore Metro,S00029,Arumbakkam,24,30,chennai-one
+S00038,Egmore Metro,S00031,Ashok Nagar,32,40,chennai-one
+S00038,Egmore Metro,S00028,CMBT Metro,24,30,chennai-one
+S00038,Egmore Metro,S00013,Chennai Central Metro,8,10,chennai-one
+S00038,Egmore Metro,S00032,Ekkattuthangal,32,40,chennai-one
+S00038,Egmore Metro,S00014,Government Estate,16,20,cumta
+S00038,Egmore Metro,S00022,Guindy,32,40,cumta
+S00038,Egmore Metro,S00012,High Court,16,20,cumta
+S00038,Egmore Metro,S00006,Kaladipet,24,30,cumta
+S00038,Egmore Metro,S00036,Kilpauk,8,10,chennai-one
+S00038,Egmore Metro,S00027,Koyambedu,24,30,chennai-one
+S00038,Egmore Metro,S00015,LIC,16,20,cumta
+S00038,Egmore Metro,S00021,Little Mount,24,30,cumta
+S00038,Egmore Metro,S00011,Mannadi,16,20,cumta
+S00038,Egmore Metro,S00025,Meenambakkam,32,40,chennai-one
+S00038,Egmore Metro,S00019,Nandanam,24,30,cumta
+S00038,Egmore Metro,S00024,Nanganallur Road,32,40,chennai-one
+S00038,Egmore Metro,S00037,Nehru Park,8,10,chennai-one
+S00038,Egmore Metro,S00004,New Washermenpet,24,30,cumta
+S00038,Egmore Metro,S00035,Pachaiyappa's College,16,20,chennai-one
+S00038,Egmore Metro,S00020,Saidapet,24,30,cumta
+S00038,Egmore Metro,S00034,Shenoy Nagar,16,20,chennai-one
+S00038,Egmore Metro,S00033,St.Thomas Mount,32,40,chennai-one
+S00038,Egmore Metro,S00018,Teynampet,24,30,cumta
+S00038,Egmore Metro,S00039,Thirumangalam,24,30,chennai-one
+S00038,Egmore Metro,S00008,Thiruvotriyur,32,40,cumta
+S00038,Egmore Metro,S00007,Thiruvotriyur Theradi,24,30,cumta
+S00038,Egmore Metro,S00002,Thiyagaraya College,24,30,cumta
+S00038,Egmore Metro,S00016,Thousand Lights,24,30,cumta
+S00038,Egmore Metro,S00005,Tollgate Metro,24,30,cumta
+S00038,Egmore Metro,S00003,Tondiarpet,24,30,cumta
+S00038,Egmore Metro,S00030,Vadapalani,32,40,chennai-one
+S00038,Egmore Metro,S00001,Washermenpet,24,30,cumta
+S00038,Egmore Metro,S00009,Wimco Nagar,32,40,cumta
+S00032,Ekkattuthangal,S00017,AG-DMS,24,30,cumta
+S00032,Ekkattuthangal,S00026,Airport Metro,24,30,chennai-one
+S00032,Ekkattuthangal,S00023,Alandur Metro,8,10,chennai-one
+S00032,Ekkattuthangal,S00041,Anna Nagar East,24,30,chennai-one
+S00032,Ekkattuthangal,S00040,Anna Nagar Tower,24,30,chennai-one
+S00032,Ekkattuthangal,S00029,Arumbakkam,24,30,chennai-one
+S00032,Ekkattuthangal,S00031,Ashok Nagar,16,20,chennai-one
+S00032,Ekkattuthangal,S00028,CMBT Metro,24,30,chennai-one
+S00032,Ekkattuthangal,S00013,Chennai Central Metro,32,40,chennai-one
+S00032,Ekkattuthangal,S00038,Egmore Metro,32,40,chennai-one
+S00032,Ekkattuthangal,S00014,Government Estate,32,40,cumta
+S00032,Ekkattuthangal,S00022,Guindy,16,20,cumta
+S00032,Ekkattuthangal,S00012,High Court,32,40,cumta
+S00032,Ekkattuthangal,S00006,Kaladipet,40,50,cumta
+S00032,Ekkattuthangal,S00036,Kilpauk,32,40,chennai-one
+S00032,Ekkattuthangal,S00027,Koyambedu,24,30,chennai-one
+S00032,Ekkattuthangal,S00015,LIC,24,30,cumta
+S00032,Ekkattuthangal,S00021,Little Mount,16,20,cumta
+S00032,Ekkattuthangal,S00011,Mannadi,32,40,cumta
+S00032,Ekkattuthangal,S00025,Meenambakkam,16,20,chennai-one
+S00032,Ekkattuthangal,S00019,Nandanam,24,30,cumta
+S00032,Ekkattuthangal,S00024,Nanganallur Road,16,20,chennai-one
+S00032,Ekkattuthangal,S00037,Nehru Park,32,40,chennai-one
+S00032,Ekkattuthangal,S00004,New Washermenpet,40,50,cumta
+S00032,Ekkattuthangal,S00035,Pachaiyappa's College,32,40,chennai-one
+S00032,Ekkattuthangal,S00020,Saidapet,24,30,cumta
+S00032,Ekkattuthangal,S00034,Shenoy Nagar,32,40,chennai-one
+S00032,Ekkattuthangal,S00033,St.Thomas Mount,16,20,chennai-one
+S00032,Ekkattuthangal,S00018,Teynampet,24,30,cumta
+S00032,Ekkattuthangal,S00039,Thirumangalam,24,30,chennai-one
+S00032,Ekkattuthangal,S00008,Thiruvotriyur,40,50,cumta
+S00032,Ekkattuthangal,S00007,Thiruvotriyur Theradi,40,50,cumta
+S00032,Ekkattuthangal,S00002,Thiyagaraya College,32,40,cumta
+S00032,Ekkattuthangal,S00016,Thousand Lights,24,30,cumta
+S00032,Ekkattuthangal,S00005,Tollgate Metro,40,50,cumta
+S00032,Ekkattuthangal,S00003,Tondiarpet,32,40,cumta
+S00032,Ekkattuthangal,S00030,Vadapalani,16,20,chennai-one
+S00032,Ekkattuthangal,S00001,Washermenpet,32,40,cumta
+S00032,Ekkattuthangal,S00009,Wimco Nagar,40,50,cumta
+S00014,Government Estate,S00017,AG-DMS,16,20,chennai-one
+S00014,Government Estate,S00026,Airport Metro,32,40,chennai-one
+S00014,Government Estate,S00023,Alandur Metro,24,30,chennai-one
+S00014,Government Estate,S00041,Anna Nagar East,24,30,cumta
+S00014,Government Estate,S00040,Anna Nagar Tower,24,30,cumta
+S00014,Government Estate,S00029,Arumbakkam,32,40,cumta
+S00014,Government Estate,S00031,Ashok Nagar,32,40,cumta
+S00014,Government Estate,S00028,CMBT Metro,32,40,cumta
+S00014,Government Estate,S00013,Chennai Central Metro,8,10,chennai-one
+S00014,Government Estate,S00038,Egmore Metro,16,20,cumta
+S00014,Government Estate,S00032,Ekkattuthangal,32,40,cumta
+S00014,Government Estate,S00022,Guindy,24,30,chennai-one
+S00014,Government Estate,S00012,High Court,16,20,chennai-one
+S00014,Government Estate,S00006,Kaladipet,24,30,chennai-one
+S00014,Government Estate,S00036,Kilpauk,24,30,cumta
+S00014,Government Estate,S00027,Koyambedu,32,40,cumta
+S00014,Government Estate,S00015,LIC,8,10,chennai-one
+S00014,Government Estate,S00021,Little Mount,24,30,chennai-one
+S00014,Government Estate,S00011,Mannadi,16,20,chennai-one
+S00014,Government Estate,S00025,Meenambakkam,32,40,chennai-one
+S00014,Government Estate,S00019,Nandanam,24,30,chennai-one
+S00014,Government Estate,S00024,Nanganallur Road,32,40,chennai-one
+S00014,Government Estate,S00037,Nehru Park,16,20,cumta
+S00014,Government Estate,S00004,New Washermenpet,24,30,chennai-one
+S00014,Government Estate,S00035,Pachaiyappa's College,24,30,cumta
+S00014,Government Estate,S00020,Saidapet,24,30,chennai-one
+S00014,Government Estate,S00034,Shenoy Nagar,24,30,cumta
+S00014,Government Estate,S00033,St.Thomas Mount,32,40,cumta
+S00014,Government Estate,S00018,Teynampet,16,20,chennai-one
+S00014,Government Estate,S00039,Thirumangalam,24,30,cumta
+S00014,Government Estate,S00008,Thiruvotriyur,32,40,chennai-one
+S00014,Government Estate,S00007,Thiruvotriyur Theradi,32,40,chennai-one
+S00014,Government Estate,S00002,Thiyagaraya College,24,30,chennai-one
+S00014,Government Estate,S00016,Thousand Lights,8,10,chennai-one
+S00014,Government Estate,S00005,Tollgate Metro,24,30,chennai-one
+S00014,Government Estate,S00003,Tondiarpet,24,30,chennai-one
+S00014,Government Estate,S00030,Vadapalani,32,40,cumta
+S00014,Government Estate,S00001,Washermenpet,24,30,chennai-one
+S00014,Government Estate,S00009,Wimco Nagar,32,40,chennai-one
+S00014,Government Estate,S00010,Wimco Nagar Depot,32,40,chennai-one
+S00022,Guindy,S00017,AG-DMS,24,30,chennai-one
+S00022,Guindy,S00026,Airport Metro,24,30,chennai-one
+S00022,Guindy,S00023,Alandur Metro,8,10,chennai-one
+S00022,Guindy,S00041,Anna Nagar East,32,40,cumta
+S00022,Guindy,S00040,Anna Nagar Tower,32,40,cumta
+S00022,Guindy,S00029,Arumbakkam,24,30,cumta
+S00022,Guindy,S00031,Ashok Nagar,16,20,cumta
+S00022,Guindy,S00028,CMBT Metro,24,30,cumta
+S00022,Guindy,S00013,Chennai Central Metro,24,30,chennai-one
+S00022,Guindy,S00038,Egmore Metro,32,40,cumta
+S00022,Guindy,S00032,Ekkattuthangal,16,20,cumta
+S00022,Guindy,S00014,Government Estate,24,30,chennai-one
+S00022,Guindy,S00012,High Court,32,40,chennai-one
+S00022,Guindy,S00006,Kaladipet,32,40,chennai-one
+S00022,Guindy,S00036,Kilpauk,32,40,cumta
+S00022,Guindy,S00027,Koyambedu,24,30,cumta
+S00022,Guindy,S00015,LIC,24,30,chennai-one
+S00022,Guindy,S00021,Little Mount,8,10,chennai-one
+S00022,Guindy,S00011,Mannadi,32,40,chennai-one
+S00022,Guindy,S00025,Meenambakkam,16,20,chennai-one
+S00022,Guindy,S00019,Nandanam,16,20,chennai-one
+S00022,Guindy,S00024,Nanganallur Road,16,20,chennai-one
+S00022,Guindy,S00037,Nehru Park,32,40,cumta
+S00022,Guindy,S00004,New Washermenpet,32,40,chennai-one
+S00022,Guindy,S00035,Pachaiyappa's College,32,40,cumta
+S00022,Guindy,S00020,Saidapet,16,20,chennai-one
+S00022,Guindy,S00034,Shenoy Nagar,32,40,cumta
+S00022,Guindy,S00033,St.Thomas Mount,16,20,cumta
+S00022,Guindy,S00018,Teynampet,16,20,chennai-one
+S00022,Guindy,S00039,Thirumangalam,32,40,cumta
+S00022,Guindy,S00008,Thiruvotriyur,40,50,chennai-one
+S00022,Guindy,S00007,Thiruvotriyur Theradi,40,50,chennai-one
+S00022,Guindy,S00002,Thiyagaraya College,32,40,chennai-one
+S00022,Guindy,S00016,Thousand Lights,24,30,chennai-one
+S00022,Guindy,S00005,Tollgate Metro,32,40,chennai-one
+S00022,Guindy,S00003,Tondiarpet,32,40,chennai-one
+S00022,Guindy,S00030,Vadapalani,24,30,cumta
+S00022,Guindy,S00001,Washermenpet,32,40,chennai-one
+S00022,Guindy,S00009,Wimco Nagar,40,50,chennai-one
+S00022,Guindy,S00010,Wimco Nagar Depot,40,50,chennai-one
+S00012,High Court,S00017,AG-DMS,24,30,chennai-one
+S00012,High Court,S00026,Airport Metro,32,40,chennai-one
+S00012,High Court,S00023,Alandur Metro,32,40,chennai-one
+S00012,High Court,S00041,Anna Nagar East,24,30,cumta
+S00012,High Court,S00040,Anna Nagar Tower,24,30,cumta
+S00012,High Court,S00029,Arumbakkam,32,40,cumta
+S00012,High Court,S00031,Ashok Nagar,32,40,cumta
+S00012,High Court,S00028,CMBT Metro,32,40,cumta
+S00012,High Court,S00013,Chennai Central Metro,8,10,chennai-one
+S00012,High Court,S00038,Egmore Metro,16,20,cumta
+S00012,High Court,S00032,Ekkattuthangal,32,40,cumta
+S00012,High Court,S00014,Government Estate,16,20,chennai-one
+S00012,High Court,S00022,Guindy,32,40,chennai-one
+S00012,High Court,S00006,Kaladipet,24,30,chennai-one
+S00012,High Court,S00036,Kilpauk,16,20,cumta
+S00012,High Court,S00027,Koyambedu,32,40,cumta
+S00012,High Court,S00015,LIC,16,20,chennai-one
+S00012,High Court,S00021,Little Mount,24,30,chennai-one
+S00012,High Court,S00011,Mannadi,8,10,chennai-one
+S00012,High Court,S00025,Meenambakkam,32,40,chennai-one
+S00012,High Court,S00019,Nandanam,24,30,chennai-one
+S00012,High Court,S00024,Nanganallur Road,32,40,chennai-one
+S00012,High Court,S00037,Nehru Park,16,20,cumta
+S00012,High Court,S00004,New Washermenpet,24,30,chennai-one
+S00012,High Court,S00035,Pachaiyappa's College,24,30,cumta
+S00012,High Court,S00020,Saidapet,24,30,chennai-one
+S00012,High Court,S00034,Shenoy Nagar,24,30,cumta
+S00012,High Court,S00033,St.Thomas Mount,32,40,cumta
+S00012,High Court,S00018,Teynampet,24,30,chennai-one
+S00012,High Court,S00039,Thirumangalam,24,30,cumta
+S00012,High Court,S00008,Thiruvotriyur,24,30,chennai-one
+S00012,High Court,S00007,Thiruvotriyur Theradi,24,30,chennai-one
+S00012,High Court,S00002,Thiyagaraya College,16,20,chennai-one
+S00012,High Court,S00016,Thousand Lights,24,30,chennai-one
+S00012,High Court,S00005,Tollgate Metro,24,30,chennai-one
+S00012,High Court,S00003,Tondiarpet,16,20,chennai-one
+S00012,High Court,S00030,Vadapalani,32,40,cumta
+S00012,High Court,S00001,Washermenpet,16,20,chennai-one
+S00012,High Court,S00009,Wimco Nagar,24,30,chennai-one
+S00012,High Court,S00010,Wimco Nagar Depot,24,30,chennai-one
+S00045,Iyappanthangal Metro,S00048,Karayanchavadi Metro,16,20,chennai-one
+S00045,Iyappanthangal Metro,S00046,Kattupakkam Metro,8,10,chennai-one
+S00045,Iyappanthangal Metro,S00047,Kumananchavadi Metro,8,10,chennai-one
+S00045,Iyappanthangal Metro,S00050,Poonamallee Bus Stand Metro,16,20,chennai-one
+S00045,Iyappanthangal Metro,S00051,Poonamallee Bypass Metro,24,30,chennai-one
+S00045,Iyappanthangal Metro,S00049,Poonamallee Government Hospital Metro,16,20,chennai-one
+S00045,Iyappanthangal Metro,S00043,Porur Bypass Metro,8,10,chennai-one
+S00045,Iyappanthangal Metro,S00042,Porur Junction Metro,16,20,chennai-one
+S00045,Iyappanthangal Metro,S00044,Thelliyaragaram Metro,8,10,chennai-one
+S00045,Iyappanthangal Metro,S00030,Vadapalani,24,30,chennai-one
+S00006,Kaladipet,S00017,AG-DMS,32,40,chennai-one
+S00006,Kaladipet,S00026,Airport Metro,40,50,chennai-one
+S00006,Kaladipet,S00023,Alandur Metro,40,50,chennai-one
+S00006,Kaladipet,S00041,Anna Nagar East,32,40,cumta
+S00006,Kaladipet,S00040,Anna Nagar Tower,32,40,cumta
+S00006,Kaladipet,S00029,Arumbakkam,40,50,cumta
+S00006,Kaladipet,S00031,Ashok Nagar,40,50,cumta
+S00006,Kaladipet,S00028,CMBT Metro,40,50,cumta
+S00006,Kaladipet,S00013,Chennai Central Metro,24,30,chennai-one
+S00006,Kaladipet,S00038,Egmore Metro,24,30,cumta
+S00006,Kaladipet,S00032,Ekkattuthangal,40,50,cumta
+S00006,Kaladipet,S00014,Government Estate,24,30,chennai-one
+S00006,Kaladipet,S00022,Guindy,32,40,chennai-one
+S00006,Kaladipet,S00012,High Court,24,30,chennai-one
+S00006,Kaladipet,S00036,Kilpauk,32,40,cumta
+S00006,Kaladipet,S00027,Koyambedu,32,40,cumta
+S00006,Kaladipet,S00015,LIC,24,30,chennai-one
+S00006,Kaladipet,S00021,Little Mount,32,40,chennai-one
+S00006,Kaladipet,S00011,Mannadi,24,30,chennai-one
+S00006,Kaladipet,S00025,Meenambakkam,40,50,chennai-one
+S00006,Kaladipet,S00019,Nandanam,32,40,chennai-one
+S00006,Kaladipet,S00024,Nanganallur Road,40,50,chennai-one
+S00006,Kaladipet,S00037,Nehru Park,24,30,cumta
+S00006,Kaladipet,S00004,New Washermenpet,8,10,chennai-one
+S00006,Kaladipet,S00035,Pachaiyappa's College,32,40,cumta
+S00006,Kaladipet,S00020,Saidapet,32,40,chennai-one
+S00006,Kaladipet,S00034,Shenoy Nagar,32,40,cumta
+S00006,Kaladipet,S00033,St.Thomas Mount,40,50,cumta
+S00006,Kaladipet,S00018,Teynampet,32,40,chennai-one
+S00006,Kaladipet,S00039,Thirumangalam,32,40,cumta
+S00006,Kaladipet,S00008,Thiruvotriyur,16,20,chennai-one
+S00006,Kaladipet,S00007,Thiruvotriyur Theradi,8,10,chennai-one
+S00006,Kaladipet,S00002,Thiyagaraya College,16,20,chennai-one
+S00006,Kaladipet,S00016,Thousand Lights,32,40,chennai-one
+S00006,Kaladipet,S00005,Tollgate Metro,8,10,chennai-one
+S00006,Kaladipet,S00003,Tondiarpet,16,20,chennai-one
+S00006,Kaladipet,S00030,Vadapalani,40,50,cumta
+S00006,Kaladipet,S00001,Washermenpet,16,20,chennai-one
+S00006,Kaladipet,S00009,Wimco Nagar,16,20,chennai-one
+S00006,Kaladipet,S00010,Wimco Nagar Depot,16,20,chennai-one
+S00048,Karayanchavadi Metro,S00045,Iyappanthangal Metro,16,20,chennai-one
+S00048,Karayanchavadi Metro,S00046,Kattupakkam Metro,8,10,chennai-one
+S00048,Karayanchavadi Metro,S00047,Kumananchavadi Metro,8,10,chennai-one
+S00048,Karayanchavadi Metro,S00050,Poonamallee Bus Stand Metro,8,10,chennai-one
+S00048,Karayanchavadi Metro,S00051,Poonamallee Bypass Metro,16,20,chennai-one
+S00048,Karayanchavadi Metro,S00049,Poonamallee Government Hospital Metro,8,10,chennai-one
+S00048,Karayanchavadi Metro,S00043,Porur Bypass Metro,16,20,chennai-one
+S00048,Karayanchavadi Metro,S00042,Porur Junction Metro,24,30,chennai-one
+S00048,Karayanchavadi Metro,S00044,Thelliyaragaram Metro,16,20,chennai-one
+S00048,Karayanchavadi Metro,S00030,Vadapalani,24,30,chennai-one
+S00046,Kattupakkam Metro,S00045,Iyappanthangal Metro,8,10,chennai-one
+S00046,Kattupakkam Metro,S00048,Karayanchavadi Metro,8,10,chennai-one
+S00046,Kattupakkam Metro,S00047,Kumananchavadi Metro,8,10,chennai-one
+S00046,Kattupakkam Metro,S00050,Poonamallee Bus Stand Metro,16,20,chennai-one
+S00046,Kattupakkam Metro,S00051,Poonamallee Bypass Metro,16,20,chennai-one
+S00046,Kattupakkam Metro,S00049,Poonamallee Government Hospital Metro,16,20,chennai-one
+S00046,Kattupakkam Metro,S00043,Porur Bypass Metro,16,20,chennai-one
+S00046,Kattupakkam Metro,S00042,Porur Junction Metro,16,20,chennai-one
+S00046,Kattupakkam Metro,S00044,Thelliyaragaram Metro,8,10,chennai-one
+S00046,Kattupakkam Metro,S00030,Vadapalani,24,30,chennai-one
+S00036,Kilpauk,S00017,AG-DMS,24,30,cumta
+S00036,Kilpauk,S00026,Airport Metro,40,50,chennai-one
+S00036,Kilpauk,S00023,Alandur Metro,32,40,chennai-one
+S00036,Kilpauk,S00041,Anna Nagar East,16,20,chennai-one
+S00036,Kilpauk,S00040,Anna Nagar Tower,16,20,chennai-one
+S00036,Kilpauk,S00029,Arumbakkam,24,30,chennai-one
+S00036,Kilpauk,S00031,Ashok Nagar,32,40,chennai-one
+S00036,Kilpauk,S00028,CMBT Metro,24,30,chennai-one
+S00036,Kilpauk,S00013,Chennai Central Metro,16,20,chennai-one
+S00036,Kilpauk,S00038,Egmore Metro,8,10,chennai-one
+S00036,Kilpauk,S00032,Ekkattuthangal,32,40,chennai-one
+S00036,Kilpauk,S00014,Government Estate,24,30,cumta
+S00036,Kilpauk,S00022,Guindy,32,40,cumta
+S00036,Kilpauk,S00012,High Court,16,20,cumta
+S00036,Kilpauk,S00006,Kaladipet,32,40,cumta
+S00036,Kilpauk,S00027,Koyambedu,24,30,chennai-one
+S00036,Kilpauk,S00015,LIC,24,30,cumta
+S00036,Kilpauk,S00021,Little Mount,32,40,cumta
+S00036,Kilpauk,S00011,Mannadi,24,30,cumta
+S00036,Kilpauk,S00025,Meenambakkam,32,40,chennai-one
+S00036,Kilpauk,S00019,Nandanam,24,30,cumta
+S00036,Kilpauk,S00024,Nanganallur Road,32,40,chennai-one
+S00036,Kilpauk,S00037,Nehru Park,8,10,chennai-one
+S00036,Kilpauk,S00004,New Washermenpet,24,30,cumta
+S00036,Kilpauk,S00035,Pachaiyappa's College,8,10,chennai-one
+S00036,Kilpauk,S00020,Saidapet,32,40,cumta
+S00036,Kilpauk,S00034,Shenoy Nagar,16,20,chennai-one
+S00036,Kilpauk,S00033,St.Thomas Mount,32,40,chennai-one
+S00036,Kilpauk,S00018,Teynampet,24,30,cumta
+S00036,Kilpauk,S00039,Thirumangalam,24,30,chennai-one
+S00036,Kilpauk,S00008,Thiruvotriyur,32,40,cumta
+S00036,Kilpauk,S00007,Thiruvotriyur Theradi,32,40,cumta
+S00036,Kilpauk,S00002,Thiyagaraya College,24,30,cumta
+S00036,Kilpauk,S00016,Thousand Lights,24,30,cumta
+S00036,Kilpauk,S00005,Tollgate Metro,24,30,cumta
+S00036,Kilpauk,S00003,Tondiarpet,24,30,cumta
+S00036,Kilpauk,S00030,Vadapalani,24,30,chennai-one
+S00036,Kilpauk,S00001,Washermenpet,24,30,cumta
+S00036,Kilpauk,S00009,Wimco Nagar,32,40,cumta
+S00027,Koyambedu,S00017,AG-DMS,32,40,cumta
+S00027,Koyambedu,S00026,Airport Metro,32,40,chennai-one
+S00027,Koyambedu,S00023,Alandur Metro,24,30,chennai-one
+S00027,Koyambedu,S00041,Anna Nagar East,16,20,chennai-one
+S00027,Koyambedu,S00040,Anna Nagar Tower,16,20,chennai-one
+S00027,Koyambedu,S00029,Arumbakkam,16,20,chennai-one
+S00027,Koyambedu,S00031,Ashok Nagar,24,30,chennai-one
+S00027,Koyambedu,S00028,CMBT Metro,8,10,chennai-one
+S00027,Koyambedu,S00013,Chennai Central Metro,24,30,chennai-one
+S00027,Koyambedu,S00038,Egmore Metro,24,30,chennai-one
+S00027,Koyambedu,S00032,Ekkattuthangal,24,30,chennai-one
+S00027,Koyambedu,S00014,Government Estate,32,40,cumta
+S00027,Koyambedu,S00022,Guindy,24,30,cumta
+S00027,Koyambedu,S00012,High Court,32,40,cumta
+S00027,Koyambedu,S00006,Kaladipet,32,40,cumta
+S00027,Koyambedu,S00036,Kilpauk,24,30,chennai-one
+S00027,Koyambedu,S00015,LIC,32,40,cumta
+S00027,Koyambedu,S00021,Little Mount,24,30,cumta
+S00027,Koyambedu,S00011,Mannadi,32,40,cumta
+S00027,Koyambedu,S00025,Meenambakkam,32,40,chennai-one
+S00027,Koyambedu,S00019,Nandanam,32,40,cumta
+S00027,Koyambedu,S00024,Nanganallur Road,24,30,chennai-one
+S00027,Koyambedu,S00037,Nehru Park,24,30,chennai-one
+S00027,Koyambedu,S00004,New Washermenpet,32,40,cumta
+S00027,Koyambedu,S00035,Pachaiyappa's College,24,30,chennai-one
+S00027,Koyambedu,S00020,Saidapet,32,40,cumta
+S00027,Koyambedu,S00034,Shenoy Nagar,16,20,chennai-one
+S00027,Koyambedu,S00033,St.Thomas Mount,24,30,chennai-one
+S00027,Koyambedu,S00018,Teynampet,32,40,cumta
+S00027,Koyambedu,S00039,Thirumangalam,8,10,chennai-one
+S00027,Koyambedu,S00008,Thiruvotriyur,40,50,cumta
+S00027,Koyambedu,S00007,Thiruvotriyur Theradi,32,40,cumta
+S00027,Koyambedu,S00002,Thiyagaraya College,32,40,cumta
+S00027,Koyambedu,S00016,Thousand Lights,32,40,cumta
+S00027,Koyambedu,S00005,Tollgate Metro,32,40,cumta
+S00027,Koyambedu,S00003,Tondiarpet,32,40,cumta
+S00027,Koyambedu,S00030,Vadapalani,16,20,chennai-one
+S00027,Koyambedu,S00001,Washermenpet,32,40,cumta
+S00027,Koyambedu,S00009,Wimco Nagar,40,50,cumta
+S00047,Kumananchavadi Metro,S00045,Iyappanthangal Metro,8,10,chennai-one
+S00047,Kumananchavadi Metro,S00048,Karayanchavadi Metro,8,10,chennai-one
+S00047,Kumananchavadi Metro,S00046,Kattupakkam Metro,8,10,chennai-one
+S00047,Kumananchavadi Metro,S00050,Poonamallee Bus Stand Metro,16,20,chennai-one
+S00047,Kumananchavadi Metro,S00051,Poonamallee Bypass Metro,16,20,chennai-one
+S00047,Kumananchavadi Metro,S00049,Poonamallee Government Hospital Metro,8,10,chennai-one
+S00047,Kumananchavadi Metro,S00043,Porur Bypass Metro,16,20,chennai-one
+S00047,Kumananchavadi Metro,S00042,Porur Junction Metro,16,20,chennai-one
+S00047,Kumananchavadi Metro,S00044,Thelliyaragaram Metro,16,20,chennai-one
+S00047,Kumananchavadi Metro,S00030,Vadapalani,24,30,chennai-one
+S00015,LIC,S00017,AG-DMS,16,20,chennai-one
+S00015,LIC,S00026,Airport Metro,32,40,chennai-one
+S00015,LIC,S00023,Alandur Metro,24,30,chennai-one
+S00015,LIC,S00041,Anna Nagar East,24,30,cumta
+S00015,LIC,S00040,Anna Nagar Tower,24,30,cumta
+S00015,LIC,S00029,Arumbakkam,32,40,cumta
+S00015,LIC,S00031,Ashok Nagar,32,40,cumta
+S00015,LIC,S00028,CMBT Metro,32,40,cumta
+S00015,LIC,S00013,Chennai Central Metro,16,20,chennai-one
+S00015,LIC,S00038,Egmore Metro,16,20,cumta
+S00015,LIC,S00032,Ekkattuthangal,24,30,cumta
+S00015,LIC,S00014,Government Estate,8,10,chennai-one
+S00015,LIC,S00022,Guindy,24,30,chennai-one
+S00015,LIC,S00012,High Court,16,20,chennai-one
+S00015,LIC,S00006,Kaladipet,24,30,chennai-one
+S00015,LIC,S00036,Kilpauk,24,30,cumta
+S00015,LIC,S00027,Koyambedu,32,40,cumta
+S00015,LIC,S00021,Little Mount,24,30,chennai-one
+S00015,LIC,S00011,Mannadi,24,30,chennai-one
+S00015,LIC,S00025,Meenambakkam,32,40,chennai-one
+S00015,LIC,S00019,Nandanam,16,20,chennai-one
+S00015,LIC,S00024,Nanganallur Road,24,30,chennai-one
+S00015,LIC,S00037,Nehru Park,24,30,cumta
+S00015,LIC,S00004,New Washermenpet,24,30,chennai-one
+S00015,LIC,S00035,Pachaiyappa's College,24,30,cumta
+S00015,LIC,S00020,Saidapet,24,30,chennai-one
+S00015,LIC,S00034,Shenoy Nagar,24,30,cumta
+S00015,LIC,S00033,St.Thomas Mount,24,30,cumta
+S00015,LIC,S00018,Teynampet,16,20,chennai-one
+S00015,LIC,S00039,Thirumangalam,24,30,cumta
+S00015,LIC,S00008,Thiruvotriyur,32,40,chennai-one
+S00015,LIC,S00007,Thiruvotriyur Theradi,32,40,chennai-one
+S00015,LIC,S00002,Thiyagaraya College,24,30,chennai-one
+S00015,LIC,S00016,Thousand Lights,8,10,chennai-one
+S00015,LIC,S00005,Tollgate Metro,24,30,chennai-one
+S00015,LIC,S00003,Tondiarpet,24,30,chennai-one
+S00015,LIC,S00030,Vadapalani,32,40,cumta
+S00015,LIC,S00001,Washermenpet,24,30,chennai-one
+S00015,LIC,S00009,Wimco Nagar,32,40,chennai-one
+S00015,LIC,S00010,Wimco Nagar Depot,32,40,chennai-one
+S00021,Little Mount,S00017,AG-DMS,16,20,chennai-one
+S00021,Little Mount,S00026,Airport Metro,24,30,chennai-one
+S00021,Little Mount,S00023,Alandur Metro,16,20,chennai-one
+S00021,Little Mount,S00041,Anna Nagar East,32,40,cumta
+S00021,Little Mount,S00040,Anna Nagar Tower,32,40,cumta
+S00021,Little Mount,S00029,Arumbakkam,24,30,cumta
+S00021,Little Mount,S00031,Ashok Nagar,24,30,cumta
+S00021,Little Mount,S00028,CMBT Metro,24,30,cumta
+S00021,Little Mount,S00013,Chennai Central Metro,24,30,chennai-one
+S00021,Little Mount,S00038,Egmore Metro,24,30,cumta
+S00021,Little Mount,S00032,Ekkattuthangal,16,20,cumta
+S00021,Little Mount,S00014,Government Estate,24,30,chennai-one
+S00021,Little Mount,S00022,Guindy,8,10,chennai-one
+S00021,Little Mount,S00012,High Court,24,30,chennai-one
+S00021,Little Mount,S00006,Kaladipet,32,40,chennai-one
+S00021,Little Mount,S00036,Kilpauk,32,40,cumta
+S00021,Little Mount,S00027,Koyambedu,24,30,cumta
+S00021,Little Mount,S00015,LIC,24,30,chennai-one
+S00021,Little Mount,S00011,Mannadi,32,40,chennai-one
+S00021,Little Mount,S00025,Meenambakkam,24,30,chennai-one
+S00021,Little Mount,S00019,Nandanam,16,20,chennai-one
+S00021,Little Mount,S00024,Nanganallur Road,16,20,chennai-one
+S00021,Little Mount,S00037,Nehru Park,32,40,cumta
+S00021,Little Mount,S00004,New Washermenpet,32,40,chennai-one
+S00021,Little Mount,S00035,Pachaiyappa's College,32,40,cumta
+S00021,Little Mount,S00020,Saidapet,8,10,chennai-one
+S00021,Little Mount,S00034,Shenoy Nagar,32,40,cumta
+S00021,Little Mount,S00033,St.Thomas Mount,16,20,cumta
+S00021,Little Mount,S00018,Teynampet,16,20,chennai-one
+S00021,Little Mount,S00039,Thirumangalam,32,40,cumta
+S00021,Little Mount,S00008,Thiruvotriyur,40,50,chennai-one
+S00021,Little Mount,S00007,Thiruvotriyur Theradi,32,40,chennai-one
+S00021,Little Mount,S00002,Thiyagaraya College,32,40,chennai-one
+S00021,Little Mount,S00016,Thousand Lights,24,30,chennai-one
+S00021,Little Mount,S00005,Tollgate Metro,32,40,chennai-one
+S00021,Little Mount,S00003,Tondiarpet,32,40,chennai-one
+S00021,Little Mount,S00030,Vadapalani,24,30,cumta
+S00021,Little Mount,S00001,Washermenpet,32,40,chennai-one
+S00021,Little Mount,S00009,Wimco Nagar,40,50,chennai-one
+S00021,Little Mount,S00010,Wimco Nagar Depot,40,50,chennai-one
+S00011,Mannadi,S00017,AG-DMS,24,30,chennai-one
+S00011,Mannadi,S00026,Airport Metro,32,40,chennai-one
+S00011,Mannadi,S00023,Alandur Metro,32,40,chennai-one
+S00011,Mannadi,S00041,Anna Nagar East,24,30,cumta
+S00011,Mannadi,S00040,Anna Nagar Tower,24,30,cumta
+S00011,Mannadi,S00029,Arumbakkam,32,40,cumta
+S00011,Mannadi,S00031,Ashok Nagar,32,40,cumta
+S00011,Mannadi,S00028,CMBT Metro,32,40,cumta
+S00011,Mannadi,S00013,Chennai Central Metro,16,20,chennai-one
+S00011,Mannadi,S00038,Egmore Metro,16,20,cumta
+S00011,Mannadi,S00032,Ekkattuthangal,32,40,cumta
+S00011,Mannadi,S00014,Government Estate,16,20,chennai-one
+S00011,Mannadi,S00022,Guindy,32,40,chennai-one
+S00011,Mannadi,S00012,High Court,8,10,chennai-one
+S00011,Mannadi,S00006,Kaladipet,24,30,chennai-one
+S00011,Mannadi,S00036,Kilpauk,24,30,cumta
+S00011,Mannadi,S00027,Koyambedu,32,40,cumta
+S00011,Mannadi,S00015,LIC,24,30,chennai-one
+S00011,Mannadi,S00021,Little Mount,32,40,chennai-one
+S00011,Mannadi,S00025,Meenambakkam,32,40,chennai-one
+S00011,Mannadi,S00019,Nandanam,24,30,chennai-one
+S00011,Mannadi,S00024,Nanganallur Road,32,40,chennai-one
+S00011,Mannadi,S00037,Nehru Park,16,20,cumta
+S00011,Mannadi,S00004,New Washermenpet,16,20,chennai-one
+S00011,Mannadi,S00035,Pachaiyappa's College,24,30,cumta
+S00011,Mannadi,S00020,Saidapet,24,30,chennai-one
+S00011,Mannadi,S00034,Shenoy Nagar,24,30,cumta
+S00011,Mannadi,S00033,St.Thomas Mount,32,40,cumta
+S00011,Mannadi,S00018,Teynampet,24,30,chennai-one
+S00011,Mannadi,S00039,Thirumangalam,24,30,cumta
+S00011,Mannadi,S00008,Thiruvotriyur,24,30,chennai-one
+S00011,Mannadi,S00007,Thiruvotriyur Theradi,24,30,chennai-one
+S00011,Mannadi,S00002,Thiyagaraya College,16,20,chennai-one
+S00011,Mannadi,S00016,Thousand Lights,24,30,chennai-one
+S00011,Mannadi,S00005,Tollgate Metro,24,30,chennai-one
+S00011,Mannadi,S00003,Tondiarpet,16,20,chennai-one
+S00011,Mannadi,S00030,Vadapalani,32,40,cumta
+S00011,Mannadi,S00001,Washermenpet,8,10,chennai-one
+S00011,Mannadi,S00009,Wimco Nagar,24,30,chennai-one
+S00011,Mannadi,S00010,Wimco Nagar Depot,24,30,chennai-one
+S00025,Meenambakkam,S00017,AG-DMS,24,30,chennai-one
+S00025,Meenambakkam,S00026,Airport Metro,8,10,chennai-one
+S00025,Meenambakkam,S00023,Alandur Metro,16,20,chennai-one
+S00025,Meenambakkam,S00041,Anna Nagar East,32,40,chennai-one
+S00025,Meenambakkam,S00040,Anna Nagar Tower,32,40,chennai-one
+S00025,Meenambakkam,S00029,Arumbakkam,24,30,chennai-one
+S00025,Meenambakkam,S00031,Ashok Nagar,24,30,chennai-one
+S00025,Meenambakkam,S00028,CMBT Metro,24,30,chennai-one
+S00025,Meenambakkam,S00013,Chennai Central Metro,32,40,chennai-one
+S00025,Meenambakkam,S00038,Egmore Metro,32,40,chennai-one
+S00025,Meenambakkam,S00032,Ekkattuthangal,16,20,chennai-one
+S00025,Meenambakkam,S00014,Government Estate,32,40,chennai-one
+S00025,Meenambakkam,S00022,Guindy,16,20,chennai-one
+S00025,Meenambakkam,S00012,High Court,32,40,chennai-one
+S00025,Meenambakkam,S00006,Kaladipet,40,50,chennai-one
+S00025,Meenambakkam,S00036,Kilpauk,32,40,chennai-one
+S00025,Meenambakkam,S00027,Koyambedu,32,40,chennai-one
+S00025,Meenambakkam,S00015,LIC,32,40,chennai-one
+S00025,Meenambakkam,S00021,Little Mount,24,30,chennai-one
+S00025,Meenambakkam,S00011,Mannadi,32,40,chennai-one
+S00025,Meenambakkam,S00019,Nandanam,24,30,chennai-one
+S00025,Meenambakkam,S00024,Nanganallur Road,16,20,chennai-one
+S00025,Meenambakkam,S00037,Nehru Park,32,40,chennai-one
+S00025,Meenambakkam,S00004,New Washermenpet,40,50,chennai-one
+S00025,Meenambakkam,S00035,Pachaiyappa's College,32,40,chennai-one
+S00025,Meenambakkam,S00020,Saidapet,24,30,chennai-one
+S00025,Meenambakkam,S00034,Shenoy Nagar,32,40,chennai-one
+S00025,Meenambakkam,S00033,St.Thomas Mount,16,20,chennai-one
+S00025,Meenambakkam,S00018,Teynampet,24,30,chennai-one
+S00025,Meenambakkam,S00039,Thirumangalam,32,40,chennai-one
+S00025,Meenambakkam,S00008,Thiruvotriyur,40,50,chennai-one
+S00025,Meenambakkam,S00007,Thiruvotriyur Theradi,40,50,chennai-one
+S00025,Meenambakkam,S00002,Thiyagaraya College,40,50,chennai-one
+S00025,Meenambakkam,S00016,Thousand Lights,32,40,chennai-one
+S00025,Meenambakkam,S00005,Tollgate Metro,40,50,chennai-one
+S00025,Meenambakkam,S00003,Tondiarpet,40,50,chennai-one
+S00025,Meenambakkam,S00030,Vadapalani,24,30,chennai-one
+S00025,Meenambakkam,S00001,Washermenpet,32,40,chennai-one
+S00025,Meenambakkam,S00009,Wimco Nagar,40,50,chennai-one
+S00025,Meenambakkam,S00010,Wimco Nagar Depot,40,50,chennai-one
+S00019,Nandanam,S00017,AG-DMS,8,10,chennai-one
+S00019,Nandanam,S00026,Airport Metro,24,30,chennai-one
+S00019,Nandanam,S00023,Alandur Metro,24,30,chennai-one
+S00019,Nandanam,S00041,Anna Nagar East,32,40,cumta
+S00019,Nandanam,S00040,Anna Nagar Tower,32,40,cumta
+S00019,Nandanam,S00029,Arumbakkam,32,40,cumta
+S00019,Nandanam,S00031,Ashok Nagar,24,30,cumta
+S00019,Nandanam,S00028,CMBT Metro,32,40,cumta
+S00019,Nandanam,S00013,Chennai Central Metro,24,30,chennai-one
+S00019,Nandanam,S00038,Egmore Metro,24,30,cumta
+S00019,Nandanam,S00032,Ekkattuthangal,24,30,cumta
+S00019,Nandanam,S00014,Government Estate,24,30,chennai-one
+S00019,Nandanam,S00022,Guindy,16,20,chennai-one
+S00019,Nandanam,S00012,High Court,24,30,chennai-one
+S00019,Nandanam,S00006,Kaladipet,32,40,chennai-one
+S00019,Nandanam,S00036,Kilpauk,24,30,cumta
+S00019,Nandanam,S00027,Koyambedu,32,40,cumta
+S00019,Nandanam,S00015,LIC,16,20,chennai-one
+S00019,Nandanam,S00021,Little Mount,16,20,chennai-one
+S00019,Nandanam,S00011,Mannadi,24,30,chennai-one
+S00019,Nandanam,S00025,Meenambakkam,24,30,chennai-one
+S00019,Nandanam,S00024,Nanganallur Road,24,30,chennai-one
+S00019,Nandanam,S00037,Nehru Park,24,30,cumta
+S00019,Nandanam,S00004,New Washermenpet,32,40,chennai-one
+S00019,Nandanam,S00035,Pachaiyappa's College,24,30,cumta
+S00019,Nandanam,S00020,Saidapet,8,10,chennai-one
+S00019,Nandanam,S00034,Shenoy Nagar,32,40,cumta
+S00019,Nandanam,S00033,St.Thomas Mount,24,30,cumta
+S00019,Nandanam,S00018,Teynampet,8,10,chennai-one
+S00019,Nandanam,S00039,Thirumangalam,32,40,cumta
+S00019,Nandanam,S00008,Thiruvotriyur,32,40,chennai-one
+S00019,Nandanam,S00007,Thiruvotriyur Theradi,32,40,chennai-one
+S00019,Nandanam,S00002,Thiyagaraya College,32,40,chennai-one
+S00019,Nandanam,S00016,Thousand Lights,16,20,chennai-one
+S00019,Nandanam,S00005,Tollgate Metro,32,40,chennai-one
+S00019,Nandanam,S00003,Tondiarpet,32,40,chennai-one
+S00019,Nandanam,S00030,Vadapalani,24,30,cumta
+S00019,Nandanam,S00001,Washermenpet,24,30,chennai-one
+S00019,Nandanam,S00009,Wimco Nagar,32,40,chennai-one
+S00019,Nandanam,S00010,Wimco Nagar Depot,32,40,chennai-one
+S00024,Nanganallur Road,S00017,AG-DMS,24,30,chennai-one
+S00024,Nanganallur Road,S00026,Airport Metro,16,20,chennai-one
+S00024,Nanganallur Road,S00023,Alandur Metro,8,10,chennai-one
+S00024,Nanganallur Road,S00041,Anna Nagar East,32,40,chennai-one
+S00024,Nanganallur Road,S00040,Anna Nagar Tower,32,40,chennai-one
+S00024,Nanganallur Road,S00029,Arumbakkam,24,30,chennai-one
+S00024,Nanganallur Road,S00031,Ashok Nagar,16,20,chennai-one
+S00024,Nanganallur Road,S00028,CMBT Metro,24,30,chennai-one
+S00024,Nanganallur Road,S00013,Chennai Central Metro,32,40,chennai-one
+S00024,Nanganallur Road,S00038,Egmore Metro,32,40,chennai-one
+S00024,Nanganallur Road,S00032,Ekkattuthangal,16,20,chennai-one
+S00024,Nanganallur Road,S00014,Government Estate,32,40,chennai-one
+S00024,Nanganallur Road,S00022,Guindy,16,20,chennai-one
+S00024,Nanganallur Road,S00012,High Court,32,40,chennai-one
+S00024,Nanganallur Road,S00006,Kaladipet,40,50,chennai-one
+S00024,Nanganallur Road,S00036,Kilpauk,32,40,chennai-one
+S00024,Nanganallur Road,S00027,Koyambedu,24,30,chennai-one
+S00024,Nanganallur Road,S00015,LIC,24,30,chennai-one
+S00024,Nanganallur Road,S00021,Little Mount,16,20,chennai-one
+S00024,Nanganallur Road,S00011,Mannadi,32,40,chennai-one
+S00024,Nanganallur Road,S00025,Meenambakkam,16,20,chennai-one
+S00024,Nanganallur Road,S00019,Nandanam,24,30,chennai-one
+S00024,Nanganallur Road,S00037,Nehru Park,32,40,chennai-one
+S00024,Nanganallur Road,S00004,New Washermenpet,40,50,chennai-one
+S00024,Nanganallur Road,S00035,Pachaiyappa's College,32,40,chennai-one
+S00024,Nanganallur Road,S00020,Saidapet,16,20,chennai-one
+S00024,Nanganallur Road,S00034,Shenoy Nagar,32,40,chennai-one
+S00024,Nanganallur Road,S00033,St.Thomas Mount,16,20,chennai-one
+S00024,Nanganallur Road,S00018,Teynampet,24,30,chennai-one
+S00024,Nanganallur Road,S00039,Thirumangalam,32,40,chennai-one
+S00024,Nanganallur Road,S00008,Thiruvotriyur,40,50,chennai-one
+S00024,Nanganallur Road,S00007,Thiruvotriyur Theradi,40,50,chennai-one
+S00024,Nanganallur Road,S00002,Thiyagaraya College,32,40,chennai-one
+S00024,Nanganallur Road,S00016,Thousand Lights,24,30,chennai-one
+S00024,Nanganallur Road,S00005,Tollgate Metro,40,50,chennai-one
+S00024,Nanganallur Road,S00003,Tondiarpet,32,40,chennai-one
+S00024,Nanganallur Road,S00030,Vadapalani,24,30,chennai-one
+S00024,Nanganallur Road,S00001,Washermenpet,32,40,chennai-one
+S00024,Nanganallur Road,S00009,Wimco Nagar,40,50,chennai-one
+S00024,Nanganallur Road,S00010,Wimco Nagar Depot,40,50,chennai-one
+S00037,Nehru Park,S00017,AG-DMS,24,30,cumta
+S00037,Nehru Park,S00026,Airport Metro,32,40,chennai-one
+S00037,Nehru Park,S00023,Alandur Metro,32,40,chennai-one
+S00037,Nehru Park,S00041,Anna Nagar East,16,20,chennai-one
+S00037,Nehru Park,S00040,Anna Nagar Tower,24,30,chennai-one
+S00037,Nehru Park,S00029,Arumbakkam,24,30,chennai-one
+S00037,Nehru Park,S00031,Ashok Nagar,32,40,chennai-one
+S00037,Nehru Park,S00028,CMBT Metro,24,30,chennai-one
+S00037,Nehru Park,S00013,Chennai Central Metro,16,20,chennai-one
+S00037,Nehru Park,S00038,Egmore Metro,8,10,chennai-one
+S00037,Nehru Park,S00032,Ekkattuthangal,32,40,chennai-one
+S00037,Nehru Park,S00014,Government Estate,16,20,cumta
+S00037,Nehru Park,S00022,Guindy,32,40,cumta
+S00037,Nehru Park,S00012,High Court,16,20,cumta
+S00037,Nehru Park,S00006,Kaladipet,24,30,cumta
+S00037,Nehru Park,S00036,Kilpauk,8,10,chennai-one
+S00037,Nehru Park,S00027,Koyambedu,24,30,chennai-one
+S00037,Nehru Park,S00015,LIC,24,30,cumta
+S00037,Nehru Park,S00021,Little Mount,32,40,cumta
+S00037,Nehru Park,S00011,Mannadi,16,20,cumta
+S00037,Nehru Park,S00025,Meenambakkam,32,40,chennai-one
+S00037,Nehru Park,S00019,Nandanam,24,30,cumta
+S00037,Nehru Park,S00024,Nanganallur Road,32,40,chennai-one
+S00037,Nehru Park,S00004,New Washermenpet,24,30,cumta
+S00037,Nehru Park,S00035,Pachaiyappa's College,8,10,chennai-one
+S00037,Nehru Park,S00020,Saidapet,24,30,cumta
+S00037,Nehru Park,S00034,Shenoy Nagar,16,20,chennai-one
+S00037,Nehru Park,S00033,St.Thomas Mount,32,40,chennai-one
+S00037,Nehru Park,S00018,Teynampet,24,30,cumta
+S00037,Nehru Park,S00039,Thirumangalam,24,30,chennai-one
+S00037,Nehru Park,S00008,Thiruvotriyur,32,40,cumta
+S00037,Nehru Park,S00007,Thiruvotriyur Theradi,32,40,cumta
+S00037,Nehru Park,S00002,Thiyagaraya College,24,30,cumta
+S00037,Nehru Park,S00016,Thousand Lights,24,30,cumta
+S00037,Nehru Park,S00005,Tollgate Metro,24,30,cumta
+S00037,Nehru Park,S00003,Tondiarpet,24,30,cumta
+S00037,Nehru Park,S00030,Vadapalani,24,30,chennai-one
+S00037,Nehru Park,S00001,Washermenpet,24,30,cumta
+S00037,Nehru Park,S00009,Wimco Nagar,32,40,cumta
+S00004,New Washermenpet,S00017,AG-DMS,32,40,chennai-one
+S00004,New Washermenpet,S00026,Airport Metro,40,50,chennai-one
+S00004,New Washermenpet,S00023,Alandur Metro,32,40,chennai-one
+S00004,New Washermenpet,S00041,Anna Nagar East,32,40,cumta
+S00004,New Washermenpet,S00040,Anna Nagar Tower,32,40,cumta
+S00004,New Washermenpet,S00029,Arumbakkam,32,40,cumta
+S00004,New Washermenpet,S00031,Ashok Nagar,40,50,cumta
+S00004,New Washermenpet,S00028,CMBT Metro,32,40,cumta
+S00004,New Washermenpet,S00013,Chennai Central Metro,24,30,chennai-one
+S00004,New Washermenpet,S00038,Egmore Metro,24,30,cumta
+S00004,New Washermenpet,S00032,Ekkattuthangal,40,50,cumta
+S00004,New Washermenpet,S00014,Government Estate,24,30,chennai-one
+S00004,New Washermenpet,S00022,Guindy,32,40,chennai-one
+S00004,New Washermenpet,S00012,High Court,24,30,chennai-one
+S00004,New Washermenpet,S00006,Kaladipet,8,10,chennai-one
+S00004,New Washermenpet,S00036,Kilpauk,24,30,cumta
+S00004,New Washermenpet,S00027,Koyambedu,32,40,cumta
+S00004,New Washermenpet,S00015,LIC,24,30,chennai-one
+S00004,New Washermenpet,S00021,Little Mount,32,40,chennai-one
+S00004,New Washermenpet,S00011,Mannadi,16,20,chennai-one
+S00004,New Washermenpet,S00025,Meenambakkam,40,50,chennai-one
+S00004,New Washermenpet,S00019,Nandanam,32,40,chennai-one
+S00004,New Washermenpet,S00024,Nanganallur Road,40,50,chennai-one
+S00004,New Washermenpet,S00037,Nehru Park,24,30,cumta
+S00004,New Washermenpet,S00035,Pachaiyappa's College,24,30,cumta
+S00004,New Washermenpet,S00020,Saidapet,32,40,chennai-one
+S00004,New Washermenpet,S00034,Shenoy Nagar,32,40,cumta
+S00004,New Washermenpet,S00033,St.Thomas Mount,40,50,cumta
+S00004,New Washermenpet,S00018,Teynampet,32,40,chennai-one
+S00004,New Washermenpet,S00039,Thirumangalam,32,40,cumta
+S00004,New Washermenpet,S00008,Thiruvotriyur,16,20,chennai-one
+S00004,New Washermenpet,S00007,Thiruvotriyur Theradi,16,20,chennai-one
+S00004,New Washermenpet,S00002,Thiyagaraya College,8,10,chennai-one
+S00004,New Washermenpet,S00016,Thousand Lights,24,30,chennai-one
+S00004,New Washermenpet,S00005,Tollgate Metro,8,10,chennai-one
+S00004,New Washermenpet,S00003,Tondiarpet,8,10,chennai-one
+S00004,New Washermenpet,S00030,Vadapalani,40,50,cumta
+S00004,New Washermenpet,S00001,Washermenpet,16,20,chennai-one
+S00004,New Washermenpet,S00009,Wimco Nagar,24,30,chennai-one
+S00004,New Washermenpet,S00010,Wimco Nagar Depot,24,30,chennai-one
+S00035,Pachaiyappa's College,S00017,AG-DMS,24,30,cumta
+S00035,Pachaiyappa's College,S00026,Airport Metro,32,40,chennai-one
+S00035,Pachaiyappa's College,S00023,Alandur Metro,32,40,chennai-one
+S00035,Pachaiyappa's College,S00041,Anna Nagar East,16,20,chennai-one
+S00035,Pachaiyappa's College,S00040,Anna Nagar Tower,16,20,chennai-one
+S00035,Pachaiyappa's College,S00029,Arumbakkam,24,30,chennai-one
+S00035,Pachaiyappa's College,S00031,Ashok Nagar,24,30,chennai-one
+S00035,Pachaiyappa's College,S00028,CMBT Metro,24,30,chennai-one
+S00035,Pachaiyappa's College,S00013,Chennai Central Metro,16,20,chennai-one
+S00035,Pachaiyappa's College,S00038,Egmore Metro,16,20,chennai-one
+S00035,Pachaiyappa's College,S00032,Ekkattuthangal,32,40,chennai-one
+S00035,Pachaiyappa's College,S00014,Government Estate,24,30,cumta
+S00035,Pachaiyappa's College,S00022,Guindy,32,40,cumta
+S00035,Pachaiyappa's College,S00012,High Court,24,30,cumta
+S00035,Pachaiyappa's College,S00006,Kaladipet,32,40,cumta
+S00035,Pachaiyappa's College,S00036,Kilpauk,8,10,chennai-one
+S00035,Pachaiyappa's College,S00027,Koyambedu,24,30,chennai-one
+S00035,Pachaiyappa's College,S00015,LIC,24,30,cumta
+S00035,Pachaiyappa's College,S00021,Little Mount,32,40,cumta
+S00035,Pachaiyappa's College,S00011,Mannadi,24,30,cumta
+S00035,Pachaiyappa's College,S00025,Meenambakkam,32,40,chennai-one
+S00035,Pachaiyappa's College,S00019,Nandanam,24,30,cumta
+S00035,Pachaiyappa's College,S00024,Nanganallur Road,32,40,chennai-one
+S00035,Pachaiyappa's College,S00037,Nehru Park,8,10,chennai-one
+S00035,Pachaiyappa's College,S00004,New Washermenpet,24,30,cumta
+S00035,Pachaiyappa's College,S00020,Saidapet,32,40,cumta
+S00035,Pachaiyappa's College,S00034,Shenoy Nagar,8,10,chennai-one
+S00035,Pachaiyappa's College,S00033,St.Thomas Mount,32,40,chennai-one
+S00035,Pachaiyappa's College,S00018,Teynampet,24,30,cumta
+S00035,Pachaiyappa's College,S00039,Thirumangalam,16,20,chennai-one
+S00035,Pachaiyappa's College,S00008,Thiruvotriyur,32,40,cumta
+S00035,Pachaiyappa's College,S00007,Thiruvotriyur Theradi,32,40,cumta
+S00035,Pachaiyappa's College,S00002,Thiyagaraya College,24,30,cumta
+S00035,Pachaiyappa's College,S00016,Thousand Lights,24,30,cumta
+S00035,Pachaiyappa's College,S00005,Tollgate Metro,32,40,cumta
+S00035,Pachaiyappa's College,S00003,Tondiarpet,24,30,cumta
+S00035,Pachaiyappa's College,S00030,Vadapalani,24,30,chennai-one
+S00035,Pachaiyappa's College,S00001,Washermenpet,24,30,cumta
+S00035,Pachaiyappa's College,S00009,Wimco Nagar,32,40,cumta
+S00050,Poonamallee Bus Stand Metro,S00045,Iyappanthangal Metro,16,20,chennai-one
+S00050,Poonamallee Bus Stand Metro,S00048,Karayanchavadi Metro,8,10,chennai-one
+S00050,Poonamallee Bus Stand Metro,S00046,Kattupakkam Metro,16,20,chennai-one
+S00050,Poonamallee Bus Stand Metro,S00047,Kumananchavadi Metro,16,20,chennai-one
+S00050,Poonamallee Bus Stand Metro,S00051,Poonamallee Bypass Metro,8,10,chennai-one
+S00050,Poonamallee Bus Stand Metro,S00049,Poonamallee Government Hospital Metro,8,10,chennai-one
+S00050,Poonamallee Bus Stand Metro,S00043,Porur Bypass Metro,24,30,chennai-one
+S00050,Poonamallee Bus Stand Metro,S00042,Porur Junction Metro,24,30,chennai-one
+S00050,Poonamallee Bus Stand Metro,S00044,Thelliyaragaram Metro,24,30,chennai-one
+S00050,Poonamallee Bus Stand Metro,S00030,Vadapalani,32,40,chennai-one
+S00051,Poonamallee Bypass Metro,S00045,Iyappanthangal Metro,24,30,chennai-one
+S00051,Poonamallee Bypass Metro,S00048,Karayanchavadi Metro,16,20,chennai-one
+S00051,Poonamallee Bypass Metro,S00046,Kattupakkam Metro,16,20,chennai-one
+S00051,Poonamallee Bypass Metro,S00047,Kumananchavadi Metro,16,20,chennai-one
+S00051,Poonamallee Bypass Metro,S00050,Poonamallee Bus Stand Metro,8,10,chennai-one
+S00051,Poonamallee Bypass Metro,S00049,Poonamallee Government Hospital Metro,16,20,chennai-one
+S00051,Poonamallee Bypass Metro,S00043,Porur Bypass Metro,24,30,chennai-one
+S00051,Poonamallee Bypass Metro,S00042,Porur Junction Metro,24,30,chennai-one
+S00051,Poonamallee Bypass Metro,S00044,Thelliyaragaram Metro,24,30,chennai-one
+S00051,Poonamallee Bypass Metro,S00030,Vadapalani,32,40,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00045,Iyappanthangal Metro,16,20,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00048,Karayanchavadi Metro,8,10,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00046,Kattupakkam Metro,16,20,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00047,Kumananchavadi Metro,8,10,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00050,Poonamallee Bus Stand Metro,8,10,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00051,Poonamallee Bypass Metro,16,20,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00043,Porur Bypass Metro,24,30,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00042,Porur Junction Metro,24,30,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00044,Thelliyaragaram Metro,16,20,chennai-one
+S00049,Poonamallee Government Hospital Metro,S00030,Vadapalani,32,40,chennai-one
+S00043,Porur Bypass Metro,S00045,Iyappanthangal Metro,8,10,chennai-one
+S00043,Porur Bypass Metro,S00048,Karayanchavadi Metro,16,20,chennai-one
+S00043,Porur Bypass Metro,S00046,Kattupakkam Metro,16,20,chennai-one
+S00043,Porur Bypass Metro,S00047,Kumananchavadi Metro,16,20,chennai-one
+S00043,Porur Bypass Metro,S00050,Poonamallee Bus Stand Metro,24,30,chennai-one
+S00043,Porur Bypass Metro,S00051,Poonamallee Bypass Metro,24,30,chennai-one
+S00043,Porur Bypass Metro,S00049,Poonamallee Government Hospital Metro,24,30,chennai-one
+S00043,Porur Bypass Metro,S00042,Porur Junction Metro,8,10,chennai-one
+S00043,Porur Bypass Metro,S00044,Thelliyaragaram Metro,8,10,chennai-one
+S00043,Porur Bypass Metro,S00030,Vadapalani,24,30,chennai-one
+S00042,Porur Junction Metro,S00045,Iyappanthangal Metro,16,20,chennai-one
+S00042,Porur Junction Metro,S00048,Karayanchavadi Metro,24,30,chennai-one
+S00042,Porur Junction Metro,S00046,Kattupakkam Metro,16,20,chennai-one
+S00042,Porur Junction Metro,S00047,Kumananchavadi Metro,16,20,chennai-one
+S00042,Porur Junction Metro,S00050,Poonamallee Bus Stand Metro,24,30,chennai-one
+S00042,Porur Junction Metro,S00051,Poonamallee Bypass Metro,24,30,chennai-one
+S00042,Porur Junction Metro,S00049,Poonamallee Government Hospital Metro,24,30,chennai-one
+S00042,Porur Junction Metro,S00043,Porur Bypass Metro,8,10,chennai-one
+S00042,Porur Junction Metro,S00044,Thelliyaragaram Metro,8,10,chennai-one
+S00042,Porur Junction Metro,S00030,Vadapalani,24,30,chennai-one
+S00020,Saidapet,S00017,AG-DMS,16,20,chennai-one
+S00020,Saidapet,S00026,Airport Metro,24,30,chennai-one
+S00020,Saidapet,S00023,Alandur Metro,16,20,chennai-one
+S00020,Saidapet,S00041,Anna Nagar East,32,40,cumta
+S00020,Saidapet,S00040,Anna Nagar Tower,32,40,cumta
+S00020,Saidapet,S00029,Arumbakkam,24,30,cumta
+S00020,Saidapet,S00031,Ashok Nagar,24,30,cumta
+S00020,Saidapet,S00028,CMBT Metro,24,30,cumta
+S00020,Saidapet,S00013,Chennai Central Metro,24,30,chennai-one
+S00020,Saidapet,S00038,Egmore Metro,24,30,cumta
+S00020,Saidapet,S00032,Ekkattuthangal,24,30,cumta
+S00020,Saidapet,S00014,Government Estate,24,30,chennai-one
+S00020,Saidapet,S00022,Guindy,16,20,chennai-one
+S00020,Saidapet,S00012,High Court,24,30,chennai-one
+S00020,Saidapet,S00006,Kaladipet,32,40,chennai-one
+S00020,Saidapet,S00036,Kilpauk,32,40,cumta
+S00020,Saidapet,S00027,Koyambedu,32,40,cumta
+S00020,Saidapet,S00015,LIC,24,30,chennai-one
+S00020,Saidapet,S00021,Little Mount,8,10,chennai-one
+S00020,Saidapet,S00011,Mannadi,24,30,chennai-one
+S00020,Saidapet,S00025,Meenambakkam,24,30,chennai-one
+S00020,Saidapet,S00019,Nandanam,8,10,chennai-one
+S00020,Saidapet,S00024,Nanganallur Road,16,20,chennai-one
+S00020,Saidapet,S00037,Nehru Park,24,30,cumta
+S00020,Saidapet,S00004,New Washermenpet,32,40,chennai-one
+S00020,Saidapet,S00035,Pachaiyappa's College,32,40,cumta
+S00020,Saidapet,S00034,Shenoy Nagar,32,40,cumta
+S00020,Saidapet,S00033,St.Thomas Mount,24,30,cumta
+S00020,Saidapet,S00018,Teynampet,16,20,chennai-one
+S00020,Saidapet,S00039,Thirumangalam,32,40,cumta
+S00020,Saidapet,S00008,Thiruvotriyur,32,40,chennai-one
+S00020,Saidapet,S00007,Thiruvotriyur Theradi,32,40,chennai-one
+S00020,Saidapet,S00002,Thiyagaraya College,32,40,chennai-one
+S00020,Saidapet,S00016,Thousand Lights,24,30,chennai-one
+S00020,Saidapet,S00005,Tollgate Metro,32,40,chennai-one
+S00020,Saidapet,S00003,Tondiarpet,32,40,chennai-one
+S00020,Saidapet,S00030,Vadapalani,24,30,cumta
+S00020,Saidapet,S00001,Washermenpet,32,40,chennai-one
+S00020,Saidapet,S00009,Wimco Nagar,40,50,chennai-one
+S00020,Saidapet,S00010,Wimco Nagar Depot,40,50,chennai-one
+S00034,Shenoy Nagar,S00017,AG-DMS,24,30,cumta
+S00034,Shenoy Nagar,S00026,Airport Metro,32,40,chennai-one
+S00034,Shenoy Nagar,S00023,Alandur Metro,32,40,chennai-one
+S00034,Shenoy Nagar,S00041,Anna Nagar East,8,10,chennai-one
+S00034,Shenoy Nagar,S00040,Anna Nagar Tower,16,20,chennai-one
+S00034,Shenoy Nagar,S00029,Arumbakkam,24,30,chennai-one
+S00034,Shenoy Nagar,S00031,Ashok Nagar,24,30,chennai-one
+S00034,Shenoy Nagar,S00028,CMBT Metro,24,30,chennai-one
+S00034,Shenoy Nagar,S00013,Chennai Central Metro,24,30,chennai-one
+S00034,Shenoy Nagar,S00038,Egmore Metro,16,20,chennai-one
+S00034,Shenoy Nagar,S00032,Ekkattuthangal,32,40,chennai-one
+S00034,Shenoy Nagar,S00014,Government Estate,24,30,cumta
+S00034,Shenoy Nagar,S00022,Guindy,32,40,cumta
+S00034,Shenoy Nagar,S00012,High Court,24,30,cumta
+S00034,Shenoy Nagar,S00006,Kaladipet,32,40,cumta
+S00034,Shenoy Nagar,S00036,Kilpauk,16,20,chennai-one
+S00034,Shenoy Nagar,S00027,Koyambedu,16,20,chennai-one
+S00034,Shenoy Nagar,S00015,LIC,24,30,cumta
+S00034,Shenoy Nagar,S00021,Little Mount,32,40,cumta
+S00034,Shenoy Nagar,S00011,Mannadi,24,30,cumta
+S00034,Shenoy Nagar,S00025,Meenambakkam,32,40,chennai-one
+S00034,Shenoy Nagar,S00019,Nandanam,32,40,cumta
+S00034,Shenoy Nagar,S00024,Nanganallur Road,32,40,chennai-one
+S00034,Shenoy Nagar,S00037,Nehru Park,16,20,chennai-one
+S00034,Shenoy Nagar,S00004,New Washermenpet,32,40,cumta
+S00034,Shenoy Nagar,S00035,Pachaiyappa's College,8,10,chennai-one
+S00034,Shenoy Nagar,S00020,Saidapet,32,40,cumta
+S00034,Shenoy Nagar,S00033,St.Thomas Mount,32,40,chennai-one
+S00034,Shenoy Nagar,S00018,Teynampet,32,40,cumta
+S00034,Shenoy Nagar,S00039,Thirumangalam,16,20,chennai-one
+S00034,Shenoy Nagar,S00008,Thiruvotriyur,32,40,cumta
+S00034,Shenoy Nagar,S00007,Thiruvotriyur Theradi,32,40,cumta
+S00034,Shenoy Nagar,S00002,Thiyagaraya College,24,30,cumta
+S00034,Shenoy Nagar,S00016,Thousand Lights,24,30,cumta
+S00034,Shenoy Nagar,S00005,Tollgate Metro,32,40,cumta
+S00034,Shenoy Nagar,S00003,Tondiarpet,24,30,cumta
+S00034,Shenoy Nagar,S00030,Vadapalani,24,30,chennai-one
+S00034,Shenoy Nagar,S00001,Washermenpet,24,30,cumta
+S00034,Shenoy Nagar,S00009,Wimco Nagar,32,40,cumta
+S00033,St.Thomas Mount,S00017,AG-DMS,24,30,cumta
+S00033,St.Thomas Mount,S00026,Airport Metro,24,30,chennai-one
+S00033,St.Thomas Mount,S00023,Alandur Metro,8,10,chennai-one
+S00033,St.Thomas Mount,S00041,Anna Nagar East,32,40,chennai-one
+S00033,St.Thomas Mount,S00040,Anna Nagar Tower,32,40,chennai-one
+S00033,St.Thomas Mount,S00029,Arumbakkam,24,30,chennai-one
+S00033,St.Thomas Mount,S00031,Ashok Nagar,16,20,chennai-one
+S00033,St.Thomas Mount,S00028,CMBT Metro,24,30,chennai-one
+S00033,St.Thomas Mount,S00013,Chennai Central Metro,32,40,chennai-one
+S00033,St.Thomas Mount,S00038,Egmore Metro,32,40,chennai-one
+S00033,St.Thomas Mount,S00032,Ekkattuthangal,16,20,chennai-one
+S00033,St.Thomas Mount,S00014,Government Estate,32,40,cumta
+S00033,St.Thomas Mount,S00022,Guindy,16,20,cumta
+S00033,St.Thomas Mount,S00012,High Court,32,40,cumta
+S00033,St.Thomas Mount,S00006,Kaladipet,40,50,cumta
+S00033,St.Thomas Mount,S00036,Kilpauk,32,40,chennai-one
+S00033,St.Thomas Mount,S00027,Koyambedu,24,30,chennai-one
+S00033,St.Thomas Mount,S00015,LIC,24,30,cumta
+S00033,St.Thomas Mount,S00021,Little Mount,16,20,cumta
+S00033,St.Thomas Mount,S00011,Mannadi,32,40,cumta
+S00033,St.Thomas Mount,S00025,Meenambakkam,16,20,chennai-one
+S00033,St.Thomas Mount,S00019,Nandanam,24,30,cumta
+S00033,St.Thomas Mount,S00024,Nanganallur Road,16,20,chennai-one
+S00033,St.Thomas Mount,S00037,Nehru Park,32,40,chennai-one
+S00033,St.Thomas Mount,S00004,New Washermenpet,40,50,cumta
+S00033,St.Thomas Mount,S00035,Pachaiyappa's College,32,40,chennai-one
+S00033,St.Thomas Mount,S00020,Saidapet,24,30,cumta
+S00033,St.Thomas Mount,S00034,Shenoy Nagar,32,40,chennai-one
+S00033,St.Thomas Mount,S00033,St.Thomas Mount,8,10,chennai-one
+S00033,St.Thomas Mount,S00018,Teynampet,24,30,cumta
+S00033,St.Thomas Mount,S00039,Thirumangalam,32,40,chennai-one
+S00033,St.Thomas Mount,S00008,Thiruvotriyur,40,50,cumta
+S00033,St.Thomas Mount,S00007,Thiruvotriyur Theradi,40,50,cumta
+S00033,St.Thomas Mount,S00002,Thiyagaraya College,32,40,cumta
+S00033,St.Thomas Mount,S00016,Thousand Lights,24,30,cumta
+S00033,St.Thomas Mount,S00005,Tollgate Metro,40,50,cumta
+S00033,St.Thomas Mount,S00003,Tondiarpet,32,40,cumta
+S00033,St.Thomas Mount,S00030,Vadapalani,24,30,chennai-one
+S00033,St.Thomas Mount,S00001,Washermenpet,32,40,cumta
+S00033,St.Thomas Mount,S00009,Wimco Nagar,40,50,cumta
+S00018,Teynampet,S00017,AG-DMS,8,10,chennai-one
+S00018,Teynampet,S00026,Airport Metro,24,30,chennai-one
+S00018,Teynampet,S00023,Alandur Metro,24,30,chennai-one
+S00018,Teynampet,S00041,Anna Nagar East,32,40,cumta
+S00018,Teynampet,S00040,Anna Nagar Tower,32,40,cumta
+S00018,Teynampet,S00029,Arumbakkam,32,40,cumta
+S00018,Teynampet,S00031,Ashok Nagar,24,30,cumta
+S00018,Teynampet,S00028,CMBT Metro,32,40,cumta
+S00018,Teynampet,S00013,Chennai Central Metro,24,30,chennai-one
+S00018,Teynampet,S00038,Egmore Metro,24,30,cumta
+S00018,Teynampet,S00032,Ekkattuthangal,24,30,cumta
+S00018,Teynampet,S00014,Government Estate,16,20,chennai-one
+S00018,Teynampet,S00022,Guindy,16,20,chennai-one
+S00018,Teynampet,S00012,High Court,24,30,chennai-one
+S00018,Teynampet,S00006,Kaladipet,32,40,chennai-one
+S00018,Teynampet,S00036,Kilpauk,24,30,cumta
+S00018,Teynampet,S00027,Koyambedu,32,40,cumta
+S00018,Teynampet,S00015,LIC,16,20,chennai-one
+S00018,Teynampet,S00021,Little Mount,16,20,chennai-one
+S00018,Teynampet,S00011,Mannadi,24,30,chennai-one
+S00018,Teynampet,S00025,Meenambakkam,24,30,chennai-one
+S00018,Teynampet,S00019,Nandanam,8,10,chennai-one
+S00018,Teynampet,S00024,Nanganallur Road,24,30,chennai-one
+S00018,Teynampet,S00037,Nehru Park,24,30,cumta
+S00018,Teynampet,S00004,New Washermenpet,32,40,chennai-one
+S00018,Teynampet,S00035,Pachaiyappa's College,24,30,cumta
+S00018,Teynampet,S00020,Saidapet,16,20,chennai-one
+S00018,Teynampet,S00034,Shenoy Nagar,32,40,cumta
+S00018,Teynampet,S00033,St.Thomas Mount,24,30,cumta
+S00018,Teynampet,S00039,Thirumangalam,32,40,cumta
+S00018,Teynampet,S00008,Thiruvotriyur,32,40,chennai-one
+S00018,Teynampet,S00007,Thiruvotriyur Theradi,32,40,chennai-one
+S00018,Teynampet,S00002,Thiyagaraya College,24,30,chennai-one
+S00018,Teynampet,S00016,Thousand Lights,16,20,chennai-one
+S00018,Teynampet,S00005,Tollgate Metro,32,40,chennai-one
+S00018,Teynampet,S00003,Tondiarpet,32,40,chennai-one
+S00018,Teynampet,S00030,Vadapalani,24,30,cumta
+S00018,Teynampet,S00001,Washermenpet,24,30,chennai-one
+S00018,Teynampet,S00009,Wimco Nagar,32,40,chennai-one
+S00018,Teynampet,S00010,Wimco Nagar Depot,32,40,chennai-one
+S00044,Thelliyaragaram Metro,S00045,Iyappanthangal Metro,8,10,chennai-one
+S00044,Thelliyaragaram Metro,S00048,Karayanchavadi Metro,16,20,chennai-one
+S00044,Thelliyaragaram Metro,S00046,Kattupakkam Metro,8,10,chennai-one
+S00044,Thelliyaragaram Metro,S00047,Kumananchavadi Metro,16,20,chennai-one
+S00044,Thelliyaragaram Metro,S00050,Poonamallee Bus Stand Metro,24,30,chennai-one
+S00044,Thelliyaragaram Metro,S00051,Poonamallee Bypass Metro,24,30,chennai-one
+S00044,Thelliyaragaram Metro,S00049,Poonamallee Government Hospital Metro,16,20,chennai-one
+S00044,Thelliyaragaram Metro,S00043,Porur Bypass Metro,8,10,chennai-one
+S00044,Thelliyaragaram Metro,S00042,Porur Junction Metro,8,10,chennai-one
+S00044,Thelliyaragaram Metro,S00030,Vadapalani,24,30,chennai-one
+S00039,Thirumangalam,S00017,AG-DMS,32,40,cumta
+S00039,Thirumangalam,S00026,Airport Metro,32,40,chennai-one
+S00039,Thirumangalam,S00023,Alandur Metro,24,30,chennai-one
+S00039,Thirumangalam,S00041,Anna Nagar East,8,10,chennai-one
+S00039,Thirumangalam,S00040,Anna Nagar Tower,8,10,chennai-one
+S00039,Thirumangalam,S00029,Arumbakkam,16,20,chennai-one
+S00039,Thirumangalam,S00031,Ashok Nagar,24,30,chennai-one
+S00039,Thirumangalam,S00028,CMBT Metro,16,20,chennai-one
+S00039,Thirumangalam,S00013,Chennai Central Metro,24,30,chennai-one
+S00039,Thirumangalam,S00038,Egmore Metro,24,30,chennai-one
+S00039,Thirumangalam,S00032,Ekkattuthangal,24,30,chennai-one
+S00039,Thirumangalam,S00014,Government Estate,24,30,cumta
+S00039,Thirumangalam,S00022,Guindy,32,40,cumta
+S00039,Thirumangalam,S00012,High Court,24,30,cumta
+S00039,Thirumangalam,S00006,Kaladipet,32,40,cumta
+S00039,Thirumangalam,S00036,Kilpauk,24,30,chennai-one
+S00039,Thirumangalam,S00027,Koyambedu,8,10,chennai-one
+S00039,Thirumangalam,S00015,LIC,24,30,cumta
+S00039,Thirumangalam,S00021,Little Mount,32,40,cumta
+S00039,Thirumangalam,S00011,Mannadi,24,30,cumta
+S00039,Thirumangalam,S00025,Meenambakkam,32,40,chennai-one
+S00039,Thirumangalam,S00019,Nandanam,32,40,cumta
+S00039,Thirumangalam,S00024,Nanganallur Road,32,40,chennai-one
+S00039,Thirumangalam,S00037,Nehru Park,24,30,chennai-one
+S00039,Thirumangalam,S00004,New Washermenpet,32,40,cumta
+S00039,Thirumangalam,S00035,Pachaiyappa's College,16,20,chennai-one
+S00039,Thirumangalam,S00020,Saidapet,32,40,cumta
+S00039,Thirumangalam,S00034,Shenoy Nagar,16,20,chennai-one
+S00039,Thirumangalam,S00033,St.Thomas Mount,32,40,chennai-one
+S00039,Thirumangalam,S00018,Teynampet,32,40,cumta
+S00039,Thirumangalam,S00008,Thiruvotriyur,32,40,cumta
+S00039,Thirumangalam,S00007,Thiruvotriyur Theradi,32,40,cumta
+S00039,Thirumangalam,S00002,Thiyagaraya College,32,40,cumta
+S00039,Thirumangalam,S00016,Thousand Lights,32,40,cumta
+S00039,Thirumangalam,S00005,Tollgate Metro,32,40,cumta
+S00039,Thirumangalam,S00003,Tondiarpet,32,40,cumta
+S00039,Thirumangalam,S00030,Vadapalani,24,30,chennai-one
+S00039,Thirumangalam,S00001,Washermenpet,32,40,cumta
+S00039,Thirumangalam,S00009,Wimco Nagar,40,50,cumta
+S00008,Thiruvotriyur,S00017,AG-DMS,32,40,chennai-one
+S00008,Thiruvotriyur,S00026,Airport Metro,40,50,chennai-one
+S00008,Thiruvotriyur,S00023,Alandur Metro,40,50,chennai-one
+S00008,Thiruvotriyur,S00041,Anna Nagar East,32,40,cumta
+S00008,Thiruvotriyur,S00040,Anna Nagar Tower,32,40,cumta
+S00008,Thiruvotriyur,S00029,Arumbakkam,40,50,cumta
+S00008,Thiruvotriyur,S00031,Ashok Nagar,40,50,cumta
+S00008,Thiruvotriyur,S00028,CMBT Metro,40,50,cumta
+S00008,Thiruvotriyur,S00013,Chennai Central Metro,24,30,chennai-one
+S00008,Thiruvotriyur,S00038,Egmore Metro,32,40,cumta
+S00008,Thiruvotriyur,S00032,Ekkattuthangal,40,50,cumta
+S00008,Thiruvotriyur,S00014,Government Estate,32,40,chennai-one
+S00008,Thiruvotriyur,S00022,Guindy,40,50,chennai-one
+S00008,Thiruvotriyur,S00012,High Court,24,30,chennai-one
+S00008,Thiruvotriyur,S00006,Kaladipet,16,20,chennai-one
+S00008,Thiruvotriyur,S00036,Kilpauk,32,40,cumta
+S00008,Thiruvotriyur,S00027,Koyambedu,40,50,cumta
+S00008,Thiruvotriyur,S00015,LIC,32,40,chennai-one
+S00008,Thiruvotriyur,S00021,Little Mount,40,50,chennai-one
+S00008,Thiruvotriyur,S00011,Mannadi,24,30,chennai-one
+S00008,Thiruvotriyur,S00025,Meenambakkam,40,50,chennai-one
+S00008,Thiruvotriyur,S00019,Nandanam,32,40,chennai-one
+S00008,Thiruvotriyur,S00024,Nanganallur Road,40,50,chennai-one
+S00008,Thiruvotriyur,S00037,Nehru Park,32,40,cumta
+S00008,Thiruvotriyur,S00004,New Washermenpet,16,20,chennai-one
+S00008,Thiruvotriyur,S00035,Pachaiyappa's College,32,40,cumta
+S00008,Thiruvotriyur,S00020,Saidapet,32,40,chennai-one
+S00008,Thiruvotriyur,S00034,Shenoy Nagar,32,40,cumta
+S00008,Thiruvotriyur,S00033,St.Thomas Mount,40,50,cumta
+S00008,Thiruvotriyur,S00018,Teynampet,32,40,chennai-one
+S00008,Thiruvotriyur,S00039,Thirumangalam,32,40,cumta
+S00008,Thiruvotriyur,S00007,Thiruvotriyur Theradi,8,10,chennai-one
+S00008,Thiruvotriyur,S00002,Thiyagaraya College,24,30,chennai-one
+S00008,Thiruvotriyur,S00016,Thousand Lights,32,40,chennai-one
+S00008,Thiruvotriyur,S00005,Tollgate Metro,16,20,chennai-one
+S00008,Thiruvotriyur,S00003,Tondiarpet,24,30,chennai-one
+S00008,Thiruvotriyur,S00030,Vadapalani,40,50,cumta
+S00008,Thiruvotriyur,S00001,Washermenpet,24,30,chennai-one
+S00008,Thiruvotriyur,S00009,Wimco Nagar,8,10,chennai-one
+S00008,Thiruvotriyur,S00010,Wimco Nagar Depot,8,10,chennai-one
+S00007,Thiruvotriyur Theradi,S00017,AG-DMS,32,40,chennai-one
+S00007,Thiruvotriyur Theradi,S00026,Airport Metro,40,50,chennai-one
+S00007,Thiruvotriyur Theradi,S00023,Alandur Metro,40,50,chennai-one
+S00007,Thiruvotriyur Theradi,S00041,Anna Nagar East,32,40,cumta
+S00007,Thiruvotriyur Theradi,S00040,Anna Nagar Tower,32,40,cumta
+S00007,Thiruvotriyur Theradi,S00029,Arumbakkam,40,50,cumta
+S00007,Thiruvotriyur Theradi,S00031,Ashok Nagar,40,50,cumta
+S00007,Thiruvotriyur Theradi,S00028,CMBT Metro,40,50,cumta
+S00007,Thiruvotriyur Theradi,S00013,Chennai Central Metro,24,30,chennai-one
+S00007,Thiruvotriyur Theradi,S00038,Egmore Metro,24,30,cumta
+S00007,Thiruvotriyur Theradi,S00032,Ekkattuthangal,40,50,cumta
+S00007,Thiruvotriyur Theradi,S00014,Government Estate,32,40,chennai-one
+S00007,Thiruvotriyur Theradi,S00022,Guindy,40,50,chennai-one
+S00007,Thiruvotriyur Theradi,S00012,High Court,24,30,chennai-one
+S00007,Thiruvotriyur Theradi,S00006,Kaladipet,8,10,chennai-one
+S00007,Thiruvotriyur Theradi,S00036,Kilpauk,32,40,cumta
+S00007,Thiruvotriyur Theradi,S00027,Koyambedu,32,40,cumta
+S00007,Thiruvotriyur Theradi,S00015,LIC,32,40,chennai-one
+S00007,Thiruvotriyur Theradi,S00021,Little Mount,32,40,chennai-one
+S00007,Thiruvotriyur Theradi,S00011,Mannadi,24,30,chennai-one
+S00007,Thiruvotriyur Theradi,S00025,Meenambakkam,40,50,chennai-one
+S00007,Thiruvotriyur Theradi,S00019,Nandanam,32,40,chennai-one
+S00007,Thiruvotriyur Theradi,S00024,Nanganallur Road,40,50,chennai-one
+S00007,Thiruvotriyur Theradi,S00037,Nehru Park,32,40,cumta
+S00007,Thiruvotriyur Theradi,S00004,New Washermenpet,16,20,chennai-one
+S00007,Thiruvotriyur Theradi,S00035,Pachaiyappa's College,32,40,cumta
+S00007,Thiruvotriyur Theradi,S00020,Saidapet,32,40,chennai-one
+S00007,Thiruvotriyur Theradi,S00034,Shenoy Nagar,32,40,cumta
+S00007,Thiruvotriyur Theradi,S00033,St.Thomas Mount,40,50,cumta
+S00007,Thiruvotriyur Theradi,S00018,Teynampet,32,40,chennai-one
+S00007,Thiruvotriyur Theradi,S00039,Thirumangalam,32,40,cumta
+S00007,Thiruvotriyur Theradi,S00008,Thiruvotriyur,8,10,chennai-one
+S00007,Thiruvotriyur Theradi,S00002,Thiyagaraya College,16,20,chennai-one
+S00007,Thiruvotriyur Theradi,S00016,Thousand Lights,32,40,chennai-one
+S00007,Thiruvotriyur Theradi,S00005,Tollgate Metro,8,10,chennai-one
+S00007,Thiruvotriyur Theradi,S00003,Tondiarpet,16,20,chennai-one
+S00007,Thiruvotriyur Theradi,S00030,Vadapalani,40,50,cumta
+S00007,Thiruvotriyur Theradi,S00001,Washermenpet,24,30,chennai-one
+S00007,Thiruvotriyur Theradi,S00009,Wimco Nagar,16,20,chennai-one
+S00007,Thiruvotriyur Theradi,S00010,Wimco Nagar Depot,16,20,chennai-one
+S00002,Thiyagaraya College,S00017,AG-DMS,24,30,chennai-one
+S00002,Thiyagaraya College,S00026,Airport Metro,40,50,chennai-one
+S00002,Thiyagaraya College,S00023,Alandur Metro,32,40,chennai-one
+S00002,Thiyagaraya College,S00041,Anna Nagar East,24,30,cumta
+S00002,Thiyagaraya College,S00040,Anna Nagar Tower,32,40,cumta
+S00002,Thiyagaraya College,S00029,Arumbakkam,32,40,cumta
+S00002,Thiyagaraya College,S00031,Ashok Nagar,40,50,cumta
+S00002,Thiyagaraya College,S00028,CMBT Metro,32,40,cumta
+S00002,Thiyagaraya College,S00013,Chennai Central Metro,24,30,chennai-one
+S00002,Thiyagaraya College,S00038,Egmore Metro,24,30,cumta
+S00002,Thiyagaraya College,S00032,Ekkattuthangal,32,40,cumta
+S00002,Thiyagaraya College,S00014,Government Estate,24,30,chennai-one
+S00002,Thiyagaraya College,S00022,Guindy,32,40,chennai-one
+S00002,Thiyagaraya College,S00012,High Court,16,20,chennai-one
+S00002,Thiyagaraya College,S00006,Kaladipet,16,20,chennai-one
+S00002,Thiyagaraya College,S00036,Kilpauk,24,30,cumta
+S00002,Thiyagaraya College,S00027,Koyambedu,32,40,cumta
+S00002,Thiyagaraya College,S00015,LIC,24,30,chennai-one
+S00002,Thiyagaraya College,S00021,Little Mount,32,40,chennai-one
+S00002,Thiyagaraya College,S00011,Mannadi,16,20,chennai-one
+S00002,Thiyagaraya College,S00025,Meenambakkam,40,50,chennai-one
+S00002,Thiyagaraya College,S00019,Nandanam,32,40,chennai-one
+S00002,Thiyagaraya College,S00024,Nanganallur Road,32,40,chennai-one
+S00002,Thiyagaraya College,S00037,Nehru Park,24,30,cumta
+S00002,Thiyagaraya College,S00004,New Washermenpet,8,10,chennai-one
+S00002,Thiyagaraya College,S00035,Pachaiyappa's College,24,30,cumta
+S00002,Thiyagaraya College,S00020,Saidapet,32,40,chennai-one
+S00002,Thiyagaraya College,S00034,Shenoy Nagar,24,30,cumta
+S00002,Thiyagaraya College,S00033,St.Thomas Mount,32,40,cumta
+S00002,Thiyagaraya College,S00018,Teynampet,24,30,chennai-one
+S00002,Thiyagaraya College,S00039,Thirumangalam,32,40,cumta
+S00002,Thiyagaraya College,S00008,Thiruvotriyur,24,30,chennai-one
+S00002,Thiyagaraya College,S00007,Thiruvotriyur Theradi,16,20,chennai-one
+S00002,Thiyagaraya College,S00016,Thousand Lights,24,30,chennai-one
+S00002,Thiyagaraya College,S00005,Tollgate Metro,16,20,chennai-one
+S00002,Thiyagaraya College,S00003,Tondiarpet,8,10,chennai-one
+S00002,Thiyagaraya College,S00030,Vadapalani,32,40,cumta
+S00002,Thiyagaraya College,S00001,Washermenpet,8,10,chennai-one
+S00002,Thiyagaraya College,S00009,Wimco Nagar,24,30,chennai-one
+S00002,Thiyagaraya College,S00010,Wimco Nagar Depot,24,30,chennai-one
+S00016,Thousand Lights,S00017,AG-DMS,8,10,chennai-one
+S00016,Thousand Lights,S00026,Airport Metro,32,40,chennai-one
+S00016,Thousand Lights,S00023,Alandur Metro,24,30,chennai-one
+S00016,Thousand Lights,S00041,Anna Nagar East,24,30,cumta
+S00016,Thousand Lights,S00040,Anna Nagar Tower,24,30,cumta
+S00016,Thousand Lights,S00029,Arumbakkam,32,40,cumta
+S00016,Thousand Lights,S00031,Ashok Nagar,32,40,cumta
+S00016,Thousand Lights,S00028,CMBT Metro,32,40,cumta
+S00016,Thousand Lights,S00013,Chennai Central Metro,16,20,chennai-one
+S00016,Thousand Lights,S00038,Egmore Metro,24,30,cumta
+S00016,Thousand Lights,S00032,Ekkattuthangal,24,30,cumta
+S00016,Thousand Lights,S00014,Government Estate,8,10,chennai-one
+S00016,Thousand Lights,S00022,Guindy,24,30,chennai-one
+S00016,Thousand Lights,S00012,High Court,24,30,chennai-one
+S00016,Thousand Lights,S00006,Kaladipet,32,40,chennai-one
+S00016,Thousand Lights,S00036,Kilpauk,24,30,cumta
+S00016,Thousand Lights,S00027,Koyambedu,32,40,cumta
+S00016,Thousand Lights,S00015,LIC,8,10,chennai-one
+S00016,Thousand Lights,S00021,Little Mount,24,30,chennai-one
+S00016,Thousand Lights,S00011,Mannadi,24,30,chennai-one
+S00016,Thousand Lights,S00025,Meenambakkam,32,40,chennai-one
+S00016,Thousand Lights,S00019,Nandanam,16,20,chennai-one
+S00016,Thousand Lights,S00024,Nanganallur Road,24,30,chennai-one
+S00016,Thousand Lights,S00037,Nehru Park,24,30,cumta
+S00016,Thousand Lights,S00004,New Washermenpet,24,30,chennai-one
+S00016,Thousand Lights,S00035,Pachaiyappa's College,24,30,cumta
+S00016,Thousand Lights,S00020,Saidapet,24,30,chennai-one
+S00016,Thousand Lights,S00034,Shenoy Nagar,24,30,cumta
+S00016,Thousand Lights,S00033,St.Thomas Mount,24,30,cumta
+S00016,Thousand Lights,S00018,Teynampet,16,20,chennai-one
+S00016,Thousand Lights,S00039,Thirumangalam,32,40,cumta
+S00016,Thousand Lights,S00008,Thiruvotriyur,32,40,chennai-one
+S00016,Thousand Lights,S00007,Thiruvotriyur Theradi,32,40,chennai-one
+S00016,Thousand Lights,S00002,Thiyagaraya College,24,30,chennai-one
+S00016,Thousand Lights,S00005,Tollgate Metro,32,40,chennai-one
+S00016,Thousand Lights,S00003,Tondiarpet,24,30,chennai-one
+S00016,Thousand Lights,S00030,Vadapalani,32,40,cumta
+S00016,Thousand Lights,S00001,Washermenpet,24,30,chennai-one
+S00016,Thousand Lights,S00009,Wimco Nagar,32,40,chennai-one
+S00016,Thousand Lights,S00010,Wimco Nagar Depot,32,40,chennai-one
+S00005,Tollgate Metro,S00017,AG-DMS,32,40,chennai-one
+S00005,Tollgate Metro,S00026,Airport Metro,40,50,chennai-one
+S00005,Tollgate Metro,S00023,Alandur Metro,40,50,chennai-one
+S00005,Tollgate Metro,S00041,Anna Nagar East,32,40,cumta
+S00005,Tollgate Metro,S00040,Anna Nagar Tower,32,40,cumta
+S00005,Tollgate Metro,S00029,Arumbakkam,40,50,cumta
+S00005,Tollgate Metro,S00031,Ashok Nagar,40,50,cumta
+S00005,Tollgate Metro,S00028,CMBT Metro,32,40,cumta
+S00005,Tollgate Metro,S00013,Chennai Central Metro,24,30,chennai-one
+S00005,Tollgate Metro,S00038,Egmore Metro,24,30,cumta
+S00005,Tollgate Metro,S00032,Ekkattuthangal,40,50,cumta
+S00005,Tollgate Metro,S00014,Government Estate,24,30,chennai-one
+S00005,Tollgate Metro,S00022,Guindy,32,40,chennai-one
+S00005,Tollgate Metro,S00012,High Court,24,30,chennai-one
+S00005,Tollgate Metro,S00006,Kaladipet,8,10,chennai-one
+S00005,Tollgate Metro,S00036,Kilpauk,24,30,cumta
+S00005,Tollgate Metro,S00027,Koyambedu,32,40,cumta
+S00005,Tollgate Metro,S00015,LIC,24,30,chennai-one
+S00005,Tollgate Metro,S00021,Little Mount,32,40,chennai-one
+S00005,Tollgate Metro,S00011,Mannadi,24,30,chennai-one
+S00005,Tollgate Metro,S00025,Meenambakkam,40,50,chennai-one
+S00005,Tollgate Metro,S00019,Nandanam,32,40,chennai-one
+S00005,Tollgate Metro,S00024,Nanganallur Road,40,50,chennai-one
+S00005,Tollgate Metro,S00037,Nehru Park,24,30,cumta
+S00005,Tollgate Metro,S00004,New Washermenpet,8,10,chennai-one
+S00005,Tollgate Metro,S00035,Pachaiyappa's College,32,40,cumta
+S00005,Tollgate Metro,S00020,Saidapet,32,40,chennai-one
+S00005,Tollgate Metro,S00034,Shenoy Nagar,32,40,cumta
+S00005,Tollgate Metro,S00033,St.Thomas Mount,40,50,cumta
+S00005,Tollgate Metro,S00018,Teynampet,32,40,chennai-one
+S00005,Tollgate Metro,S00039,Thirumangalam,32,40,cumta
+S00005,Tollgate Metro,S00008,Thiruvotriyur,16,20,chennai-one
+S00005,Tollgate Metro,S00007,Thiruvotriyur Theradi,8,10,chennai-one
+S00005,Tollgate Metro,S00002,Thiyagaraya College,16,20,chennai-one
+S00005,Tollgate Metro,S00016,Thousand Lights,32,40,chennai-one
+S00005,Tollgate Metro,S00003,Tondiarpet,16,20,chennai-one
+S00005,Tollgate Metro,S00030,Vadapalani,40,50,cumta
+S00005,Tollgate Metro,S00001,Washermenpet,16,20,chennai-one
+S00005,Tollgate Metro,S00009,Wimco Nagar,16,20,chennai-one
+S00005,Tollgate Metro,S00010,Wimco Nagar Depot,16,20,chennai-one
+S00003,Tondiarpet,S00017,AG-DMS,24,30,chennai-one
+S00003,Tondiarpet,S00026,Airport Metro,40,50,chennai-one
+S00003,Tondiarpet,S00023,Alandur Metro,32,40,chennai-one
+S00003,Tondiarpet,S00041,Anna Nagar East,32,40,cumta
+S00003,Tondiarpet,S00040,Anna Nagar Tower,32,40,cumta
+S00003,Tondiarpet,S00029,Arumbakkam,32,40,cumta
+S00003,Tondiarpet,S00031,Ashok Nagar,40,50,cumta
+S00003,Tondiarpet,S00028,CMBT Metro,32,40,cumta
+S00003,Tondiarpet,S00013,Chennai Central Metro,24,30,chennai-one
+S00003,Tondiarpet,S00038,Egmore Metro,24,30,cumta
+S00003,Tondiarpet,S00032,Ekkattuthangal,32,40,cumta
+S00003,Tondiarpet,S00014,Government Estate,24,30,chennai-one
+S00003,Tondiarpet,S00022,Guindy,32,40,chennai-one
+S00003,Tondiarpet,S00012,High Court,16,20,chennai-one
+S00003,Tondiarpet,S00006,Kaladipet,16,20,chennai-one
+S00003,Tondiarpet,S00036,Kilpauk,24,30,cumta
+S00003,Tondiarpet,S00027,Koyambedu,32,40,cumta
+S00003,Tondiarpet,S00015,LIC,24,30,chennai-one
+S00003,Tondiarpet,S00021,Little Mount,32,40,chennai-one
+S00003,Tondiarpet,S00011,Mannadi,16,20,chennai-one
+S00003,Tondiarpet,S00025,Meenambakkam,40,50,chennai-one
+S00003,Tondiarpet,S00019,Nandanam,32,40,chennai-one
+S00003,Tondiarpet,S00024,Nanganallur Road,32,40,chennai-one
+S00003,Tondiarpet,S00037,Nehru Park,24,30,cumta
+S00003,Tondiarpet,S00004,New Washermenpet,8,10,chennai-one
+S00003,Tondiarpet,S00035,Pachaiyappa's College,24,30,cumta
+S00003,Tondiarpet,S00020,Saidapet,32,40,chennai-one
+S00003,Tondiarpet,S00034,Shenoy Nagar,24,30,cumta
+S00003,Tondiarpet,S00033,St.Thomas Mount,32,40,cumta
+S00003,Tondiarpet,S00018,Teynampet,32,40,chennai-one
+S00003,Tondiarpet,S00039,Thirumangalam,32,40,cumta
+S00003,Tondiarpet,S00008,Thiruvotriyur,24,30,chennai-one
+S00003,Tondiarpet,S00007,Thiruvotriyur Theradi,16,20,chennai-one
+S00003,Tondiarpet,S00002,Thiyagaraya College,8,10,chennai-one
+S00003,Tondiarpet,S00016,Thousand Lights,24,30,chennai-one
+S00003,Tondiarpet,S00005,Tollgate Metro,16,20,chennai-one
+S00003,Tondiarpet,S00030,Vadapalani,32,40,cumta
+S00003,Tondiarpet,S00001,Washermenpet,8,10,chennai-one
+S00003,Tondiarpet,S00009,Wimco Nagar,24,30,chennai-one
+S00003,Tondiarpet,S00010,Wimco Nagar Depot,24,30,chennai-one
+S00030,Vadapalani,S00017,AG-DMS,32,40,cumta
+S00030,Vadapalani,S00026,Airport Metro,24,30,chennai-one
+S00030,Vadapalani,S00023,Alandur Metro,24,30,chennai-one
+S00030,Vadapalani,S00041,Anna Nagar East,24,30,chennai-one
+S00030,Vadapalani,S00040,Anna Nagar Tower,24,30,chennai-one
+S00030,Vadapalani,S00029,Arumbakkam,8,10,chennai-one
+S00030,Vadapalani,S00031,Ashok Nagar,8,10,chennai-one
+S00030,Vadapalani,S00028,CMBT Metro,16,20,chennai-one
+S00030,Vadapalani,S00013,Chennai Central Metro,32,40,chennai-one
+S00030,Vadapalani,S00038,Egmore Metro,32,40,chennai-one
+S00030,Vadapalani,S00032,Ekkattuthangal,16,20,chennai-one
+S00030,Vadapalani,S00014,Government Estate,32,40,cumta
+S00030,Vadapalani,S00022,Guindy,24,30,cumta
+S00030,Vadapalani,S00012,High Court,32,40,cumta
+S00030,Vadapalani,S00045,Iyappanthangal Metro,24,30,chennai-one
+S00030,Vadapalani,S00006,Kaladipet,40,50,cumta
+S00030,Vadapalani,S00048,Karayanchavadi Metro,24,30,chennai-one
+S00030,Vadapalani,S00046,Kattupakkam Metro,24,30,chennai-one
+S00030,Vadapalani,S00036,Kilpauk,24,30,chennai-one
+S00030,Vadapalani,S00027,Koyambedu,16,20,chennai-one
+S00030,Vadapalani,S00047,Kumananchavadi Metro,24,30,chennai-one
+S00030,Vadapalani,S00015,LIC,32,40,cumta
+S00030,Vadapalani,S00021,Little Mount,24,30,cumta
+S00030,Vadapalani,S00011,Mannadi,32,40,cumta
+S00030,Vadapalani,S00025,Meenambakkam,24,30,chennai-one
+S00030,Vadapalani,S00019,Nandanam,24,30,cumta
+S00030,Vadapalani,S00024,Nanganallur Road,24,30,chennai-one
+S00030,Vadapalani,S00037,Nehru Park,24,30,chennai-one
+S00030,Vadapalani,S00004,New Washermenpet,40,50,cumta
+S00030,Vadapalani,S00035,Pachaiyappa's College,24,30,chennai-one
+S00030,Vadapalani,S00050,Poonamallee Bus Stand Metro,32,40,chennai-one
+S00030,Vadapalani,S00051,Poonamallee Bypass Metro,32,40,chennai-one
+S00030,Vadapalani,S00049,Poonamallee Government Hospital Metro,32,40,chennai-one
+S00030,Vadapalani,S00043,Porur Bypass Metro,24,30,chennai-one
+S00030,Vadapalani,S00042,Porur Junction Metro,24,30,chennai-one
+S00030,Vadapalani,S00020,Saidapet,24,30,cumta
+S00030,Vadapalani,S00034,Shenoy Nagar,24,30,chennai-one
+S00030,Vadapalani,S00033,St.Thomas Mount,24,30,chennai-one
+S00030,Vadapalani,S00018,Teynampet,24,30,cumta
+S00030,Vadapalani,S00044,Thelliyaragaram Metro,24,30,chennai-one
+S00030,Vadapalani,S00039,Thirumangalam,24,30,chennai-one
+S00030,Vadapalani,S00008,Thiruvotriyur,40,50,cumta
+S00030,Vadapalani,S00007,Thiruvotriyur Theradi,40,50,cumta
+S00030,Vadapalani,S00002,Thiyagaraya College,32,40,cumta
+S00030,Vadapalani,S00016,Thousand Lights,32,40,cumta
+S00030,Vadapalani,S00005,Tollgate Metro,40,50,cumta
+S00030,Vadapalani,S00003,Tondiarpet,32,40,cumta
+S00030,Vadapalani,S00001,Washermenpet,32,40,cumta
+S00030,Vadapalani,S00009,Wimco Nagar,40,50,cumta
+S00001,Washermenpet,S00017,AG-DMS,24,30,chennai-one
+S00001,Washermenpet,S00026,Airport Metro,40,50,chennai-one
+S00001,Washermenpet,S00023,Alandur Metro,32,40,chennai-one
+S00001,Washermenpet,S00041,Anna Nagar East,24,30,cumta
+S00001,Washermenpet,S00040,Anna Nagar Tower,32,40,cumta
+S00001,Washermenpet,S00029,Arumbakkam,32,40,cumta
+S00001,Washermenpet,S00031,Ashok Nagar,32,40,cumta
+S00001,Washermenpet,S00028,CMBT Metro,32,40,cumta
+S00001,Washermenpet,S00013,Chennai Central Metro,16,20,chennai-one
+S00001,Washermenpet,S00038,Egmore Metro,24,30,cumta
+S00001,Washermenpet,S00032,Ekkattuthangal,32,40,cumta
+S00001,Washermenpet,S00014,Government Estate,24,30,chennai-one
+S00001,Washermenpet,S00022,Guindy,32,40,chennai-one
+S00001,Washermenpet,S00012,High Court,16,20,chennai-one
+S00001,Washermenpet,S00006,Kaladipet,16,20,chennai-one
+S00001,Washermenpet,S00036,Kilpauk,24,30,cumta
+S00001,Washermenpet,S00027,Koyambedu,32,40,cumta
+S00001,Washermenpet,S00015,LIC,24,30,chennai-one
+S00001,Washermenpet,S00021,Little Mount,32,40,chennai-one
+S00001,Washermenpet,S00011,Mannadi,8,10,chennai-one
+S00001,Washermenpet,S00025,Meenambakkam,32,40,chennai-one
+S00001,Washermenpet,S00019,Nandanam,24,30,chennai-one
+S00001,Washermenpet,S00024,Nanganallur Road,32,40,chennai-one
+S00001,Washermenpet,S00037,Nehru Park,24,30,cumta
+S00001,Washermenpet,S00004,New Washermenpet,16,20,chennai-one
+S00001,Washermenpet,S00035,Pachaiyappa's College,24,30,cumta
+S00001,Washermenpet,S00020,Saidapet,32,40,chennai-one
+S00001,Washermenpet,S00034,Shenoy Nagar,24,30,cumta
+S00001,Washermenpet,S00033,St.Thomas Mount,32,40,cumta
+S00001,Washermenpet,S00018,Teynampet,24,30,chennai-one
+S00001,Washermenpet,S00039,Thirumangalam,32,40,cumta
+S00001,Washermenpet,S00008,Thiruvotriyur,24,30,chennai-one
+S00001,Washermenpet,S00007,Thiruvotriyur Theradi,24,30,chennai-one
+S00001,Washermenpet,S00002,Thiyagaraya College,8,10,chennai-one
+S00001,Washermenpet,S00016,Thousand Lights,24,30,chennai-one
+S00001,Washermenpet,S00005,Tollgate Metro,16,20,chennai-one
+S00001,Washermenpet,S00003,Tondiarpet,8,10,chennai-one
+S00001,Washermenpet,S00030,Vadapalani,32,40,cumta
+S00001,Washermenpet,S00009,Wimco Nagar,24,30,chennai-one
+S00001,Washermenpet,S00010,Wimco Nagar Depot,24,30,chennai-one
+S00009,Wimco Nagar,S00017,AG-DMS,32,40,chennai-one
+S00009,Wimco Nagar,S00026,Airport Metro,40,50,chennai-one
+S00009,Wimco Nagar,S00023,Alandur Metro,40,50,chennai-one
+S00009,Wimco Nagar,S00041,Anna Nagar East,32,40,cumta
+S00009,Wimco Nagar,S00040,Anna Nagar Tower,32,40,cumta
+S00009,Wimco Nagar,S00029,Arumbakkam,40,50,cumta
+S00009,Wimco Nagar,S00031,Ashok Nagar,40,50,cumta
+S00009,Wimco Nagar,S00028,CMBT Metro,40,50,cumta
+S00009,Wimco Nagar,S00013,Chennai Central Metro,32,40,chennai-one
+S00009,Wimco Nagar,S00038,Egmore Metro,32,40,cumta
+S00009,Wimco Nagar,S00032,Ekkattuthangal,40,50,cumta
+S00009,Wimco Nagar,S00014,Government Estate,32,40,chennai-one
+S00009,Wimco Nagar,S00022,Guindy,40,50,chennai-one
+S00009,Wimco Nagar,S00012,High Court,24,30,chennai-one
+S00009,Wimco Nagar,S00006,Kaladipet,16,20,chennai-one
+S00009,Wimco Nagar,S00036,Kilpauk,32,40,cumta
+S00009,Wimco Nagar,S00027,Koyambedu,40,50,cumta
+S00009,Wimco Nagar,S00015,LIC,32,40,chennai-one
+S00009,Wimco Nagar,S00021,Little Mount,40,50,chennai-one
+S00009,Wimco Nagar,S00011,Mannadi,24,30,chennai-one
+S00009,Wimco Nagar,S00025,Meenambakkam,40,50,chennai-one
+S00009,Wimco Nagar,S00019,Nandanam,32,40,chennai-one
+S00009,Wimco Nagar,S00024,Nanganallur Road,40,50,chennai-one
+S00009,Wimco Nagar,S00037,Nehru Park,32,40,cumta
+S00009,Wimco Nagar,S00004,New Washermenpet,24,30,chennai-one
+S00009,Wimco Nagar,S00035,Pachaiyappa's College,32,40,cumta
+S00009,Wimco Nagar,S00020,Saidapet,40,50,chennai-one
+S00009,Wimco Nagar,S00034,Shenoy Nagar,32,40,cumta
+S00009,Wimco Nagar,S00033,St.Thomas Mount,40,50,cumta
+S00009,Wimco Nagar,S00018,Teynampet,32,40,chennai-one
+S00009,Wimco Nagar,S00039,Thirumangalam,40,50,cumta
+S00009,Wimco Nagar,S00008,Thiruvotriyur,8,10,chennai-one
+S00009,Wimco Nagar,S00007,Thiruvotriyur Theradi,16,20,chennai-one
+S00009,Wimco Nagar,S00002,Thiyagaraya College,24,30,chennai-one
+S00009,Wimco Nagar,S00016,Thousand Lights,32,40,chennai-one
+S00009,Wimco Nagar,S00005,Tollgate Metro,16,20,chennai-one
+S00009,Wimco Nagar,S00003,Tondiarpet,24,30,chennai-one
+S00009,Wimco Nagar,S00030,Vadapalani,40,50,cumta
+S00009,Wimco Nagar,S00001,Washermenpet,24,30,chennai-one
+S00009,Wimco Nagar,S00010,Wimco Nagar Depot,8,10,chennai-one
+S00010,Wimco Nagar Depot,S00017,AG-DMS,32,40,chennai-one
+S00010,Wimco Nagar Depot,S00026,Airport Metro,40,50,chennai-one
+S00010,Wimco Nagar Depot,S00023,Alandur Metro,40,50,chennai-one
+S00010,Wimco Nagar Depot,S00013,Chennai Central Metro,32,40,chennai-one
+S00010,Wimco Nagar Depot,S00014,Government Estate,32,40,chennai-one
+S00010,Wimco Nagar Depot,S00022,Guindy,40,50,chennai-one
+S00010,Wimco Nagar Depot,S00012,High Court,24,30,chennai-one
+S00010,Wimco Nagar Depot,S00006,Kaladipet,16,20,chennai-one
+S00010,Wimco Nagar Depot,S00015,LIC,32,40,chennai-one
+S00010,Wimco Nagar Depot,S00021,Little Mount,40,50,chennai-one
+S00010,Wimco Nagar Depot,S00011,Mannadi,24,30,chennai-one
+S00010,Wimco Nagar Depot,S00025,Meenambakkam,40,50,chennai-one
+S00010,Wimco Nagar Depot,S00019,Nandanam,32,40,chennai-one
+S00010,Wimco Nagar Depot,S00024,Nanganallur Road,40,50,chennai-one
+S00010,Wimco Nagar Depot,S00004,New Washermenpet,24,30,chennai-one
+S00010,Wimco Nagar Depot,S00020,Saidapet,40,50,chennai-one
+S00010,Wimco Nagar Depot,S00018,Teynampet,32,40,chennai-one
+S00010,Wimco Nagar Depot,S00008,Thiruvotriyur,8,10,chennai-one
+S00010,Wimco Nagar Depot,S00007,Thiruvotriyur Theradi,16,20,chennai-one
+S00010,Wimco Nagar Depot,S00002,Thiyagaraya College,24,30,chennai-one
+S00010,Wimco Nagar Depot,S00016,Thousand Lights,32,40,chennai-one
+S00010,Wimco Nagar Depot,S00005,Tollgate Metro,16,20,chennai-one
+S00010,Wimco Nagar Depot,S00003,Tondiarpet,24,30,chennai-one
+S00010,Wimco Nagar Depot,S00001,Washermenpet,24,30,chennai-one
+S00010,Wimco Nagar Depot,S00009,Wimco Nagar,8,10,chennai-one
+S00010,Wimco Nagar Depot,S00010,Wimco Nagar Depot,8,10,chennai-one

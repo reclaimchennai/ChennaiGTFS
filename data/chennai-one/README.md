@@ -12,7 +12,7 @@ not merged into them.
 |------|-------:|----------:|------:|-------------:|-----|
 | [`mtc/`](mtc) — MTC buses | 970 | 48,132 | 3,393 | 889,835 | [`chennai-one-mtc-gtfs.zip`](../chennai-one-mtc-gtfs.zip) |
 | [`cmrl/`](cmrl) — CMRL Metro | 3 | 749 | 41 | 2,453 | [`chennai-one-cmrl-gtfs.zip`](../chennai-one-cmrl-gtfs.zip) |
-| [`suburban/`](suburban) — Southern Railway suburban + MRTS | 573 | 576 | 105 | 130,561 | [`chennai-one-suburban-gtfs.zip`](../chennai-one-suburban-gtfs.zip) |
+| [`suburban/`](suburban) — Southern Railway suburban + MRTS | 753 | 576 Mon–Sat · 591 Sun | 105 | 171,110 | [`chennai-one-suburban-gtfs.zip`](../chennai-one-suburban-gtfs.zip) |
 
 Built from the Chennai One network snapshot published **17 October 2026** (app 3.6.0); the
 feeds are valid to 31 December 2027 and will be refreshed when CUMTA publishes a new snapshot.
@@ -23,7 +23,7 @@ Against the limitations this repo already documents:
 
 | Gap noted in the root README | In these feeds |
 |---|---|
-| "No suburban rail — this is the biggest gap" | 573 routes with exact times and track-matched geometry |
+| "No suburban rail — this is the biggest gap" | 753 train services with exact times, weekday and Sunday service days, and track-matched geometry |
 | "MTC shapes: straight-line per route" | 889,835 points map-matched to the road network |
 | "CMRL schedules: frequency bands, not exact departure times" | 749 trips with per-station arrival and departure times |
 | "CMRL shapes: straight-line, track geometry unavailable" | 2,453 points snapped to the metro alignment |
@@ -86,13 +86,46 @@ fare for such a journey is MTC's table at the number of stages travelled.
 line, both directions (1,122). `ordinary_adult` is the ticket fare — ₹10/20/30/40/50 by
 CMRL's distance slabs (0–2, 2–5, 5–12, 12–21, 21+ km); `ordinary_app_price` is what the
 app charges, 20% less for a QR ticket. Journeys that change between the Blue and Green
-lines are not priced by this search and are absent.
+lines are not priced by the app's search; their 600 pairs come from CUMTA's published
+fare rules (`source` = `cumta`; the app price is the same 20% off). CUMTA's fares agree
+with every pair the app priced. The CMRL feed also carries them as standard
+`fare_attributes.txt` / `fare_rules.txt`, with each station's CMRL code as its `zone_id`.
 
 **Suburban and MRTS — [`fares/suburban_fares.csv`](fares/suburban_fares.csv).** Every
 station pair a route serves, both directions (3,906): Second and First Class, adult and
 child. 854 pairs, mostly to and from Royapuram / Chennai Fort and on the Arakkonam and
 Kanchipuram branches, return no fare in the app on any route that serves them and are
 absent rather than guessed.
+
+## From CUMTA's published GTFS
+
+CUMTA publishes static GTFS for all three modes at
+[test.cumta.org/datasets](https://test.cumta.org/datasets) (Government Open Data
+Licence – India; files dated 2 February 2026, timetables from October 2025). It comes
+from the same backend as the Chennai One app, about a year older, so its timetables
+are not used where ours exist. These are taken from it
+(`enrich_from_cumta.py` in the build pipeline):
+
+- **Station structure (CMRL and suburban).** Every stop keeps its `stop_id` and is
+  still the boarding point `stop_times` use; it now has a parent station
+  (`STN_<code>`, `location_type` 1) and its `stop_code` is the station code (`MSB`,
+  `TBM`; CMRL's `SCC`, `SAL` …). 212 CMRL and 179 suburban entrances are added as
+  `location_type` 2 (`ENT_…`), CMRL's with their own descriptions ("A2 entrance
+  physically challenged ramp (near by lift)"), each joined to the platform by a
+  walkway in `pathways.txt`. All 41 CMRL and 104 suburban stations matched by
+  position and name.
+- **CMRL fares** — as above.
+- **Suburban service days.** Chennai One publishes one every-day calendar and no
+  Sunday trains at all. CUMTA splits trains into daily, Monday–Saturday and
+  Sunday-only. The 540 trains in both feeds (same trip id = same train service) take
+  CUMTA's days: 375 `Daily`, 165 `MonSat`. The 36 trains CUMTA does not have stay on
+  `Regular` (every day, days unconfirmed). CUMTA's 180 Sunday-only trains are added
+  with its times, on service `Sunday`; 169 have a shape cut from a longer train's on
+  the same track, 11 have none. Of the trains in both feeds, 143 have moved their
+  departure since CUMTA's timetable, so Sunday times may be a little out of date.
+- **Not used:** CUMTA's MTC bus feed (1,634 of its 7,128 stops sit on one placeholder
+  coordinate, 12,800 trips repeat, it has no shapes), its per-train platform numbers
+  (a year old), and its CMRL timetable (calendar ended 2021).
 
 ## Source and method
 
@@ -159,4 +192,7 @@ work.
 
 ## Licence
 
-Published under ODbL, the same licence as the rest of this repo.
+Published under ODbL, the same licence as the rest of this repo. Station codes, entrances,
+CMRL fare rules, suburban service days and Sunday trains are from CUMTA's datasets,
+used under the Government Open Data Licence – India: source CUMTA (Chennai Unified
+Metropolitan Transport Authority).

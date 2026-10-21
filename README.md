@@ -36,7 +36,7 @@ Open [GTFS (General Transit Feed Specification)](https://developers.google.com/t
 |--------|--------|------------|
 | MTC Buses | MTC mobile app | Collected by UngalSoththu |
 | CMRL Metro | CMRL website (timetable + fare PDF) | Scraped by UngalSoththu |
-| MTC + CMRL + Suburban (`data/chennai-one/`) | Chennai One app (CUMTA multimodal) | Collected by Reclaim Chennai; shapes matched to OSM road and rail geometry |
+| MTC + CMRL + Suburban (`data/chennai-one/`) | Chennai One app (CUMTA multimodal); station structure, CMRL fare rules and suburban service days from [CUMTA's datasets](https://test.cumta.org/datasets) (GODL-India) | Collected by Reclaim Chennai; shapes matched to OSM road and rail geometry |
 
 ### Limitations
 
@@ -150,12 +150,12 @@ Hyderabad and Bengaluru publish **official GTFS**. Chennai's civic tech communit
 | CMRL Blue Line | 26 stations | ⚠️ Straight-line | ✅ Headway-based | Frequency-only data |
 | CMRL Green Line | 18 stations | ⚠️ Straight-line | ✅ Headway-based | Frequency-only data |
 | Chennai One — MTC | 970 services | ✅ Road-matched | ✅ Timetable | 48,132 trips/day, board type per trip, per-stop fares |
-| Chennai One — CMRL | 41 stations | ✅ Track-matched | ✅ Exact times | 749 trips/day, station-pair fares |
-| Chennai One — Suburban | 573 routes | ✅ Track-matched | ✅ Exact times | 576 trips/day, MRTS + main line, station-pair fares |
+| Chennai One — CMRL | 41 stations | ✅ Track-matched | ✅ Exact times | 749 trips/day, entrances, GTFS fares |
+| Chennai One — Suburban | 753 train services | ✅ Track-matched | ✅ Exact times | 576 trips Mon–Sat, 591 Sun; stations, entrances, station-pair fares |
 
 ### Known gaps
 
-1. ~~**No suburban rail**~~ — now covered by [`data/chennai-one/suburban/`](data/chennai-one/suburban/): 573 routes, 576 trips/day across MRTS and the main line.
+1. ~~**No suburban rail**~~ — now covered by [`data/chennai-one/suburban/`](data/chennai-one/suburban/): 753 train services, 576 trips Mon–Sat and 591 on Sundays across MRTS and the main line.
 2. ~~**No exact CMRL departure times**~~ — [`data/chennai-one/cmrl/`](data/chennai-one/cmrl/) carries per-station arrival and departure times for 749 trips.
 3. ~~**Straight-line shapes**~~ — road- and track-matched geometry in `data/chennai-one/`; the primary feeds are still straight-line.
 4. ~~**No fares**~~ — MTC's published stage fares in every class, per-stop fares for every MTC working, and CMRL and suburban station-pair fares in [`data/chennai-one/fares/`](data/chennai-one/fares/) (CSV tables; no `fare_*.txt` yet).
