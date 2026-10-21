@@ -11,8 +11,8 @@ not merged into them.
 | Feed | Routes | Trips/day | Stops | Shape points | ZIP |
 |------|-------:|----------:|------:|-------------:|-----|
 | [`mtc/`](mtc) — MTC buses | 970 | 48,132 | 3,393 | 889,835 | [`chennai-one-mtc-gtfs.zip`](../chennai-one-mtc-gtfs.zip) |
-| [`cmrl/`](cmrl) — CMRL Metro | 3 | 749 | 41 | 2,453 | [`chennai-one-cmrl-gtfs.zip`](../chennai-one-cmrl-gtfs.zip) |
-| [`suburban/`](suburban) — Southern Railway suburban + MRTS | 753 | 576 Mon–Sat · 591 Sun | 105 | 171,110 | [`chennai-one-suburban-gtfs.zip`](../chennai-one-suburban-gtfs.zip) |
+| [`cmrl/`](cmrl) — CMRL Metro | 3 | 749 | 41 | 4,786 | [`chennai-one-cmrl-gtfs.zip`](../chennai-one-cmrl-gtfs.zip) |
+| [`suburban/`](suburban) — Southern Railway suburban + MRTS | 753 | 576 Mon–Sat · 591 Sun | 105 | 160,601 | [`chennai-one-suburban-gtfs.zip`](../chennai-one-suburban-gtfs.zip) |
 
 Built from the Chennai One network snapshot published **17 October 2026** (app 3.6.0); the
 feeds are valid to 31 December 2027 and will be refreshed when CUMTA publishes a new snapshot.
@@ -26,7 +26,7 @@ Against the limitations this repo already documents:
 | "No suburban rail — this is the biggest gap" | 753 train services with exact times, weekday and Sunday service days, and track-matched geometry |
 | "MTC shapes: straight-line per route" | 889,835 points map-matched to the road network |
 | "CMRL schedules: frequency bands, not exact departure times" | 749 trips with per-station arrival and departure times |
-| "CMRL shapes: straight-line, track geometry unavailable" | 2,453 points snapped to the metro alignment |
+| "CMRL shapes: straight-line, track geometry unavailable" | 4,786 points snapped to the metro alignment |
 
 MTC trips also carry a `service_tier` column (ORDINARY, EXECUTIVE, EXPRESS, AC,
 SPECIAL, NON_AC) — the board type the operator runs the trip under. It is an
@@ -153,6 +153,13 @@ operator's own, not interpolated.
   operator path went from +18% to +3%; about 9,200 km of detours removed in all.
 - **Rail shapes** are produced by Dijkstra routing over OSM rail geometry, with
   separate graphs per mode so Metro cannot leak onto suburban track.
+- **Each rail trip's shape runs from its first stop to its last.** A route's track
+  geometry runs end to end of its alignment, past a shorter trip's termini (Beach to
+  Kanchipuram ran 12.5 km on toward Arakkonam), and one direction's line served
+  both. Each trip's shape is cut by walking the track through its stops in calling
+  order, reversed where the trip runs the other way: every shape now starts and ends
+  within 150 m of its terminal stations, no stop is more than 140 m from its trip's
+  track, and no shape is more than 1.31× the stop-to-stop distance (it was up to 16×).
 - **Shape geometry is simplified** with Douglas-Peucker at 1 m, below the
   positional accuracy of the centrelines the routes were matched against. This
   drops 54% of bus vertices without moving a line off its road.
