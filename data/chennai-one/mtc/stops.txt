@@ -3828,3 +3828,5 @@ SM3e43d275,Rajiv Gandhi Salai (madya Kailas),13.006640,80.247480
 SMa1c8a8bd,Mullipakam Junction,12.695920,80.069280
 SM82bc0f76,Valluvar Kottamhigh Road,13.052620,80.241720
 SM7fc57735,Kundrathur Depot,12.980760,80.102780
+SM13283ba1,Vallalar Nagar Bus Terminus,13.103050,80.275270
+SM74254a27,Meenakshi Dental Hospital,13.051600,80.166410
